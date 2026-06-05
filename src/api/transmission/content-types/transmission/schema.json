@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transmissions",
+  "info": {
+    "singularName": "transmission",
+    "pluralName": "transmissions",
+    "displayName": "Transmission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "model": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Manual",
+        "Automatic",
+        "SMG",
+        "SSG"
+      ]
+    },
+    "gears": {
+      "type": "integer"
+    },
+    "modifications": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::modification.modification",
+      "mappedBy": "transmissions"
+    },
+    "model_codes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model-code.model-code",
+      "mappedBy": "transmission"
+    },
+    "special_versions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::special-version.special-version",
+      "mappedBy": "transmission"
+    },
+    "user_cars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::user-car.user-car",
+      "mappedBy": "transmission"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "standard_equipments",
+  "info": {
+    "singularName": "standard-equipment",
+    "pluralName": "standard-equipments",
+    "displayName": "Standard Equipment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "modification": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::modification.modification",
+      "inversedBy": "standard_equipments"
+    },
+    "market": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::market.market",
+      "inversedBy": "standard_equipments"
+    },
+    "options": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::option.option",
+      "inversedBy": "standard_equipments"
+    },
+    "year_start": {
+      "type": "integer"
+    },
+    "year_end": {
+      "type": "integer"
+    },
+    "equipment_code": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::equipment-code.equipment-code",
+      "inversedBy": "standard_equipments"
+    }
+  }
+}

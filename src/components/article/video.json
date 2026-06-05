@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_article_videos",
+  "info": {
+    "displayName": "Video",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "video_url": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "YouTube",
+        "Vimeo",
+        "Other"
+      ]
+    }
+  },
+  "config": {}
+}

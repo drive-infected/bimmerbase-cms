@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trim_groups",
+  "info": {
+    "singularName": "trim-group",
+    "pluralName": "trim-groups",
+    "displayName": "Trim Group"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "type": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "enum": [
+        "Interior upholstery",
+        "Decorative elements",
+        "Аccessories",
+        "Special vehicles",
+        "Other"
+      ]
+    },
+    "options": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::option.option",
+      "inversedBy": "trim_groups"
+    },
+    "generation": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::generation.generation",
+      "mappedBy": "trim_groups"
+    }
+  }
+}

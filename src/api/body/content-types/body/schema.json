@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bodies",
+  "info": {
+    "singularName": "body",
+    "pluralName": "bodies",
+    "displayName": "Body"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "targetField": "title"
+    },
+    "option_availabilities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::option-availability.option-availability",
+      "mappedBy": "body"
+    },
+    "technical_specs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technical-spec.technical-spec",
+      "mappedBy": "body"
+    },
+    "generations": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::generation.generation",
+      "inversedBy": "bodies"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "option_availabilities",
+  "info": {
+    "singularName": "option-availability",
+    "pluralName": "option-availabilities",
+    "displayName": "Option Availability"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "option": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::option.option",
+      "inversedBy": "availability"
+    },
+    "body": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::body.body",
+      "inversedBy": "option_availabilities"
+    },
+    "market": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::market.market",
+      "inversedBy": "option_availabilities"
+    },
+    "Availability": {
+      "type": "enumeration",
+      "enum": [
+        "Standart",
+        "Optional",
+        "Package option",
+        "Unavailable"
+      ]
+    },
+    "generation": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::generation.generation",
+      "inversedBy": "option_availability"
+    }
+  }
+}

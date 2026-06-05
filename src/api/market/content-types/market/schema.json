@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "markets",
+  "info": {
+    "singularName": "market",
+    "pluralName": "markets",
+    "displayName": "Market"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "modifications": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::modification.modification",
+      "mappedBy": "markets"
+    },
+    "model_codes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model-code.model-code",
+      "mappedBy": "market"
+    },
+    "option_availabilities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::option-availability.option-availability",
+      "mappedBy": "market"
+    },
+    "standard_equipments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::standard-equipment.standard-equipment",
+      "mappedBy": "market"
+    },
+    "engine_versions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::engine-version.engine-version",
+      "mappedBy": "market"
+    },
+    "user_cars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::user-car.user-car",
+      "mappedBy": "market"
+    }
+  }
+}

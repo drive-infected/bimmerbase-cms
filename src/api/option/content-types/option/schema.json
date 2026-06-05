@@ -1,0 +1,157 @@
+{
+  "kind": "collectionType",
+  "collectionName": "options",
+  "info": {
+    "singularName": "option",
+    "pluralName": "options",
+    "displayName": "Option"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "sa_code": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": true
+    },
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "sa_code"
+    },
+    "option_type": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "enum": [
+        "Factory",
+        "Dealer",
+        "Individual"
+      ]
+    },
+    "description": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "retrofit_difficulty": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "enum": [
+        "Impossible",
+        "Hard",
+        "Medium",
+        "Easy"
+      ]
+    },
+    "retrofit_note": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "option_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::option-category.option-category",
+      "inversedBy": "options"
+    },
+    "required_by": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::option.option",
+      "inversedBy": "requires"
+    },
+    "requires": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::option.option",
+      "mappedBy": "required_by"
+    },
+    "incompitable_with": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::option.option",
+      "inversedBy": "incompitable_options"
+    },
+    "incompitable_options": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::option.option",
+      "mappedBy": "incompitable_with"
+    },
+    "availability": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::option-availability.option-availability",
+      "mappedBy": "option"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "options"
+    },
+    "special_versions_base": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::special-version.special-version",
+      "inversedBy": "base_options"
+    },
+    "special_versions_unique": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::special-version.special-version",
+      "inversedBy": "unique_options"
+    },
+    "trim_groups": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::trim-group.trim-group",
+      "mappedBy": "options"
+    },
+    "packages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::package.package",
+      "mappedBy": "options"
+    },
+    "standard_equipments": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::standard-equipment.standard-equipment",
+      "mappedBy": "options"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "steerings",
+  "info": {
+    "singularName": "steering",
+    "pluralName": "steerings",
+    "displayName": "Steering"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title_ru": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "title_en": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "code": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "enum": [
+        "LHD",
+        "RHD"
+      ]
+    },
+    "modifications": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::modification.modification",
+      "mappedBy": "steerings"
+    },
+    "model_codes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model-code.model-code",
+      "mappedBy": "steering"
+    }
+  }
+}

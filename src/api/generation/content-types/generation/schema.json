@@ -1,0 +1,125 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generations",
+  "info": {
+    "singularName": "generation",
+    "pluralName": "generations",
+    "displayName": "Generation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "production_start": {
+      "type": "date",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "production_end": {
+      "type": "date",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "lci_info": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "series": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::serie.serie",
+      "inversedBy": "generations"
+    },
+    "engines": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::engine.engine",
+      "mappedBy": "generations"
+    },
+    "modifications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::modification.modification",
+      "mappedBy": "generation"
+    },
+    "bodies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::body.body",
+      "mappedBy": "generations"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "generations"
+    },
+    "option_availability": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::option-availability.option-availability",
+      "mappedBy": "generation"
+    },
+    "technical_specs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technical-spec.technical-spec",
+      "mappedBy": "generation"
+    },
+    "special_versions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::special-version.special-version",
+      "mappedBy": "generation"
+    },
+    "trim_groups": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::trim-group.trim-group",
+      "inversedBy": "generation"
+    },
+    "user_cars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::user-car.user-car",
+      "mappedBy": "generation"
+    }
+  }
+}

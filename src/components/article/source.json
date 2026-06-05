@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_article_sources",
+  "info": {
+    "displayName": "Source",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "enumeration",
+      "enum": [
+        "Official website",
+        "Trusted website",
+        "Forum",
+        "Brochure",
+        "Manual",
+        "Other"
+      ]
+    }
+  },
+  "config": {}
+}

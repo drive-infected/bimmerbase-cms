@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_logs",
+  "info": {
+    "singularName": "service-log",
+    "pluralName": "service-logs",
+    "displayName": "Service Log"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "milage": {
+      "type": "biginteger"
+    },
+    "work_type": {
+      "type": "enumeration",
+      "enum": [
+        "Maintenance",
+        "Repair",
+        "Retrofit",
+        "Other"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "user_car": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::user-car.user-car",
+      "inversedBy": "service_logs"
+    }
+  }
+}

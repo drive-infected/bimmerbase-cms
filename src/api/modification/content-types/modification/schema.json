@@ -1,0 +1,134 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modifications",
+  "info": {
+    "singularName": "modification",
+    "pluralName": "modifications",
+    "displayName": "Modification"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "fuel_type": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "enum": [
+        "Petrol",
+        "Diesel",
+        "Hydrogen",
+        "Electricity"
+      ]
+    },
+    "displacement": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "power_hp": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "torque_nm": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "acceleration_0_100": {
+      "type": "decimal",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "max_speed": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "engines": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::engine.engine",
+      "inversedBy": "modifications"
+    },
+    "transmissions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::transmission.transmission",
+      "inversedBy": "modifications"
+    },
+    "steerings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::steering.steering",
+      "inversedBy": "modifications"
+    },
+    "markets": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::market.market",
+      "inversedBy": "modifications"
+    },
+    "model_code": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::model-code.model-code"
+    },
+    "standard_equipments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::standard-equipment.standard-equipment",
+      "mappedBy": "modification"
+    },
+    "user_cars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::user-car.user-car",
+      "mappedBy": "modification"
+    },
+    "generation": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::generation.generation",
+      "inversedBy": "modifications"
+    }
+  }
+}

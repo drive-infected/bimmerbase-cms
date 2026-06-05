@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "factories",
+  "info": {
+    "singularName": "factory",
+    "pluralName": "factories",
+    "displayName": "Factory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "model_codes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model-code.model-code",
+      "mappedBy": "factory"
+    }
+  }
+}

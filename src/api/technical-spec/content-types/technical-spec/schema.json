@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technical_specs",
+  "info": {
+    "singularName": "technical-spec",
+    "pluralName": "technical-specs",
+    "displayName": "Technical Spec"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "length": {
+      "type": "integer"
+    },
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "wheelbase": {
+      "type": "integer"
+    },
+    "track_front": {
+      "type": "integer"
+    },
+    "track_rear": {
+      "type": "integer"
+    },
+    "weight_min": {
+      "type": "integer"
+    },
+    "weight_max": {
+      "type": "integer"
+    },
+    "fuel_tank": {
+      "type": "integer"
+    },
+    "trunk_volume": {
+      "type": "integer"
+    },
+    "body": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::body.body",
+      "inversedBy": "technical_specs"
+    },
+    "generation": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::generation.generation",
+      "inversedBy": "technical_specs"
+    }
+  }
+}
