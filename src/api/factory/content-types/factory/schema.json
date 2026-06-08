@@ -19,12 +19,6 @@
     },
     "region": {
       "type": "string"
-    },
-    "model_codes": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::model-code.model-code",
-      "mappedBy": "factory"
     }
   }
 }

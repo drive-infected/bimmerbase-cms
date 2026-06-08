@@ -9,19 +9,10 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "index": {
       "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
       "required": true,
       "unique": true
     },
@@ -36,68 +27,28 @@
       "targetField": "index"
     },
     "displacement": {
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "integer"
     },
     "bore_stroke": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "string"
     },
     "compression_ratio": {
-      "type": "decimal",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "decimal"
     },
     "power_hp": {
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "integer"
     },
     "torque_nm": {
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "integer"
     },
     "max_rpm": {
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "integer"
     },
     "ecu": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "string"
     },
     "injection": {
       "type": "enumeration",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
       "enum": [
         "Single-point",
         "Multi-point",
@@ -107,11 +58,6 @@
     },
     "aspiration": {
       "type": "enumeration",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
       "enum": [
         "Naturally aspirated",
         "Turbocharged",
@@ -119,20 +65,10 @@
       ]
     },
     "valves_per_cylinder": {
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "integer"
     },
     "timing_drive": {
       "type": "enumeration",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
       "enum": [
         "Chain",
         "Belt"
@@ -140,11 +76,6 @@
     },
     "vvt": {
       "type": "enumeration",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
       "enum": [
         "No",
         "VANOS",
@@ -153,48 +84,22 @@
       ]
     },
     "oil_type": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "string"
     },
     "oil_capacity": {
-      "type": "decimal",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "decimal"
     },
     "coolant_type": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "string"
     },
     "coolant_capacity": {
-      "type": "decimal",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "decimal"
     },
     "modifications": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::modification.modification",
       "mappedBy": "engines"
-    },
-    "model_codes": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::model-code.model-code",
-      "mappedBy": "engine"
     },
     "articles": {
       "type": "relation",

@@ -16,6 +16,9 @@
       "required": true,
       "unique": true
     },
+    "manufacturer": {
+      "type": "string"
+    },
     "model": {
       "type": "string"
     },
@@ -36,12 +39,6 @@
       "relation": "manyToMany",
       "target": "api::modification.modification",
       "mappedBy": "transmissions"
-    },
-    "model_codes": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::model-code.model-code",
-      "mappedBy": "transmission"
     },
     "special_versions": {
       "type": "relation",

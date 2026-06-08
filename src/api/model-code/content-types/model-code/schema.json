@@ -19,16 +19,22 @@
     "production_count": {
       "type": "integer"
     },
-    "engine": {
+    "modification": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::engine.engine",
+      "target": "api::modification.modification",
       "inversedBy": "model_codes"
     },
-    "transmission": {
+    "body": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::transmission.transmission",
+      "target": "api::body.body",
+      "inversedBy": "model_codes"
+    },
+    "engine_family": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::engine-family.engine-family",
       "inversedBy": "model_codes"
     },
     "steering": {
@@ -41,12 +47,6 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::market.market",
-      "inversedBy": "model_codes"
-    },
-    "factory": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::factory.factory",
       "inversedBy": "model_codes"
     },
     "production_start": {

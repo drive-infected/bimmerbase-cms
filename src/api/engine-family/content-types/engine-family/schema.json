@@ -25,14 +25,6 @@
       "required": true,
       "unique": true
     },
-    "title": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "slug": {
       "type": "uid",
       "targetField": "code"
@@ -41,7 +33,7 @@
       "type": "enumeration",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "enum": [
@@ -53,7 +45,7 @@
       "type": "integer",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -61,7 +53,7 @@
       "type": "enumeration",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "enum": [
@@ -73,7 +65,7 @@
       "type": "enumeration",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "enum": [
@@ -85,7 +77,7 @@
       "type": "enumeration",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "enum": [
@@ -97,7 +89,7 @@
       "type": "enumeration",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "enum": [
@@ -109,7 +101,7 @@
       "type": "date",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -117,7 +109,7 @@
       "type": "date",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -154,6 +146,12 @@
           "localized": true
         }
       }
+    },
+    "model_codes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model-code.model-code",
+      "mappedBy": "engine_family"
     }
   }
 }

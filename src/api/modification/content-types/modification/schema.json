@@ -9,19 +9,10 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "title": {
       "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
       "required": true,
       "unique": true
     },
@@ -31,11 +22,6 @@
     },
     "fuel_type": {
       "type": "enumeration",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
       "enum": [
         "Petrol",
         "Diesel",
@@ -44,44 +30,19 @@
       ]
     },
     "displacement": {
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "integer"
     },
     "power_hp": {
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "integer"
     },
     "torque_nm": {
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "integer"
     },
     "acceleration_0_100": {
-      "type": "decimal",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "decimal"
     },
     "max_speed": {
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "integer"
     },
     "engines": {
       "type": "relation",
@@ -129,6 +90,12 @@
       "relation": "manyToOne",
       "target": "api::generation.generation",
       "inversedBy": "modifications"
+    },
+    "model_codes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model-code.model-code",
+      "mappedBy": "modification"
     }
   }
 }

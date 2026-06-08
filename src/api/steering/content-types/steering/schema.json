@@ -15,15 +15,7 @@
     }
   },
   "attributes": {
-    "title_ru": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "title_en": {
+    "title": {
       "type": "string",
       "pluginOptions": {
         "i18n": {

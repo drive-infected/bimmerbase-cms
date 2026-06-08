@@ -652,6 +652,10 @@ export interface ApiBodyBody extends Struct.CollectionTypeSchema {
     >;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::body.body'>;
+    model_codes: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::model-code.model-code'
+    >;
     option_availabilities: Schema.Attribute.Relation<
       'oneToMany',
       'api::option-availability.option-availability'
@@ -701,7 +705,7 @@ export interface ApiEngineFamilyEngineFamily
     block_material: Schema.Attribute.Enumeration<['Cast iron', 'Aluminium']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     code: Schema.Attribute.String &
@@ -718,7 +722,7 @@ export interface ApiEngineFamilyEngineFamily
     cylinders: Schema.Attribute.Integer &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     description: Schema.Attribute.Blocks &
@@ -730,7 +734,7 @@ export interface ApiEngineFamilyEngineFamily
     engine_type: Schema.Attribute.Enumeration<['Inline', 'V']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     engines: Schema.Attribute.Relation<'oneToMany', 'api::engine.engine'>;
@@ -743,25 +747,29 @@ export interface ApiEngineFamilyEngineFamily
     fuel_type: Schema.Attribute.Enumeration<['Petrol', 'Diesel']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     head_material: Schema.Attribute.Enumeration<['Cast iron', 'Aluminium']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     layout: Schema.Attribute.Enumeration<['Longitudinal', 'Transverse']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::engine-family.engine-family'
+    >;
+    model_codes: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::model-code.model-code'
     >;
     predecessor: Schema.Attribute.Relation<
       'oneToOne',
@@ -770,13 +778,13 @@ export interface ApiEngineFamilyEngineFamily
     production_end: Schema.Attribute.Date &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     production_start: Schema.Attribute.Date &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     publishedAt: Schema.Attribute.DateTime;
@@ -785,12 +793,6 @@ export interface ApiEngineFamilyEngineFamily
       'oneToOne',
       'api::engine-family.engine-family'
     >;
-    title: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -840,60 +842,20 @@ export interface ApiEngineEngine extends Struct.CollectionTypeSchema {
   options: {
     draftAndPublish: true;
   };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
   attributes: {
     articles: Schema.Attribute.Relation<'manyToMany', 'api::article.article'>;
     aspiration: Schema.Attribute.Enumeration<
       ['Naturally aspirated', 'Turbocharged', 'Compressor']
-    > &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    bore_stroke: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    compression_ratio: Schema.Attribute.Decimal &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    coolant_capacity: Schema.Attribute.Decimal &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    coolant_type: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    >;
+    bore_stroke: Schema.Attribute.String;
+    compression_ratio: Schema.Attribute.Decimal;
+    coolant_capacity: Schema.Attribute.Decimal;
+    coolant_type: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    displacement: Schema.Attribute.Integer &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    ecu: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    displacement: Schema.Attribute.Integer;
+    ecu: Schema.Attribute.String;
     engine_family: Schema.Attribute.Relation<
       'manyToOne',
       'api::engine-family.engine-family'
@@ -908,90 +870,40 @@ export interface ApiEngineEngine extends Struct.CollectionTypeSchema {
     >;
     index: Schema.Attribute.String &
       Schema.Attribute.Required &
-      Schema.Attribute.Unique &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+      Schema.Attribute.Unique;
     injection: Schema.Attribute.Enumeration<
       ['Single-point', 'Multi-point', 'Direct', 'Common Rail']
-    > &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    locale: Schema.Attribute.String;
-    localizations: Schema.Attribute.Relation<'oneToMany', 'api::engine.engine'>;
-    max_rpm: Schema.Attribute.Integer &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    model_codes: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::model-code.model-code'
     >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::engine.engine'
+    > &
+      Schema.Attribute.Private;
+    max_rpm: Schema.Attribute.Integer;
     modifications: Schema.Attribute.Relation<
       'manyToMany',
       'api::modification.modification'
     >;
-    oil_capacity: Schema.Attribute.Decimal &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    oil_type: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    power_hp: Schema.Attribute.Integer &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    oil_capacity: Schema.Attribute.Decimal;
+    oil_type: Schema.Attribute.String;
+    power_hp: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID<'index'>;
     special_versions: Schema.Attribute.Relation<
       'oneToMany',
       'api::special-version.special-version'
     >;
-    timing_drive: Schema.Attribute.Enumeration<['Chain', 'Belt']> &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    torque_nm: Schema.Attribute.Integer &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    timing_drive: Schema.Attribute.Enumeration<['Chain', 'Belt']>;
+    torque_nm: Schema.Attribute.Integer;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     user_cars: Schema.Attribute.Relation<'oneToMany', 'api::user-car.user-car'>;
-    valves_per_cylinder: Schema.Attribute.Integer &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    valves_per_cylinder: Schema.Attribute.Integer;
     vvt: Schema.Attribute.Enumeration<
       ['No', 'VANOS', 'Dounle VANOS', 'Valvetronic']
-    > &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    >;
   };
 }
 
@@ -1070,10 +982,6 @@ export interface ApiFactoryFactory extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     location: Schema.Attribute.String;
-    model_codes: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::model-code.model-code'
-    >;
     publishedAt: Schema.Attribute.DateTime;
     region: Schema.Attribute.String;
     title: Schema.Attribute.String;
@@ -1307,14 +1215,17 @@ export interface ApiModelCodeModelCode extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    body: Schema.Attribute.Relation<'manyToOne', 'api::body.body'>;
     code: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    engine: Schema.Attribute.Relation<'manyToOne', 'api::engine.engine'>;
-    factory: Schema.Attribute.Relation<'manyToOne', 'api::factory.factory'>;
+    engine_family: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::engine-family.engine-family'
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -1322,15 +1233,15 @@ export interface ApiModelCodeModelCode extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     market: Schema.Attribute.Relation<'manyToOne', 'api::market.market'>;
+    modification: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::modification.modification'
+    >;
     production_count: Schema.Attribute.Integer;
     production_end: Schema.Attribute.Date;
     production_start: Schema.Attribute.Date;
     publishedAt: Schema.Attribute.DateTime;
     steering: Schema.Attribute.Relation<'manyToOne', 'api::steering.steering'>;
-    transmission: Schema.Attribute.Relation<
-      'manyToOne',
-      'api::transmission.transmission'
-    >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1348,62 +1259,37 @@ export interface ApiModificationModification
   options: {
     draftAndPublish: true;
   };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
   attributes: {
-    acceleration_0_100: Schema.Attribute.Decimal &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    acceleration_0_100: Schema.Attribute.Decimal;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    displacement: Schema.Attribute.Integer &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    displacement: Schema.Attribute.Integer;
     engines: Schema.Attribute.Relation<'manyToMany', 'api::engine.engine'>;
     fuel_type: Schema.Attribute.Enumeration<
       ['Petrol', 'Diesel', 'Hydrogen', 'Electricity']
-    > &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    >;
     generation: Schema.Attribute.Relation<
       'manyToOne',
       'api::generation.generation'
     >;
-    locale: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::modification.modification'
-    >;
+    > &
+      Schema.Attribute.Private;
     markets: Schema.Attribute.Relation<'manyToMany', 'api::market.market'>;
-    max_speed: Schema.Attribute.Integer &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    max_speed: Schema.Attribute.Integer;
     model_code: Schema.Attribute.Relation<
       'oneToOne',
       'api::model-code.model-code'
     >;
-    power_hp: Schema.Attribute.Integer &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    model_codes: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::model-code.model-code'
+    >;
+    power_hp: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID<'title'>;
     standard_equipments: Schema.Attribute.Relation<
@@ -1416,18 +1302,8 @@ export interface ApiModificationModification
     >;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
-      Schema.Attribute.Unique &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    torque_nm: Schema.Attribute.Integer &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+      Schema.Attribute.Unique;
+    torque_nm: Schema.Attribute.Integer;
     transmissions: Schema.Attribute.Relation<
       'manyToMany',
       'api::transmission.transmission'
@@ -1573,7 +1449,7 @@ export interface ApiOptionOption extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     packages: Schema.Attribute.Relation<'manyToMany', 'api::package.package'>;
@@ -1585,7 +1461,7 @@ export interface ApiOptionOption extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     retrofit_note: Schema.Attribute.Blocks &
@@ -1642,40 +1518,21 @@ export interface ApiPackagePackage extends Struct.CollectionTypeSchema {
   options: {
     draftAndPublish: true;
   };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
   attributes: {
-    code: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    code: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    description: Schema.Attribute.Blocks &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    locale: Schema.Attribute.String;
+    description: Schema.Attribute.Blocks;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::package.package'
-    >;
+    > &
+      Schema.Attribute.Private;
     options: Schema.Attribute.Relation<'manyToMany', 'api::option.option'>;
     publishedAt: Schema.Attribute.DateTime;
-    title: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1770,25 +1627,13 @@ export interface ApiSpecialVersionSpecialVersion
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    description_en: Schema.Attribute.RichText &
+    description: Schema.Attribute.Blocks &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
-    description_ru: Schema.Attribute.RichText &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    differences_en: Schema.Attribute.RichText &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    differences_ru: Schema.Attribute.RichText &
+    differences: Schema.Attribute.Blocks &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -1860,7 +1705,7 @@ export interface ApiSpecialVersionSpecialVersion
     > &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     unique_options: Schema.Attribute.Relation<
@@ -1952,13 +1797,7 @@ export interface ApiSteeringSteering extends Struct.CollectionTypeSchema {
       'api::modification.modification'
     >;
     publishedAt: Schema.Attribute.DateTime;
-    title_en: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    title_ru: Schema.Attribute.String &
+    title: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -2035,11 +1874,8 @@ export interface ApiTransmissionTransmission
       'api::transmission.transmission'
     > &
       Schema.Attribute.Private;
+    manufacturer: Schema.Attribute.String;
     model: Schema.Attribute.String;
-    model_codes: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::model-code.model-code'
-    >;
     modifications: Schema.Attribute.Relation<
       'manyToMany',
       'api::modification.modification'

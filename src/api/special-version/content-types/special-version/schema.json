@@ -36,7 +36,7 @@
       "type": "enumeration",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "enum": [
@@ -75,32 +75,16 @@
         }
       }
     },
-    "description_ru": {
-      "type": "richtext",
+    "description": {
+      "type": "blocks",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "description_en": {
-      "type": "richtext",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "differences_ru": {
-      "type": "richtext",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "differences_en": {
-      "type": "richtext",
+    "differences": {
+      "type": "blocks",
       "pluginOptions": {
         "i18n": {
           "localized": true
