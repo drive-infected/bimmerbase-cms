@@ -128,5 +128,6 @@ exports
 dist
 build
 .strapi-updater.json
-.strapi-cloud.json"config/database.js" 
+.strapi-cloud.json
 "config/database.js" 
+config/database.js 
