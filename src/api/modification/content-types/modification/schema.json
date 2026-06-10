@@ -20,6 +20,13 @@
       "type": "uid",
       "targetField": "title"
     },
+    "lci": {
+      "type": "enumeration",
+      "enum": [
+        "Pre-LCI",
+        "LCI"
+      ]
+    },
     "fuel_type": {
       "type": "enumeration",
       "enum": [

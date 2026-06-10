@@ -1024,12 +1024,6 @@ export interface ApiGenerationGeneration extends Struct.CollectionTypeSchema {
         };
       }>;
     engines: Schema.Attribute.Relation<'manyToMany', 'api::engine.engine'>;
-    lci: Schema.Attribute.Enumeration<['Pre-LCI', 'LCI']> &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     lci_info: Schema.Attribute.Blocks &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -1284,6 +1278,7 @@ export interface ApiModificationModification
       'manyToOne',
       'api::generation.generation'
     >;
+    lci: Schema.Attribute.Enumeration<['Pre-LCI', 'LCI']>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
