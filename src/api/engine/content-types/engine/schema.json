@@ -136,6 +136,13 @@
       "relation": "oneToMany",
       "target": "api::model-code.model-code",
       "mappedBy": "engine"
+    },
+    "fuel_type": {
+      "type": "enumeration",
+      "enum": [
+        "Petrol",
+        "Diesel"
+      ]
     }
   }
 }

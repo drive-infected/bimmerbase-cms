@@ -869,6 +869,7 @@ export interface ApiEngineEngine extends Struct.CollectionTypeSchema {
       'oneToMany',
       'api::engine-version.engine-version'
     >;
+    fuel_type: Schema.Attribute.Enumeration<['Petrol', 'Diesel']>;
     generations: Schema.Attribute.Relation<
       'manyToMany',
       'api::generation.generation'
