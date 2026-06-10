@@ -49,6 +49,14 @@
       "target": "api::engine.engine",
       "inversedBy": "model_codes"
     },
+    "drivetrain": {
+      "type": "enumeration",
+      "enum": [
+        "RWD",
+        "FWD",
+        "AWD"
+      ]
+    },
     "steering": {
       "type": "relation",
       "relation": "manyToOne",

@@ -1235,6 +1235,7 @@ export interface ApiModelCodeModelCode extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    drivetrain: Schema.Attribute.Enumeration<['RWD', 'FWD', 'AWD']>;
     engine: Schema.Attribute.Relation<'manyToOne', 'api::engine.engine'>;
     engine_family: Schema.Attribute.Relation<
       'manyToOne',
