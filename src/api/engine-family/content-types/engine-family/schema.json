@@ -152,6 +152,12 @@
       "relation": "oneToMany",
       "target": "api::model-code.model-code",
       "mappedBy": "engine_family"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "engine_families"
     }
   }
 }

@@ -568,6 +568,10 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
+    engine_families: Schema.Attribute.Relation<
+      'manyToMany',
+      'api::engine-family.engine-family'
+    >;
     engines: Schema.Attribute.Relation<'manyToMany', 'api::engine.engine'>;
     generations: Schema.Attribute.Relation<
       'manyToMany',
@@ -702,6 +706,7 @@ export interface ApiEngineFamilyEngineFamily
     };
   };
   attributes: {
+    articles: Schema.Attribute.Relation<'manyToMany', 'api::article.article'>;
     block_material: Schema.Attribute.Enumeration<['Cast iron', 'Aluminium']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -1019,6 +1024,12 @@ export interface ApiGenerationGeneration extends Struct.CollectionTypeSchema {
         };
       }>;
     engines: Schema.Attribute.Relation<'manyToMany', 'api::engine.engine'>;
+    lci: Schema.Attribute.Enumeration<['Pre-LCI', 'LCI']> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     lci_info: Schema.Attribute.Blocks &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
