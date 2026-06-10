@@ -130,6 +130,12 @@
       "relation": "manyToMany",
       "target": "api::generation.generation",
       "inversedBy": "engines"
+    },
+    "model_codes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model-code.model-code",
+      "mappedBy": "engine"
     }
   }
 }

@@ -886,6 +886,10 @@ export interface ApiEngineEngine extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     max_rpm: Schema.Attribute.Integer;
+    model_codes: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::model-code.model-code'
+    >;
     modifications: Schema.Attribute.Relation<
       'manyToMany',
       'api::modification.modification'
@@ -1034,6 +1038,10 @@ export interface ApiGenerationGeneration extends Struct.CollectionTypeSchema {
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::generation.generation'
+    >;
+    model_codes: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::model-code.model-code'
     >;
     modifications: Schema.Attribute.Relation<
       'oneToMany',
@@ -1227,9 +1235,14 @@ export interface ApiModelCodeModelCode extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    engine: Schema.Attribute.Relation<'manyToOne', 'api::engine.engine'>;
     engine_family: Schema.Attribute.Relation<
       'manyToOne',
       'api::engine-family.engine-family'
+    >;
+    generation: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::generation.generation'
     >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<

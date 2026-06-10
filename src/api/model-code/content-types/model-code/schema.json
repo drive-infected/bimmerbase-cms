@@ -19,6 +19,12 @@
     "production_count": {
       "type": "integer"
     },
+    "generation": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::generation.generation",
+      "inversedBy": "model_codes"
+    },
     "modification": {
       "type": "relation",
       "relation": "manyToOne",
@@ -35,6 +41,12 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::engine-family.engine-family",
+      "inversedBy": "model_codes"
+    },
+    "engine": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::engine.engine",
       "inversedBy": "model_codes"
     },
     "steering": {

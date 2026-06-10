@@ -120,6 +120,12 @@
       "relation": "oneToMany",
       "target": "api::user-car.user-car",
       "mappedBy": "generation"
+    },
+    "model_codes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model-code.model-code",
+      "mappedBy": "generation"
     }
   }
 }
