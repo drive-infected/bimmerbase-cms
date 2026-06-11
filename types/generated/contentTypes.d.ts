@@ -1302,10 +1302,6 @@ export interface ApiModificationModification
       Schema.Attribute.Private;
     markets: Schema.Attribute.Relation<'manyToMany', 'api::market.market'>;
     max_speed: Schema.Attribute.Integer;
-    model_code: Schema.Attribute.Relation<
-      'oneToOne',
-      'api::model-code.model-code'
-    >;
     model_codes: Schema.Attribute.Relation<
       'oneToMany',
       'api::model-code.model-code'

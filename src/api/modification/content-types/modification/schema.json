@@ -75,11 +75,6 @@
       "target": "api::market.market",
       "inversedBy": "modifications"
     },
-    "model_code": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::model-code.model-code"
-    },
     "standard_equipments": {
       "type": "relation",
       "relation": "oneToMany",
