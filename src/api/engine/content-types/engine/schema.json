@@ -60,6 +60,7 @@
         "Single-point",
         "Multi-point",
         "Direct",
+        "Indirect",
         "Common Rail"
       ]
     },

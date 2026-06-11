@@ -878,7 +878,7 @@ export interface ApiEngineEngine extends Struct.CollectionTypeSchema {
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
     injection: Schema.Attribute.Enumeration<
-      ['Single-point', 'Multi-point', 'Direct', 'Common Rail']
+      ['Single-point', 'Multi-point', 'Direct', 'Indirect', 'Common Rail']
     >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
