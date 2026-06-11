@@ -718,7 +718,7 @@ export interface ApiEngineFamilyEngineFamily
       Schema.Attribute.Unique &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     createdAt: Schema.Attribute.DateTime;
@@ -1321,9 +1321,7 @@ export interface ApiModificationModification
       'manyToMany',
       'api::steering.steering'
     >;
-    title: Schema.Attribute.String &
-      Schema.Attribute.Required &
-      Schema.Attribute.Unique;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
     torque_nm: Schema.Attribute.Integer;
     transmissions: Schema.Attribute.Relation<
       'manyToMany',
