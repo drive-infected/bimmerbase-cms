@@ -26,6 +26,13 @@
       "type": "uid",
       "targetField": "index"
     },
+    "fuel_type": {
+      "type": "enumeration",
+      "enum": [
+        "Petrol",
+        "Diesel"
+      ]
+    },
     "displacement": {
       "type": "integer"
     },
@@ -77,9 +84,9 @@
     "vvt": {
       "type": "enumeration",
       "enum": [
-        "No",
-        "VANOS",
-        "Dounle VANOS",
+        "None",
+        "Single VANOS",
+        "Double VANOS",
         "Valvetronic"
       ]
     },
@@ -136,13 +143,6 @@
       "relation": "oneToMany",
       "target": "api::model-code.model-code",
       "mappedBy": "engine"
-    },
-    "fuel_type": {
-      "type": "enumeration",
-      "enum": [
-        "Petrol",
-        "Diesel"
-      ]
     }
   }
 }

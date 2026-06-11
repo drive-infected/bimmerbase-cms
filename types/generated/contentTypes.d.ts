@@ -912,7 +912,7 @@ export interface ApiEngineEngine extends Struct.CollectionTypeSchema {
     user_cars: Schema.Attribute.Relation<'oneToMany', 'api::user-car.user-car'>;
     valves_per_cylinder: Schema.Attribute.Integer;
     vvt: Schema.Attribute.Enumeration<
-      ['No', 'VANOS', 'Dounle VANOS', 'Valvetronic']
+      ['None', 'Single VANOS', 'Double VANOS', 'Valvetronic']
     >;
   };
 }
