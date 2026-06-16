@@ -1425,11 +1425,6 @@ export interface ApiOptionOption extends Struct.CollectionTypeSchema {
   options: {
     draftAndPublish: true;
   };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
   attributes: {
     articles: Schema.Attribute.Relation<'manyToMany', 'api::article.article'>;
     availability: Schema.Attribute.Relation<
@@ -1447,31 +1442,24 @@ export interface ApiOptionOption extends Struct.CollectionTypeSchema {
       'manyToMany',
       'api::option.option'
     >;
-    locale: Schema.Attribute.String;
-    localizations: Schema.Attribute.Relation<'oneToMany', 'api::option.option'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::option.option'
+    > &
+      Schema.Attribute.Private;
     option_category: Schema.Attribute.Relation<
       'manyToOne',
       'api::option-category.option-category'
     >;
     option_type: Schema.Attribute.Enumeration<
       ['Factory', 'Dealer', 'Special Vehicle', 'Individual']
-    > &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
+    >;
     packages: Schema.Attribute.Relation<'manyToMany', 'api::package.package'>;
     publishedAt: Schema.Attribute.DateTime;
     required_by: Schema.Attribute.Relation<'manyToMany', 'api::option.option'>;
     requires: Schema.Attribute.Relation<'manyToMany', 'api::option.option'>;
-    sa_code: Schema.Attribute.String &
-      Schema.Attribute.Required &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
+    sa_code: Schema.Attribute.String & Schema.Attribute.Required;
     slug: Schema.Attribute.UID<'sa_code'>;
     special_versions_base: Schema.Attribute.Relation<
       'manyToMany',
@@ -1485,13 +1473,7 @@ export interface ApiOptionOption extends Struct.CollectionTypeSchema {
       'manyToMany',
       'api::standard-equipment.standard-equipment'
     >;
-    title: Schema.Attribute.String &
-      Schema.Attribute.Required &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
     trim_groups: Schema.Attribute.Relation<
       'manyToMany',
       'api::trim-group.trim-group'
