@@ -1439,12 +1439,6 @@ export interface ApiOptionOption extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    description: Schema.Attribute.Blocks &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     incompitable_options: Schema.Attribute.Relation<
       'manyToMany',
       'api::option.option'
@@ -1460,7 +1454,7 @@ export interface ApiOptionOption extends Struct.CollectionTypeSchema {
       'api::option-category.option-category'
     >;
     option_type: Schema.Attribute.Enumeration<
-      ['Factory', 'Dealer', 'Individual']
+      ['Factory', 'Dealer', 'Special Vehicle', 'Individual']
     > &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -1471,26 +1465,11 @@ export interface ApiOptionOption extends Struct.CollectionTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     required_by: Schema.Attribute.Relation<'manyToMany', 'api::option.option'>;
     requires: Schema.Attribute.Relation<'manyToMany', 'api::option.option'>;
-    retrofit_difficulty: Schema.Attribute.Enumeration<
-      ['Impossible', 'Hard', 'Medium', 'Easy']
-    > &
+    sa_code: Schema.Attribute.String &
+      Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
-        };
-      }>;
-    retrofit_note: Schema.Attribute.Blocks &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    sa_code: Schema.Attribute.String &
-      Schema.Attribute.Required &
-      Schema.Attribute.Unique &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
         };
       }>;
     slug: Schema.Attribute.UID<'sa_code'>;
