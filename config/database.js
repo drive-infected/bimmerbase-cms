@@ -3,7 +3,7 @@ module.exports = ({ env }) => ({
     client: 'postgres',
     connection: {
       connectionString: env('DATABASE_URL'),
-      ssl: false,
+      ssl: { rejectUnauthorized: false },
     },
   },
 });
