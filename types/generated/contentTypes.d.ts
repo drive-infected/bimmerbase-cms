@@ -441,11 +441,6 @@ export interface ApiArticleCategoryArticleCategory
   options: {
     draftAndPublish: true;
   };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
   attributes: {
     articles: Schema.Attribute.Relation<'oneToMany', 'api::article.article'>;
     children: Schema.Attribute.Relation<
@@ -455,11 +450,12 @@ export interface ApiArticleCategoryArticleCategory
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    locale: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::article-category.article-category'
-    >;
+    > &
+      Schema.Attribute.Private;
     parent: Schema.Attribute.Relation<
       'oneToMany',
       'api::article-category.article-category'
@@ -468,12 +464,7 @@ export interface ApiArticleCategoryArticleCategory
     slug: Schema.Attribute.UID<'title'>;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
-      Schema.Attribute.Unique &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+      Schema.Attribute.Unique;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -540,7 +531,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     attachment: Schema.Attribute.Component<'article.attachment', true> &
@@ -565,7 +556,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     difficulty: Schema.Attribute.Enumeration<['Easy', 'Medium', 'Hard']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     engine_families: Schema.Attribute.Relation<
@@ -592,7 +583,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     published_date: Schema.Attribute.Date &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     publishedAt: Schema.Attribute.DateTime;
