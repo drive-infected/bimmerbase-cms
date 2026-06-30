@@ -1529,6 +1529,10 @@ export interface ApiSerieSerie extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID<'title'>;
+    special_versions: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::special-version.special-version'
+    >;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
@@ -1569,6 +1573,42 @@ export interface ApiServiceLogServiceLog extends Struct.CollectionTypeSchema {
     work_type: Schema.Attribute.Enumeration<
       ['Maintenance', 'Repair', 'Retrofit', 'Other']
     >;
+  };
+}
+
+export interface ApiSpecialVersionCategorySpecialVersionCategory
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'special_version_categories';
+  info: {
+    displayName: 'Special Version Category';
+    pluralName: 'special-version-categories';
+    singularName: 'special-version-category';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Text;
+    image: Schema.Attribute.Media<'images'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::special-version-category.special-version-category'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.UID<'title'>;
+    special_versions: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::special-version.special-version'
+    >;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
   };
 }
 
@@ -1641,12 +1681,17 @@ export interface ApiSpecialVersionSpecialVersion
         };
       }>;
     publishedAt: Schema.Attribute.DateTime;
+    series: Schema.Attribute.Relation<'manyToOne', 'api::serie.serie'>;
     slug: Schema.Attribute.UID<'title'> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
+    special_version_category: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::special-version-category.special-version-category'
+    >;
     title: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -1657,24 +1702,6 @@ export interface ApiSpecialVersionSpecialVersion
       'manyToOne',
       'api::transmission.transmission'
     >;
-    type: Schema.Attribute.Enumeration<
-      [
-        'M',
-        'Alpina',
-        'Limited Edition',
-        'Individual',
-        'Long wheelbase',
-        'Protection',
-        'Security',
-        'Offroad',
-        'Special Series',
-      ]
-    > &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
     unique_options: Schema.Attribute.Relation<
       'manyToMany',
       'api::option.option'
@@ -2515,6 +2542,7 @@ declare module '@strapi/strapi' {
       'api::package.package': ApiPackagePackage;
       'api::serie.serie': ApiSerieSerie;
       'api::service-log.service-log': ApiServiceLogServiceLog;
+      'api::special-version-category.special-version-category': ApiSpecialVersionCategorySpecialVersionCategory;
       'api::special-version.special-version': ApiSpecialVersionSpecialVersion;
       'api::standard-equipment.standard-equipment': ApiStandardEquipmentStandardEquipment;
       'api::steering.steering': ApiSteeringSteering;

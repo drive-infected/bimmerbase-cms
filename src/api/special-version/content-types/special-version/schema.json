@@ -32,25 +32,6 @@
       },
       "targetField": "title"
     },
-    "type": {
-      "type": "enumeration",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "enum": [
-        "M",
-        "Alpina",
-        "Limited Edition",
-        "Individual",
-        "Long wheelbase",
-        "Protection",
-        "Security",
-        "Offroad",
-        "Special Series"
-      ]
-    },
     "production_start": {
       "type": "date",
       "pluginOptions": {
@@ -133,6 +114,18 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::generation.generation",
+      "inversedBy": "special_versions"
+    },
+    "special_version_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::special-version-category.special-version-category",
+      "inversedBy": "special_versions"
+    },
+    "series": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::serie.serie",
       "inversedBy": "special_versions"
     }
   }

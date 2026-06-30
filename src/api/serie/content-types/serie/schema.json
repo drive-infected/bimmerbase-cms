@@ -25,6 +25,12 @@
       "relation": "oneToMany",
       "target": "api::generation.generation",
       "mappedBy": "series"
+    },
+    "special_versions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::special-version.special-version",
+      "mappedBy": "series"
     }
   }
 }

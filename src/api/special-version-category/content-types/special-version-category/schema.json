@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "special_version_categories",
+  "info": {
+    "singularName": "special-version-category",
+    "pluralName": "special-version-categories",
+    "displayName": "Special Version Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "special_versions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::special-version.special-version",
+      "mappedBy": "special_version_category"
+    }
+  }
+}
