@@ -53,6 +53,14 @@
         }
       }
     },
+    "general_info": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "lci_info": {
       "type": "blocks",
       "pluginOptions": {

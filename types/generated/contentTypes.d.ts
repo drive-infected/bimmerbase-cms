@@ -1020,6 +1020,12 @@ export interface ApiGenerationGeneration extends Struct.CollectionTypeSchema {
         };
       }>;
     engines: Schema.Attribute.Relation<'manyToMany', 'api::engine.engine'>;
+    general_info: Schema.Attribute.Blocks &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     image: Schema.Attribute.Media<'images'> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
