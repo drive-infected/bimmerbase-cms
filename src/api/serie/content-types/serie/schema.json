@@ -31,6 +31,13 @@
       "relation": "oneToMany",
       "target": "api::special-version.special-version",
       "mappedBy": "series"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

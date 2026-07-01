@@ -126,6 +126,18 @@
       "relation": "oneToMany",
       "target": "api::model-code.model-code",
       "mappedBy": "generation"
+    },
+    "image": {
+      "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
