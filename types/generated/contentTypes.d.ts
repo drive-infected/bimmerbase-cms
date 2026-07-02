@@ -1683,6 +1683,12 @@ export interface ApiSpecialVersionSpecialVersion
       'manyToOne',
       'api::generation.generation'
     >;
+    image: Schema.Attribute.Media<'images'> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

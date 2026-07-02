@@ -32,6 +32,18 @@
       },
       "targetField": "title"
     },
+    "image": {
+      "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
     "production_start": {
       "type": "date",
       "pluginOptions": {
