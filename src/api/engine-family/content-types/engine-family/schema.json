@@ -158,6 +158,18 @@
       "relation": "manyToMany",
       "target": "api::article.article",
       "mappedBy": "engine_families"
+    },
+    "image": {
+      "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

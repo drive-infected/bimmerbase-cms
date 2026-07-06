@@ -752,6 +752,12 @@ export interface ApiEngineFamilyEngineFamily
           localized: false;
         };
       }>;
+    image: Schema.Attribute.Media<'images'> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     layout: Schema.Attribute.Enumeration<['Longitudinal', 'Transverse']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
