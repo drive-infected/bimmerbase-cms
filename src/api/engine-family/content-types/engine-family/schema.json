@@ -131,7 +131,7 @@
       "target": "api::engine.engine",
       "mappedBy": "engine_family"
     },
-    "features": {
+    "description": {
       "type": "blocks",
       "pluginOptions": {
         "i18n": {
@@ -139,7 +139,15 @@
         }
       }
     },
-    "description": {
+    "technical_update": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "features": {
       "type": "blocks",
       "pluginOptions": {
         "i18n": {

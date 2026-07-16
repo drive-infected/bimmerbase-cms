@@ -1,0 +1,11 @@
+[
+  { "code": "M21", "slug": "m21", "fuel_type": "Diesel", "cylinders": 6, "engine_type": "Inline", "layout": "Longitudinal" },
+  { "code": "M40", "slug": "m40", "fuel_type": "Petrol", "cylinders": 4, "engine_type": "Inline", "layout": "Longitudinal" },
+  { "code": "M41", "slug": "m41", "fuel_type": "Diesel", "cylinders": 4, "engine_type": "Inline", "layout": "Transverse" },
+  { "code": "M42", "slug": "m42", "fuel_type": "Petrol", "cylinders": 4, "engine_type": "Inline", "layout": "Longitudinal" },
+  { "code": "M43", "slug": "m43", "fuel_type": "Petrol", "cylinders": 4, "engine_type": "Inline", "layout": "Longitudinal" },
+  { "code": "M44", "slug": "m44", "fuel_type": "Petrol", "cylinders": 4, "engine_type": "Inline", "layout": "Longitudinal" },
+  { "code": "M50", "slug": "m50", "fuel_type": "Petrol", "cylinders": 6, "engine_type": "Inline", "layout": "Longitudinal" },
+  { "code": "M70", "slug": "m70", "fuel_type": "Petrol", "cylinders": 12, "engine_type": "V", "layout": "Longitudinal" },
+  { "code": "M72", "slug": "m72", "fuel_type": "Petrol", "cylinders": 12, "engine_type": "V", "layout": "Longitudinal" }
+]

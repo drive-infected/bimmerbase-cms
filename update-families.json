@@ -1,0 +1,137 @@
+[
+  {
+    "code": "M21",
+    "data": {
+      "head_material": "Cast iron",
+      "block_material": "Cast iron",
+      "production_start": "1983-01-01",
+      "production_end": "1991-12-31",
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M21 is a 2.4 L inline-six diesel engine produced from 1983 to 1991. It was BMW's first production diesel engine.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "Cast-iron block and head, indirect injection, timing chain.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "code": "M40",
+    "data": {
+      "head_material": "Aluminium",
+      "block_material": "Cast iron",
+      "production_start": "1987-01-01",
+      "production_end": "1994-12-31",
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M40 is a 1.6–1.8 L inline-four petrol engine produced from 1987 to 1994. It replaced the M10 series.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "Lightweight aluminium head, cast-iron block, single overhead camshaft.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "code": "M41",
+    "data": {
+      "head_material": "Aluminium",
+      "block_material": "Cast iron",
+      "production_start": "1994-01-01",
+      "production_end": "2000-12-31",
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M41 is a 1.7 L inline-four diesel engine produced from 1994 to 2000. It was introduced in the E36 318tds.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "Cast-iron block, aluminium head, indirect injection with turbocharger.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "code": "M42",
+    "data": {
+      "head_material": "Aluminium",
+      "block_material": "Cast iron",
+      "production_start": "1989-01-01",
+      "production_end": "1996-12-31",
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M42 is a 1.8 L inline-four petrol engine produced from 1989 to 1996. It was BMW's first DOHC 16-valve four-cylinder.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "DOHC 16-valve, timing chain, Bosch Motronic fuel injection.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "code": "M43",
+    "data": {
+      "head_material": "Aluminium",
+      "block_material": "Cast iron",
+      "production_start": "1992-01-01",
+      "production_end": "2002-12-31",
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M43 is a 1.6–1.9 L inline-four petrol engine produced from 1992 to 2002. It was an evolution of the M40.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "SOHC 8-valve, Bosch fuel injection, timing chain, available in 1.6, 1.8, and 1.9 L versions.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "code": "M44",
+    "data": {
+      "head_material": "Aluminium",
+      "block_material": "Cast iron",
+      "production_start": "1994-01-01",
+      "production_end": "2000-12-31",
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M44 is a 1.9 L inline-four petrol engine produced from 1994 to 2000. It was a DOHC 16-valve upgrade of the M42.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "DOHC 16-valve, timing chain, Bosch Motronic, improved torque over M42.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "code": "M50",
+    "data": {
+      "head_material": "Aluminium",
+      "block_material": "Cast iron",
+      "production_start": "1990-01-01",
+      "production_end": "1998-12-31",
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M50 is a 2.0–2.5 L inline-six petrol engine produced from 1990 to 1998. It introduced DOHC and later VANOS.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "DOHC 24-valve, later with single VANOS, timing chain, used in E36 and E34.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "code": "M70",
+    "data": {
+      "head_material": "Aluminium",
+      "block_material": "Aluminium",
+      "production_start": "1987-01-01",
+      "production_end": "1994-12-31",
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M70 is a 5.0 L V12 petrol engine produced from 1987 to 1994. It powered the E32 750i and E31 850i.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "V12, SOHC 2-valve per cylinder, two Bosch Motronic ECUs, timing chain.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "code": "M72",
+    "data": {
+      "head_material": "Aluminium",
+      "block_material": "Aluminium",
+      "production_start": "1989-01-01",
+      "production_end": "1989-12-31",
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M72 is a 5.4 L V12 engine produced briefly in 1989 for the E31 850CSi prototype.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "V12, DOHC, 48-valve, very limited production.", "type": "text" } ] }
+      ]
+    }
+  }
+]

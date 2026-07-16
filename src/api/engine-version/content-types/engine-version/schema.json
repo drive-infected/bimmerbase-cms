@@ -23,14 +23,77 @@
       "target": "api::market.market",
       "inversedBy": "engine_versions"
     },
+    "modifications": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::modification.modification",
+      "inversedBy": "engine_versions"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
     "power_hp": {
       "type": "integer"
     },
     "torque_nm": {
       "type": "integer"
     },
-    "description": {
-      "type": "blocks"
+    "max_rpm": {
+      "type": "integer"
+    },
+    "ecu": {
+      "type": "string"
+    },
+    "injection": {
+      "type": "enumeration",
+      "enum": [
+        "Single-point",
+        "Multi-point",
+        "Direct",
+        "Indirect",
+        "Common Rail"
+      ]
+    },
+    "aspiration": {
+      "type": "enumeration",
+      "enum": [
+        "Naturally aspirated",
+        "Turbocharged",
+        "Compressor"
+      ]
+    },
+    "compression_ratio": {
+      "type": "decimal"
+    },
+    "vvt": {
+      "type": "enumeration",
+      "enum": [
+        "None",
+        "Single VANOS",
+        "Double VANOS",
+        "Valvetronic"
+      ]
+    },
+    "oil_type": {
+      "type": "string"
+    },
+    "oil_capacity": {
+      "type": "decimal"
+    },
+    "coolant_type": {
+      "type": "string"
+    },
+    "coolant_capacity": {
+      "type": "decimal"
+    },
+    "production_start": {
+      "type": "date"
+    },
+    "production_end": {
+      "type": "date"
     }
   }
 }

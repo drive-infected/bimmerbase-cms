@@ -39,6 +39,16 @@
     "bore_stroke": {
       "type": "string"
     },
+    "valves_per_cylinder": {
+      "type": "integer"
+    },
+    "timing_drive": {
+      "type": "enumeration",
+      "enum": [
+        "Chain",
+        "Belt"
+      ]
+    },
     "compression_ratio": {
       "type": "decimal"
     },
@@ -72,16 +82,6 @@
         "Compressor"
       ]
     },
-    "valves_per_cylinder": {
-      "type": "integer"
-    },
-    "timing_drive": {
-      "type": "enumeration",
-      "enum": [
-        "Chain",
-        "Belt"
-      ]
-    },
     "vvt": {
       "type": "enumeration",
       "enum": [
@@ -109,6 +109,12 @@
       "target": "api::modification.modification",
       "mappedBy": "engines"
     },
+    "generations": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::generation.generation",
+      "inversedBy": "engines"
+    },
     "articles": {
       "type": "relation",
       "relation": "manyToMany",
@@ -121,10 +127,10 @@
       "target": "api::special-version.special-version",
       "mappedBy": "engine"
     },
-    "engine_versions": {
+    "model_codes": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::engine-version.engine-version",
+      "target": "api::model-code.model-code",
       "mappedBy": "engine"
     },
     "user_cars": {
@@ -133,16 +139,10 @@
       "target": "api::user-car.user-car",
       "mappedBy": "engine"
     },
-    "generations": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::generation.generation",
-      "inversedBy": "engines"
-    },
-    "model_codes": {
+    "engine_versions": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::model-code.model-code",
+      "target": "api::engine-version.engine-version",
       "mappedBy": "engine"
     }
   }

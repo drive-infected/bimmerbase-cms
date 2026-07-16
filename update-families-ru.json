@@ -1,0 +1,110 @@
+[
+  {
+    "documentId": "ymossjpcxva0crxp81ivxhxv",
+    "locale": "ru",
+    "data": {
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "BMW M21 — рядный 6-цилиндровый дизельный двигатель объёмом 2,4 л, выпускавшийся с 1983 по 1991 год. Первый дизельный двигатель BMW.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "Чугунные блок и головка, непрямой впрыск, цепной привод ГРМ.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "documentId": "tfy3sqoza8h2wvc3eq89ratv",
+    "locale": "ru",
+    "data": {
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "BMW M40 — рядный 4-цилиндровый бензиновый двигатель объёмом 1,6–1,8 л, выпускавшийся с 1987 по 1994 год. Пришёл на смену серии M10.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "Алюминиевая головка, чугунный блок, один верхний распредвал.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "documentId": "exm2ym6684oyr6afcbod560i",
+    "locale": "ru",
+    "data": {
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "BMW M41 — рядный 4-цилиндровый дизельный двигатель объёмом 1,7 л, выпускавшийся с 1994 по 2000 год. Устанавливался на E36 318tds.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "Чугунный блок, алюминиевая головка, непрямой впрыск с турбонаддувом.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "documentId": "k5kov1icchfk9lfpbhvvl09s",
+    "locale": "ru",
+    "data": {
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "BMW M42 — рядный 4-цилиндровый бензиновый двигатель объёмом 1,8 л, выпускавшийся с 1989 по 1996 год. Первый 16-клапанный 4-цилиндровый двигатель BMW.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "DOHC 16V, цепной привод ГРМ, впрыск Bosch Motronic.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "documentId": "kc0anzcd0nesik1ytveh2lkb",
+    "locale": "ru",
+    "data": {
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "BMW M43 — рядный 4-цилиндровый бензиновый двигатель объёмом 1,6–1,9 л, выпускавшийся с 1992 по 2002 год. Эволюция серии M40.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "SOHC 8V, впрыск Bosch, цепной привод ГРМ, версии 1.6, 1.8 и 1.9 л.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "documentId": "lj600ahuep542miicr2w10jt",
+    "locale": "ru",
+    "data": {
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "BMW M44 — рядный 4-цилиндровый бензиновый двигатель объёмом 1,9 л, выпускавшийся с 1994 по 2000 год. Дальнейшее развитие M42 с 16-клапанной головкой.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "DOHC 16V, цепной привод ГРМ, улучшенный крутящий момент.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "documentId": "f222qydyys81rem5bspmmebe",
+    "locale": "ru",
+    "data": {
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "BMW M50 — рядный 6-цилиндровый бензиновый двигатель объёмом 2,0–2,5 л, выпускавшийся с 1990 по 1998 год. Впервые получил DOHC и позднее VANOS.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "DOHC 24V, цепной привод ГРМ, позже с системой Single VANOS, применялся на E36 и E34.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "documentId": "dahjzmg3lddh03qxrlhunw9j",
+    "locale": "ru",
+    "data": {
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "BMW M70 — V-образный 12-цилиндровый бензиновый двигатель объёмом 5,0 л, выпускавшийся с 1987 по 1994 год. Устанавливался на E32 750i и E31 850i.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "V12, SOHC 2 клапана на цилиндр, два блока управления Bosch Motronic, цепной привод ГРМ.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "documentId": "xrtgl7ws4yvaju8i1wj4q4w1",
+    "locale": "ru",
+    "data": {
+      "description": [
+        { "type": "paragraph", "children": [ { "text": "BMW M72 — V-образный 12-цилиндровый двигатель объёмом 5,4 л, выпущен ограниченной серией в 1989 году для прототипа E31 850CSi.", "type": "text" } ] }
+      ],
+      "features": [
+        { "type": "paragraph", "children": [ { "text": "V12, DOHC, 48-клапанный, очень малый тираж.", "type": "text" } ] }
+      ]
+    }
+  }
+]

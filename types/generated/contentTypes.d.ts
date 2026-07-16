@@ -795,6 +795,12 @@ export interface ApiEngineFamilyEngineFamily
       'oneToOne',
       'api::engine-family.engine-family'
     >;
+    technical_update: Schema.Attribute.Blocks &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -813,11 +819,21 @@ export interface ApiEngineVersionEngineVersion
     draftAndPublish: true;
   };
   attributes: {
+    aspiration: Schema.Attribute.Enumeration<
+      ['Naturally aspirated', 'Turbocharged', 'Compressor']
+    >;
+    compression_ratio: Schema.Attribute.Decimal;
+    coolant_capacity: Schema.Attribute.Decimal;
+    coolant_type: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.Blocks;
+    ecu: Schema.Attribute.String;
     engine: Schema.Attribute.Relation<'manyToOne', 'api::engine.engine'>;
+    injection: Schema.Attribute.Enumeration<
+      ['Single-point', 'Multi-point', 'Direct', 'Indirect', 'Common Rail']
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -825,12 +841,25 @@ export interface ApiEngineVersionEngineVersion
     > &
       Schema.Attribute.Private;
     market: Schema.Attribute.Relation<'manyToOne', 'api::market.market'>;
+    max_rpm: Schema.Attribute.Integer;
+    modifications: Schema.Attribute.Relation<
+      'manyToMany',
+      'api::modification.modification'
+    >;
+    oil_capacity: Schema.Attribute.Decimal;
+    oil_type: Schema.Attribute.String;
     power_hp: Schema.Attribute.Integer;
+    production_end: Schema.Attribute.Date;
+    production_start: Schema.Attribute.Date;
     publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.String;
     torque_nm: Schema.Attribute.Integer;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    vvt: Schema.Attribute.Enumeration<
+      ['None', 'Single VANOS', 'Double VANOS', 'Valvetronic']
+    >;
   };
 }
 
@@ -1294,6 +1323,10 @@ export interface ApiModificationModification
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     displacement: Schema.Attribute.Integer;
+    engine_versions: Schema.Attribute.Relation<
+      'manyToMany',
+      'api::engine-version.engine-version'
+    >;
     engines: Schema.Attribute.Relation<'manyToMany', 'api::engine.engine'>;
     fuel_type: Schema.Attribute.Enumeration<
       ['Petrol', 'Diesel', 'Hydrogen', 'Electricity']
