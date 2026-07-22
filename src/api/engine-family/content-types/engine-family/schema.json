@@ -15,7 +15,7 @@
     }
   },
   "attributes": {
-    "code": {
+    "title": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -25,31 +25,18 @@
       "required": true,
       "unique": true
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "code"
-    },
-    "engine_type": {
-      "type": "enumeration",
+    "subtitle": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
-          "localized": false
-        }
-      },
-      "enum": [
-        "Inline",
-        "V"
-      ]
-    },
-    "cylinders": {
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
+          "localized": true
         }
       }
     },
-    "layout": {
+    "slug": {
+      "type": "uid"
+    },
+    "aspiration": {
       "type": "enumeration",
       "pluginOptions": {
         "i18n": {
@@ -57,8 +44,9 @@
         }
       },
       "enum": [
-        "Longitudinal",
-        "Transverse"
+        "naturally_aspirated",
+        "turbocharged",
+        "supercharged"
       ]
     },
     "fuel_type": {
@@ -71,6 +59,81 @@
       "enum": [
         "Petrol",
         "Diesel"
+      ]
+    },
+    "layout": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "enum": [
+        "longitudinal",
+        "transverse"
+      ]
+    },
+    "configuration": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "enum": [
+        "inline",
+        "v",
+        "flat"
+      ]
+    },
+    "v_angle_deg": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "cylinder_conunt": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "valves_per_cylinder": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "valvetrain": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "enum": [
+        "SOHC",
+        "DOHC"
+      ]
+    },
+    "timing_system": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "enum": [
+        "chain",
+        "belt",
+        "gear",
+        "camless"
       ]
     },
     "head_material": {
@@ -154,12 +217,6 @@
           "localized": true
         }
       }
-    },
-    "model_codes": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::model-code.model-code",
-      "mappedBy": "engine_family"
     },
     "articles": {
       "type": "relation",

@@ -75,12 +75,6 @@
       "target": "api::serie.serie",
       "inversedBy": "generations"
     },
-    "engines": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::engine.engine",
-      "mappedBy": "generations"
-    },
     "modifications": {
       "type": "relation",
       "relation": "oneToMany",

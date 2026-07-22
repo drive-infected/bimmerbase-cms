@@ -38,12 +38,6 @@
       "target": "api::standard-equipment.standard-equipment",
       "mappedBy": "market"
     },
-    "engine_versions": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::engine-version.engine-version",
-      "mappedBy": "market"
-    },
     "user_cars": {
       "type": "relation",
       "relation": "oneToMany",

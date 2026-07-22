@@ -11,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "index": {
+    "title": {
       "type": "string",
       "required": true,
       "unique": true
@@ -23,73 +23,22 @@
       "inversedBy": "engines"
     },
     "slug": {
-      "type": "uid",
-      "targetField": "index"
+      "type": "uid"
     },
-    "fuel_type": {
-      "type": "enumeration",
-      "enum": [
-        "Petrol",
-        "Diesel"
-      ]
-    },
-    "displacement": {
+    "displacement_cc": {
       "type": "integer"
     },
-    "bore_stroke": {
-      "type": "string"
-    },
-    "valves_per_cylinder": {
-      "type": "integer"
-    },
-    "timing_drive": {
-      "type": "enumeration",
-      "enum": [
-        "Chain",
-        "Belt"
-      ]
-    },
-    "compression_ratio": {
+    "bore_mm": {
       "type": "decimal"
     },
-    "power_hp": {
-      "type": "integer"
+    "stroke_mm": {
+      "type": "decimal"
     },
-    "torque_nm": {
-      "type": "integer"
-    },
-    "max_rpm": {
-      "type": "integer"
-    },
-    "ecu": {
+    "firing_order": {
       "type": "string"
     },
-    "injection": {
-      "type": "enumeration",
-      "enum": [
-        "Single-point",
-        "Multi-point",
-        "Direct",
-        "Indirect",
-        "Common Rail"
-      ]
-    },
-    "aspiration": {
-      "type": "enumeration",
-      "enum": [
-        "Naturally aspirated",
-        "Turbocharged",
-        "Compressor"
-      ]
-    },
-    "vvt": {
-      "type": "enumeration",
-      "enum": [
-        "None",
-        "Single VANOS",
-        "Double VANOS",
-        "Valvetronic"
-      ]
+    "engine_mass_kg": {
+      "type": "decimal"
     },
     "oil_type": {
       "type": "string"
@@ -103,35 +52,11 @@
     "coolant_capacity": {
       "type": "decimal"
     },
-    "modifications": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::modification.modification",
-      "mappedBy": "engines"
-    },
-    "generations": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::generation.generation",
-      "inversedBy": "engines"
-    },
     "articles": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::article.article",
       "mappedBy": "engines"
-    },
-    "special_versions": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::special-version.special-version",
-      "mappedBy": "engine"
-    },
-    "model_codes": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::model-code.model-code",
-      "mappedBy": "engine"
     },
     "user_cars": {
       "type": "relation",

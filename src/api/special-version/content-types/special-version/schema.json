@@ -92,12 +92,6 @@
         }
       }
     },
-    "engine": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::engine.engine",
-      "inversedBy": "special_versions"
-    },
     "transmission": {
       "type": "relation",
       "relation": "manyToOne",

@@ -698,15 +698,21 @@ export interface ApiEngineFamilyEngineFamily
   };
   attributes: {
     articles: Schema.Attribute.Relation<'manyToMany', 'api::article.article'>;
+    aspiration: Schema.Attribute.Enumeration<
+      ['naturally_aspirated', 'turbocharged', 'supercharged']
+    > &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     block_material: Schema.Attribute.Enumeration<['Cast iron', 'Aluminium']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
         };
       }>;
-    code: Schema.Attribute.String &
-      Schema.Attribute.Required &
-      Schema.Attribute.Unique &
+    configuration: Schema.Attribute.Enumeration<['inline', 'v', 'flat']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
@@ -715,7 +721,7 @@ export interface ApiEngineFamilyEngineFamily
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    cylinders: Schema.Attribute.Integer &
+    cylinder_conunt: Schema.Attribute.Integer &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
@@ -725,12 +731,6 @@ export interface ApiEngineFamilyEngineFamily
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
-        };
-      }>;
-    engine_type: Schema.Attribute.Enumeration<['Inline', 'V']> &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
         };
       }>;
     engines: Schema.Attribute.Relation<'oneToMany', 'api::engine.engine'>;
@@ -758,7 +758,7 @@ export interface ApiEngineFamilyEngineFamily
           localized: false;
         };
       }>;
-    layout: Schema.Attribute.Enumeration<['Longitudinal', 'Transverse']> &
+    layout: Schema.Attribute.Enumeration<['longitudinal', 'transverse']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
@@ -768,10 +768,6 @@ export interface ApiEngineFamilyEngineFamily
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::engine-family.engine-family'
-    >;
-    model_codes: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::model-code.model-code'
     >;
     predecessor: Schema.Attribute.Relation<
       'oneToOne',
@@ -790,7 +786,13 @@ export interface ApiEngineFamilyEngineFamily
         };
       }>;
     publishedAt: Schema.Attribute.DateTime;
-    slug: Schema.Attribute.UID<'code'>;
+    slug: Schema.Attribute.UID;
+    subtitle: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     successor: Schema.Attribute.Relation<
       'oneToOne',
       'api::engine-family.engine-family'
@@ -801,9 +803,43 @@ export interface ApiEngineFamilyEngineFamily
           localized: true;
         };
       }>;
+    timing_system: Schema.Attribute.Enumeration<
+      ['chain', 'belt', 'gear', 'camless']
+    > &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    title: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    v_angle_deg: Schema.Attribute.Integer &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    valves_per_cylinder: Schema.Attribute.Integer &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    valvetrain: Schema.Attribute.Enumeration<['SOHC', 'DOHC']> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
   };
 }
 
@@ -819,47 +855,56 @@ export interface ApiEngineVersionEngineVersion
     draftAndPublish: true;
   };
   attributes: {
-    aspiration: Schema.Attribute.Enumeration<
-      ['Naturally aspirated', 'Turbocharged', 'Compressor']
-    >;
+    additional_info: Schema.Attribute.Text;
+    catalyst: Schema.Attribute.Boolean;
+    code: Schema.Attribute.UID & Schema.Attribute.Required;
     compression_ratio: Schema.Attribute.Decimal;
-    coolant_capacity: Schema.Attribute.Decimal;
-    coolant_type: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    description: Schema.Attribute.Blocks;
-    ecu: Schema.Attribute.String;
-    engine: Schema.Attribute.Relation<'manyToOne', 'api::engine.engine'>;
-    injection: Schema.Attribute.Enumeration<
-      ['Single-point', 'Multi-point', 'Direct', 'Indirect', 'Common Rail']
+    dpf: Schema.Attribute.Boolean;
+    ecu_code: Schema.Attribute.String;
+    emissions_standard: Schema.Attribute.Enumeration<
+      ['Euro 1', 'Euro 2', 'Euro 3', 'Euro 4', 'Euro 5', 'Euro 6', 'Euro 7']
     >;
+    engine: Schema.Attribute.Relation<'manyToOne', 'api::engine.engine'>;
+    fuel_grade: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::engine-version.engine-version'
     > &
       Schema.Attribute.Private;
-    market: Schema.Attribute.Relation<'manyToOne', 'api::market.market'>;
-    max_rpm: Schema.Attribute.Integer;
-    modifications: Schema.Attribute.Relation<
-      'manyToMany',
-      'api::modification.modification'
+    market: Schema.Attribute.Enumeration<
+      [
+        'Europe',
+        'USA',
+        'Egypt',
+        'Indonesia',
+        'Malaysia',
+        'Mexico',
+        'Philippines',
+        'Russia',
+        'Thailand',
+        'Vietnam',
+      ]
     >;
-    oil_capacity: Schema.Attribute.Decimal;
-    oil_type: Schema.Attribute.String;
+    model_codes: Schema.Attribute.Relation<
+      'manyToMany',
+      'api::model-code.model-code'
+    >;
     power_hp: Schema.Attribute.Integer;
+    power_kw: Schema.Attribute.Integer;
+    power_rpm: Schema.Attribute.Integer;
     production_end: Schema.Attribute.Date;
     production_start: Schema.Attribute.Date;
     publishedAt: Schema.Attribute.DateTime;
-    slug: Schema.Attribute.String;
+    title: Schema.Attribute.String;
     torque_nm: Schema.Attribute.Integer;
+    torque_rpm: Schema.Attribute.Integer;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    vvt: Schema.Attribute.Enumeration<
-      ['None', 'Single VANOS', 'Double VANOS', 'Valvetronic']
-    >;
   };
 }
 
@@ -875,71 +920,41 @@ export interface ApiEngineEngine extends Struct.CollectionTypeSchema {
   };
   attributes: {
     articles: Schema.Attribute.Relation<'manyToMany', 'api::article.article'>;
-    aspiration: Schema.Attribute.Enumeration<
-      ['Naturally aspirated', 'Turbocharged', 'Compressor']
-    >;
-    bore_stroke: Schema.Attribute.String;
-    compression_ratio: Schema.Attribute.Decimal;
+    bore_mm: Schema.Attribute.Decimal;
     coolant_capacity: Schema.Attribute.Decimal;
     coolant_type: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    displacement: Schema.Attribute.Integer;
-    ecu: Schema.Attribute.String;
+    displacement_cc: Schema.Attribute.Integer;
     engine_family: Schema.Attribute.Relation<
       'manyToOne',
       'api::engine-family.engine-family'
     >;
+    engine_mass_kg: Schema.Attribute.Decimal;
     engine_versions: Schema.Attribute.Relation<
       'oneToMany',
       'api::engine-version.engine-version'
     >;
-    fuel_type: Schema.Attribute.Enumeration<['Petrol', 'Diesel']>;
-    generations: Schema.Attribute.Relation<
-      'manyToMany',
-      'api::generation.generation'
-    >;
-    index: Schema.Attribute.String &
-      Schema.Attribute.Required &
-      Schema.Attribute.Unique;
-    injection: Schema.Attribute.Enumeration<
-      ['Single-point', 'Multi-point', 'Direct', 'Indirect', 'Common Rail']
-    >;
+    firing_order: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::engine.engine'
     > &
       Schema.Attribute.Private;
-    max_rpm: Schema.Attribute.Integer;
-    model_codes: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::model-code.model-code'
-    >;
-    modifications: Schema.Attribute.Relation<
-      'manyToMany',
-      'api::modification.modification'
-    >;
     oil_capacity: Schema.Attribute.Decimal;
     oil_type: Schema.Attribute.String;
-    power_hp: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
-    slug: Schema.Attribute.UID<'index'>;
-    special_versions: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::special-version.special-version'
-    >;
-    timing_drive: Schema.Attribute.Enumeration<['Chain', 'Belt']>;
-    torque_nm: Schema.Attribute.Integer;
+    slug: Schema.Attribute.UID;
+    stroke_mm: Schema.Attribute.Decimal;
+    title: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     user_cars: Schema.Attribute.Relation<'oneToMany', 'api::user-car.user-car'>;
-    valves_per_cylinder: Schema.Attribute.Integer;
-    vvt: Schema.Attribute.Enumeration<
-      ['None', 'Single VANOS', 'Double VANOS', 'Valvetronic']
-    >;
   };
 }
 
@@ -1054,7 +1069,6 @@ export interface ApiGenerationGeneration extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
-    engines: Schema.Attribute.Relation<'manyToMany', 'api::engine.engine'>;
     general_info: Schema.Attribute.Blocks &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -1221,10 +1235,6 @@ export interface ApiMarketMarket extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    engine_versions: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::engine-version.engine-version'
-    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -1275,10 +1285,9 @@ export interface ApiModelCodeModelCode extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     drivetrain: Schema.Attribute.Enumeration<['RWD', 'FWD', 'AWD']>;
-    engine: Schema.Attribute.Relation<'manyToOne', 'api::engine.engine'>;
-    engine_family: Schema.Attribute.Relation<
-      'manyToOne',
-      'api::engine-family.engine-family'
+    engine_versions: Schema.Attribute.Relation<
+      'manyToMany',
+      'api::engine-version.engine-version'
     >;
     generation: Schema.Attribute.Relation<
       'manyToOne',
@@ -1323,11 +1332,6 @@ export interface ApiModificationModification
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     displacement: Schema.Attribute.Integer;
-    engine_versions: Schema.Attribute.Relation<
-      'manyToMany',
-      'api::engine-version.engine-version'
-    >;
-    engines: Schema.Attribute.Relation<'manyToMany', 'api::engine.engine'>;
     fuel_type: Schema.Attribute.Enumeration<
       ['Petrol', 'Diesel', 'Hydrogen', 'Electricity']
     >;
@@ -1717,7 +1721,6 @@ export interface ApiSpecialVersionSpecialVersion
           localized: true;
         };
       }>;
-    engine: Schema.Attribute.Relation<'manyToOne', 'api::engine.engine'>;
     generation: Schema.Attribute.Relation<
       'manyToOne',
       'api::generation.generation'

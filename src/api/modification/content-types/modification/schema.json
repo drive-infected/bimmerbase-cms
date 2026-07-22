@@ -51,12 +51,6 @@
     "max_speed": {
       "type": "integer"
     },
-    "engines": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::engine.engine",
-      "inversedBy": "modifications"
-    },
     "transmissions": {
       "type": "relation",
       "relation": "manyToMany",
@@ -98,12 +92,6 @@
       "relation": "oneToMany",
       "target": "api::model-code.model-code",
       "mappedBy": "modification"
-    },
-    "engine_versions": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::engine-version.engine-version",
-      "mappedBy": "modifications"
     }
   }
 }
