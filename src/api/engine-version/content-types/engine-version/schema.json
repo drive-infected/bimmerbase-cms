@@ -42,6 +42,9 @@
     "compression_ratio": {
       "type": "decimal"
     },
+    "fuel_system": {
+      "type": "string"
+    },
     "ecu_code": {
       "type": "string"
     },
@@ -60,7 +63,8 @@
         "Euro 4",
         "Euro 5",
         "Euro 6",
-        "Euro 7"
+        "Euro 7",
+        "LEV"
       ]
     },
     "fuel_grade": {

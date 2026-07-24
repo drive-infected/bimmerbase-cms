@@ -1,0 +1,1654 @@
+[
+  {
+    "slug": "m10",
+    "subtitle_ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1961–1988 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M10 was BMW’s first mass-produced straight-4 petrol engine, launched in 1961 and remaining in production until 1988. Its cast-iron block, aluminium crossflow cylinder head, chain-driven SOHC and two valves per cylinder established a durable and tuneable architecture that powered models from the 1500 'Neue Klasse' to the E30 3 Series, including the 2002 and 2002 Turbo. The M10 also formed the basis for BMW’s early turbocharged competition engines in Formula 1."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Cast-iron block, aluminium crossflow head",
+      "Chain-driven single overhead camshaft (SOHC)",
+      "2 valves per cylinder, V-shaped valve arrangement",
+      "Forged crankshaft in most versions",
+      "Displacement range: 1.5–2.0 L",
+      "Served as foundation for turbocharged M12/13 racing engines",
+      "Famous for durability and mechanical simplicity"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M10 underwent several incremental improvements rather than a single TU. In 1968 the stroke was increased for 2.0 L variants, and in 1975 electronic fuel injection (Bosch L-Jetronic) replaced carburettors on higher output versions. The cylinder head was revised in 1980 to improve cooling and reliability. No major architecture changes were made until its replacement by the M40 in 1987."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M10 — первый массовый рядный 4-цилиндровый бензиновый двигатель BMW, выпускавшийся с 1961 по 1988 год. Чугунный блок, алюминиевая поперечно-проточная головка, цепной привод SOHC и два клапана на цилиндр обеспечили прочную и хорошо поддающуюся форсировке конструкцию, которая устанавливалась начиная с «нового класса» 1500 и заканчивая E30, включая культовый 2002 и 2002 Turbo. M10 также послужил базой для турбомоторов Формулы-1."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Чугунный блок, алюминиевая поперечная головка",
+      "Цепной привод одного верхнего распредвала (SOHC)",
+      "2 клапана на цилиндр, V-образное расположение",
+      "Кованый коленвал на большинстве версий",
+      "Рабочий объём от 1,5 до 2,0 л",
+      "Основа для турбодвигателей M12/13 в автоспорте",
+      "Известен надёжностью и простотой обслуживания"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "М10 подвергался поэтапной модернизации без официального индекса TU. В 1968 году ход поршня был увеличен для 2-литровых вариантов, а в 1975-м карбюраторы уступили место электронному впрыску Bosch L-Jetronic на мощных модификациях. В 1980 году доработана головка блока для улучшения охлаждения. Конструктивная схема осталась неизменной до замены семейством M40 в 1987 году."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m40",
+    "subtitle_ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1987–1994 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M40 replaced the M10 in 1987 as BMW’s entry-level four-cylinder engine. It featured a lighter cast-iron block, a new SOHC cylinder head with toothed belt drive, and hydraulic valve clearance adjustment. Available as 1.6 and 1.8 L, it powered the E30 3 Series and early E36 models. While smoother and quieter than the M10, the M40 was prone to camshaft wear issues that were addressed by its successor, the M43."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Cast-iron block, aluminium SOHC head",
+      "Toothed belt camshaft drive with automatic tensioner",
+      "Hydraulic tappets (no valve adjustment required)",
+      "4 valves per cylinder",
+      "Crossflow cylinder head",
+      "Distributorless ignition on later versions"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M40 did not receive a TU designation. Production changes included the introduction of a distributorless ignition system from 1990 and minor revisions to the camshaft bearings to mitigate wear. It was replaced by the M43 in 1993, which returned to a chain-driven camshaft and resolved the camshaft reliability concerns."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M40 пришёл на смену M10 в 1987 году как базовый четырёхцилиндровый двигатель BMW. Облегчённый чугунный блок, новая головка SOHC с ремённым приводом и гидрокомпенсаторами зазоров клапанов. Выпускался объёмом 1,6 и 1,8 л, устанавливался на E30 и ранние E36. Был тише и мягче предшественника, но имел проблемы с износом распредвала, устранённые в наследнике M43."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Чугунный блок, алюминиевая головка SOHC",
+      "Ремённый привод ГРМ с автоматическим натяжителем",
+      "Гидрокомпенсаторы клапанов",
+      "4 клапана на цилиндр",
+      "Поперечное сечение головки",
+      "Безраспределительное зажигание на поздних версиях"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Официального обновления TU семейство M40 не получало. В ходе выпуска с 1990 года внедрено безраспределительное зажигание, а также доработаны постели распредвала для снижения износа. Заменён двигателем M43 в 1993 году, который вернул цепной привод и решил проблемы надёжности распредвала."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m42",
+    "subtitle_ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1989–1996 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M42 was BMW’s first mass-produced 16-valve four-cylinder engine, introduced in 1989. It featured an aluminium block with cast iron liners, chain-driven DOHC, and hydraulic tappets. Displacing 1.8 L, it delivered 140 hp in European trim. It equipped the E30 318is, E36 318is/318ti, and the Z3 1.8, praised for its free-revving character. The chain-driven valvetrain gave it a durability edge over the belt-driven M40."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Aluminium block with cast iron liners",
+      "DOHC, chain-driven, 16 valves",
+      "Hydraulic tappets",
+      "Bosch Motronic M1.7 engine management",
+      "140 hp (ECE) in 1.8 L form",
+      "Rev-happy character, 6500 rpm redline"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M42 received a minor revision in 1992, which included an updated camshaft chain tensioner and a revised intake manifold for improved torque. No major TU was applied. It was replaced by the M44 in 1996."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M42 — первый массовый 16-клапанный четырёхцилиндровый двигатель BMW, появившийся в 1989 году. Алюминиевый блок с чугунными гильзами, цепной привод DOHC и гидрокомпенсаторы. При объёме 1,8 л развивал 140 л.с. в европейской версии. Устанавливался на E30 318is, E36 318is/318ti и Z3 1.8, заслужив репутацию «любящего обороты». Цепной ГРМ выгодно отличал его от ремённого M40."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Алюминиевый блок с чугунными гильзами",
+      "DOHC, цепной привод, 16 клапанов",
+      "Гидрокомпенсаторы",
+      "Система управления Bosch Motronic M1.7",
+      "140 л.с. (ECE) при 1,8 л",
+      "Склонность к высоким оборотам, отсечка на 6500 об/мин"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "В 1992 году M42 претерпел небольшие изменения: усиленный натяжитель цепи ГРМ и доработанный впускной коллектор для улучшения крутящего момента. Официального индекса TU не присваивалось. В 1996 году заменён двигателем M44."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m43",
+    "subtitle_ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1993–2000 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M43 replaced the M40 in 1993, returning to a chain-driven SOHC valvetrain to address the reliability concerns of its predecessor. It featured a cast-iron block, aluminium head, and 4 valves per cylinder. Available in 1.6, 1.8 and 1.9 L, it powered the E36 316i/318i and early E46 316i/318i models. It was prized for its smoothness and durability, eliminating the camshaft wear issues of the M40."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Chain-driven SOHC, 4 valves per cylinder",
+      "Cast-iron block, aluminium crossflow head",
+      "Hydraulic tappets",
+      "Bosch Motronic M5.2 engine management",
+      "Return to chain for improved reliability",
+      "Available as 1.6, 1.8, 1.9 L"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M43 had no TU. It saw incremental updates such as a revised intake manifold in 1995 and later versions received a secondary air system for emissions. It was succeeded by the N42 in 2001, which introduced Valvetronic and dual VANOS."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M43 пришёл на смену M40 в 1993 году, вернув цепной привод ГРМ для повышения надёжности. Чугунный блок, алюминиевая головка, 4 клапана на цилиндр. Объёмы: 1,6, 1,8 и 1,9 л. Устанавливался на E36 316i/318i и ранние E46 316i/318i, ценился за плавность работы и долговечность, полностью решив проблемы с износом распредвала."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Цепной привод SOHC, 4 клапана на цилиндр",
+      "Чугунный блок, алюминиевая поперечная головка",
+      "Гидрокомпенсаторы",
+      "Система управления Bosch Motronic M5.2",
+      "Возврат к цепному приводу для большей надёжности",
+      "Доступен объёмом 1,6, 1,8, 1,9 л"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Официального TU не было. В 1995 году изменён впускной коллектор, поздние версии получили систему вторичного воздуха для снижения токсичности. Заменён двигателем N42 в 2001 году с Valvetronic и двойным VANOS."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m44",
+    "subtitle_ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1996–2001 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M44 was a development of the M42, launched in 1996. Displacement increased to 1.9 L, power rose to 140 hp (ECE). It retained the aluminium block, chain-driven DOHC, and 16 valves. Used mainly in the E36 318is/318ti and Z3 1.9, it featured Siemens MS41 engine management and an improved low-end torque."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "1.9 L displacement (up from 1.8 L)",
+      "Aluminium block, chain-driven DOHC",
+      "Siemens MS41 engine management",
+      "140 hp (ECE), 180 Nm torque",
+      "Coil-on-plug ignition"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU was applied. The M44 was replaced by the N42 in 2001."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M44 — развитие M42, появившееся в 1996 году. Рабочий объём увеличен до 1,9 л, мощность составила 140 л.с. (ECE). Сохранил алюминиевый блок, цепной привод DOHC и 16 клапанов. Устанавливался на E36 318is/318ti и Z3 1.9, получил систему управления Siemens MS41 и улучшенный крутящий момент на низких оборотах."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "1,9 л (вместо 1,8 л)",
+      "Алюминиевый блок, цепной привод DOHC",
+      "Система управления Siemens MS41",
+      "140 л.с., 180 Н·м",
+      "Индивидуальные катушки зажигания"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Обновлений TU не было. Заменён двигателем N42 в 2001 году."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "n42",
+    "subtitle_ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 2001–2006 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The N42 introduced Valvetronic variable valve lift and dual VANOS to BMW's four-cylinder range in 2001. It featured an aluminium block, chain-driven DOHC, and 4 valves per cylinder. Available in 1.8 and 2.0 L, it powered the E46 316i/318i/320i, E46 Compact, and E83 X3 2.0i. It offered improved fuel efficiency and emissions, though early versions suffered from timing chain and oil consumption issues."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Valvetronic variable valve lift",
+      "Dual VANOS",
+      "Aluminium block, chain-driven DOHC",
+      "4 valves per cylinder",
+      "Siemens MS45 engine management"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU, but later production saw improvements to the timing chain tensioner and oil control rings to address reliability concerns. Replaced by the N46 in 2004."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "N42 — первый четырёхцилиндровый двигатель BMW с системой Valvetronic и двойным VANOS, дебютировал в 2001 году. Алюминиевый блок, цепной привод DOHC, 4 клапана на цилиндр. Объёмы 1,8 и 2,0 л, устанавливался на E46 316i/318i/320i, E46 Compact и E83 X3 2.0i. Обеспечил высокую топливную экономичность, но ранние экземпляры страдали от проблем с цепью ГРМ и расходом масла."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Valvetronic (регулировка высоты подъёма клапанов)",
+      "Двойной VANOS",
+      "Алюминиевый блок, цепной привод DOHC",
+      "4 клапана на цилиндр",
+      "Система управления Siemens MS45"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Официального TU нет. В процессе выпуска усовершенствованы натяжитель цепи и маслосъёмные кольца для повышения надёжности. С 2004 года заменён двигателем N46."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "n46",
+    "subtitle_ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 2004–2012 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The N46 replaced the N42 in 2004, retaining Valvetronic and dual VANOS. It featured a revised aluminium block, improved piston rings, and updated engine management (Siemens MS45.1 / MSV70). Displacements of 1.8 and 2.0 L were offered. The engine powered a wide range of BMW models, including the E87/E88 1 Series (116i, 118i, 120i), E90/E91 3 Series (316i, 318i, 320i), E60/E61 5 Series (520i), E83 X3 (xDrive18i, xDrive20i), E84 X1 (sDrive18i, xDrive20i), and E85 Z4 (2.0i). It delivered better reliability and slightly higher power outputs than its predecessor."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Valvetronic II (variable valve lift)",
+      "Dual VANOS",
+      "Aluminium block, chain-driven DOHC",
+      "4 valves per cylinder",
+      "Improved oil control rings",
+      "Siemens MS45.1 / MSV70 engine management"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No formal Technical Update was applied to the N46. Small running changes included updates to the VANOS solenoids and crankcase ventilation. It was phased out from 2011 with the introduction of the N13 and N20 turbocharged engines."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "N46 пришёл на смену N42 в 2004 году, сохранив Valvetronic и двойной VANOS. Получил доработанный алюминиевый блок, улучшенные маслосъёмные кольца и обновлённое управление (Siemens MS45.1 / MSV70). Выпускался в объёмах 1,8 и 2,0 литра. Применялся на широком спектре моделей: E87/E88 1-й серии (116i, 118i, 120i), E90/E91 3-й серии (316i, 318i, 320i), E60/E61 5-й серии (520i), E83 X3 (xDrive18i, xDrive20i), E84 X1 (sDrive18i, xDrive20i) и E85 Z4 (2.0i). Отличался возросшей надёжностью и немного увеличенной мощностью по сравнению с предшественником."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Valvetronic II (регулировка высоты подъёма клапанов)",
+      "Двойной VANOS",
+      "Алюминиевый блок, цепной привод DOHC",
+      "4 клапана на цилиндр",
+      "Улучшенные маслосъёмные кольца",
+      "Системы управления Siemens MS45.1 / MSV70"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Официального технического обновления (TU) N46 не получил. В процессе выпуска вносились небольшие изменения, такие как модернизация соленоидов VANOS и системы вентиляции картера. С 2011 года постепенно вытеснялся турбированными двигателями N13 и N20."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m20",
+    "subtitle_ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1977–1993 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M20 was BMW's workhorse straight-six from 1977 to 1993. It featured a cast-iron block, aluminium head, belt-driven SOHC, and 2 valves per cylinder. Displacements ranged from 2.0 to 2.7 L, powering the E21 320/323i, E30 320i/325i/325e, E28 520i/525i, E34 520i/525i, and E12 520. Renowned for its smoothness and reliability, the M20 was the basis for numerous tuning projects and motorsport applications."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Cast-iron block, aluminium crossflow head",
+      "Belt-driven SOHC, 2 valves per cylinder",
+      "Inline-6 layout for perfect balance",
+      "Forged crankshaft on most versions",
+      "Bosch L-Jetronic or Motronic fuel injection",
+      "Available as carburettor and injected variants"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M20 received incremental updates: in 1982 Bosch Motronic replaced L-Jetronic on higher models, and the cylinder head was revised in 1985 for better cooling. No formal TU. Replaced by the M50 in 1990."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M20 — рядный 6-цилиндровый бензиновый двигатель BMW, выпускавшийся с 1977 по 1993 год. Чугунный блок, алюминиевая головка, ремённый привод SOHC и 2 клапана на цилиндр. Объём от 2,0 до 2,7 л. Устанавливался на E21 320/323i, E30 320i/325i/325e, E28 520i/525i, E34 520i/525i, E12 520. Заслужил репутацию плавного и надёжного агрегата, популярного у тюнеров и в автоспорте."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Чугунный блок, алюминиевая поперечная головка",
+      "Ремённый привод SOHC, 2 клапана на цилиндр",
+      "Рядная «шестёрка» с идеальным балансом",
+      "Кованый коленвал на большинстве версий",
+      "Системы впрыска Bosch L-Jetronic или Motronic",
+      "Доступны карбюраторные и инжекторные модификации"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Поэтапная модернизация: в 1982 году Motronic заменил L-Jetronic на мощных версиях, в 1985-м доработана головка блока. Официального TU не было. С 1990 года вытеснен двигателем M50."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m30",
+    "subtitle_ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1968–1994 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M30 was BMW's legendary large straight-six, introduced in 1968. With a cast-iron block, chain-driven SOHC, and 2 valves per cylinder, it ranged from 2.5 to 3.4 L. It powered the E3 2500/2800/3.0, E9 2800/3.0 CS, E12 525/528/535, E24 630/635CSi, E23 728/735, E28 525i/528i/535i, E34 530i/535i, and E32 730i/735i. The M30 was known for immense torque and durability, with the 3.4 L version becoming an icon of the 1980s."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Cast-iron block, aluminium crossflow head",
+      "Chain-driven SOHC, 2 valves per cylinder",
+      "Displacement up to 3.4 L",
+      "Bosch D-Jetronic, L-Jetronic, and later Motronic injection",
+      "Extremely robust crankshaft and bearings"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M30 went through several generations: D-Jetronic (1968–1975), L-Jetronic (1975–1982), and Motronic (1982–1994). Power and torque rose with each update. No TU designation was used, but the engine was thoroughly revised in 1982 with higher compression and a new head design. It was replaced by the M60 V8 in the upper segments and the M50 in the mid-range."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M30 — легендарная большая рядная «шестёрка» BMW, представленная в 1968 году. Чугунный блок, цепной привод SOHC, 2 клапана на цилиндр. Объём от 2,5 до 3,4 л. Устанавливался на E3 2500/2800/3.0, E9 2800/3.0 CS, E12 525/528/535, E24 630/635CSi, E23 728/735, E28 525i/528i/535i, E34 530i/535i и E32 730i/735i. Славился огромным крутящим моментом и непревзойдённой надёжностью; 3,4-литровая версия стала иконой 1980-х."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Чугунный блок, алюминиевая поперечная головка",
+      "Цепной привод SOHC, 2 клапана на цилиндр",
+      "Объём до 3,4 л",
+      "Системы впрыска D-Jetronic, L-Jetronic и Motronic",
+      "Исключительно прочный коленвал и подшипники"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M30 прошёл несколько этапов: D-Jetronic (1968–1975), L-Jetronic (1975–1982), Motronic (1982–1994). Мощность и момент росли с каждым обновлением. Без обозначения TU, но в 1982 году двигатель серьёзно переработан: повышенная степень сжатия, новая головка. Заменён V8 M60 в верхних сериях и рядной «шестёркой» M50 в среднем классе."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m50",
+    "subtitle_ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1989–1998 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M50 marked a leap forward for BMW's straight-six family when it debuted in 1989. It introduced chain-driven DOHC and 4 valves per cylinder. Initially with a cast-iron block, later versions gained VANOS variable valve timing on the intake camshaft. Displacements: 2.0 and 2.5 L. It powered the E36 320i/325i, E34 520i/525i, and early E39 520i/523i/525i, delivering a rev-happy character and excellent efficiency."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Chain-driven DOHC, 4 valves per cylinder",
+      "Optional VANOS (single, intake) from 1992",
+      "Cast-iron block (later models)",
+      "Bosch Motronic M3.1 or Siemens MS40 engine management",
+      "High redline, free-revving nature"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M50 received a major TU in 1992 (M50TU), adding VANOS on the intake camshaft and switching to Siemens MS40 management. This improved torque across a wider rev range. It was replaced by the all-alloy M52 in 1994."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M50 — значительный шаг вперёд для рядных «шестёрок» BMW, появился в 1989 году. Впервые применены цепной привод DOHC и 4 клапана на цилиндр. Изначально чугунный блок, с 1992 года — система VANOS на впускном распредвале. Объёмы 2,0 и 2,5 л. Устанавливался на E36 320i/325i, E34 520i/525i и ранние E39 520i/523i/525i. Отличался «взрывным» характером и высокой эффективностью."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Цепной привод DOHC, 4 клапана на цилиндр",
+      "VANOS (одинарный, впуск) с 1992 года",
+      "Чугунный блок (на ранних версиях)",
+      "Системы управления Bosch Motronic M3.1 или Siemens MS40",
+      "Высокая «отсечка», склонность к оборотам"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "В 1992 году M50 получил серьёзное обновление (M50TU): добавлен VANOS на впускном распредвале, система управления заменена на Siemens MS40. Это расширило полку крутящего момента. С 1994 года вытеснен полностью алюминиевым M52."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m52",
+    "subtitle_ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1994–2001 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M52 succeeded the M50 in 1994, featuring an aluminium block (except in the US) and single VANOS. Displacements: 2.0, 2.5, and 2.8 L. It powered the E36 320i/323i/328i, E39 520i/523i/528i, E38 728i, and Z3 2.8. The lightweight construction improved handling and efficiency, while the torque-rich 2.8 L became a favourite."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Aluminium block (US versions: cast iron)",
+      "Single VANOS on intake",
+      "Chain-driven DOHC, 4 valves per cylinder",
+      "Siemens MS41 / MS42 engine management",
+      "Improved NVH and fuel economy"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M52 received a TU in 1998 (M52TU), adding dual VANOS on selected models and switching to Siemens MS42 with a fully electronic throttle. This improved emissions and driveability. It was replaced by the M54 in 2000."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M52 сменил M50 в 1994 году. Алюминиевый блок (кроме рынка США), одиночный VANOS. Объёмы: 2,0, 2,5 и 2,8 л. Устанавливался на E36 320i/323i/328i, E39 520i/523i/528i, E38 728i и Z3 2.8. Лёгкая конструкция улучшила управляемость и экономичность, а тяговитый 2,8-литровый вариант стал особенно популярен."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Алюминиевый блок (в США — чугунный)",
+      "Одинарный VANOS на впуске",
+      "Цепной привод DOHC, 4 клапана на цилиндр",
+      "Системы управления Siemens MS41 / MS42",
+      "Снижение вибраций и шума, лучшая экономичность"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "В 1998 году семейство получило TU (M52TU): двойной VANOS на некоторых моделях, полностью электронная дроссельная заслонка и блок управления MS42. Это повысило экологичность и отзывчивость. Заменён двигателем M54 в 2000 году."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m54",
+    "subtitle_ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 2000–2006 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M54 is the final evolution of BMW's classic naturally aspirated straight-six petrol engine family, produced from 2000 to 2006. It introduced a fully electronic throttle (drive-by-wire), dual VANOS as standard, and a revised aluminium block with cast iron liners. Displacements of 2.2, 2.5, and 3.0 L delivered 170–231 hp. The M54 powered the E46 320i/325i/330i, E39 520i/525i/530i, E53 X5 3.0i, E83 X3 2.5i/3.0i, Z3 2.5i/3.0i, and Z4 2.5i/3.0i. It is widely regarded as one of the most refined, reliable, and sonorous straight-six engines ever built."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Aluminium block with cast iron liners",
+      "Dual VANOS (variable valve timing on intake and exhaust)",
+      "Fully electronic throttle (drive-by-wire)",
+      "Siemens MS43/MS45 DME with OBD II",
+      "Coil-on-plug ignition system",
+      "Lightweight hollow camshafts",
+      "Improved fuel efficiency and emissions over M52"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M54 did not receive a formal Technical Update (TU) during its production run. However, small running changes were introduced: in 2003, the 3.0 L version received a revised intake manifold with DISA valve, and the DME was updated to MS45 for US models to meet LEV regulations. No major mechanical revisions were made."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M54 — атмосферный рядный 6-цилиндровый бензиновый двигатель BMW, выпускавшийся с 2000 по 2006 год. Пришёл на смену M52, принеся с собой полностью электронную дроссельную заслонку, двойной VANOS и усовершенствованный алюминиевый блок с чугунными гильзами. Рабочий объём от 2,2 до 3,0 л, мощность 170–231 л.с. Устанавливался на E46 320i/325i/330i, E39 520i/525i/530i, E53 X5 3.0i, E83 X3 2.5i/3.0i, Z3 2.5i/3.0i и Z4 2.5i/3.0i. M54 считается одним из наиболее удачных и надёжных рядных «шестёрок» BMW."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Алюминиевый блок с чугунными гильзами цилиндров",
+      "Двойной VANOS (изменение фаз на впуске и выпуске)",
+      "Полностью электронная дроссельная заслонка",
+      "Система управления Siemens MS43/MS45",
+      "Индивидуальные катушки зажигания",
+      "Облегчённые полые распредвалы",
+      "Улучшенная топливная экономичность и экологичность"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Официального технического обновления (TU) M54 не получал. В процессе выпуска происходили небольшие доработки: в 2003 году 3-литровая версия получила изменённый впускной коллектор с клапаном DISA, а для рынка США блок управления был заменён на MS45 для соответствия нормам LEV. Серьёзных механических изменений не вносилось."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "s38",
+    "subtitle_ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1985–1996 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The S38 is the high-performance derivative of the M30, developed by BMW M for the E28 M5, E34 M5, and E24 M6. It featured a cast-iron block, DOHC 24-valve head, individual throttle bodies, and chain-driven camshafts. Displacement grew from 3.5 to 3.8 L, power from 286 to 340 hp. The S38 defined the super-sedan genre with its motorsport DNA and screaming inline-6 character."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Cast-iron block, aluminium DOHC 24-valve head",
+      "Individual throttle bodies per cylinder",
+      "Chain-driven camshafts, mechanical tappets (early)",
+      "Bosch Motronic engine management",
+      "3.5–3.8 L, up to 340 hp",
+      "Hand-built by BMW M"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The S38 evolved over three versions: B35 (E28 M5, 286 hp), B36 (E34 M5, 315 hp), and B38 (E34 M5, 340 hp). The B38 introduced a larger displacement and a stronger crankshaft. It was succeeded by the S50 in the E36 M3."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "S38 — высокофорсированный мотор подразделения BMW M, созданный на базе M30. Устанавливался на E28 M5, E34 M5 и E24 M6. Чугунный блок, DOHC 24-клапанная головка с индивидуальными дроссельными заслонками, цепной привод. Объём от 3,5 до 3,8 л, мощность 286–340 л.с. S38 воплотил дух автоспорта в дорожном седане."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Чугунный блок, алюминиевая 24-клапанная головка DOHC",
+      "Индивидуальные дроссельные заслонки на каждый цилиндр",
+      "Цепной привод ГРМ, механические толкатели (ранние)",
+      "Управление Bosch Motronic",
+      "Объём 3,5–3,8 л, до 340 л.с.",
+      "Ручная сборка BMW M"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "S38 развивался в трёх версиях: B35 (E28 M5, 286 л.с.), B36 (E34 M5, 315 л.с.) и B38 (E34 M5, 340 л.с.). В версии B38 увеличен рабочий объём и усилен коленвал. Заменён двигателем S50 в E36 M3."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "s50",
+    "subtitle_ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1995–2000 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The S50 was the M Division's straight-six for the E36 M3. Available as 3.0 and 3.2 L, it featured a cast-iron block, DOHC 24-valve head, individual throttle bodies, and double VANOS (on the 3.2 L). Power ranged from 286 to 321 hp. The S50 is celebrated for its razor-sharp throttle response and motorsport-derived technology."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Cast-iron block, aluminium DOHC head",
+      "Individual throttle bodies per cylinder",
+      "Double VANOS (S50B32)",
+      "Chain-driven camshafts, solid tappets",
+      "286–321 hp, 320–350 Nm"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The S50B30 (1995–1996) had no VANOS. The S50B32 (1996–2000) introduced double VANOS, a larger displacement, and a revised intake. It was replaced by the S54 in 2000."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "S50 — рядный 6-цилиндровый мотор подразделения M для E36 M3. Объём 3,0 и 3,2 л, чугунный блок, DOHC с индивидуальными дросселями, двойной VANOS на 3,2 л. Мощность 286–321 л.с. Отличался мгновенным откликом на педаль газа и технологиями из автоспорта."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Чугунный блок, алюминиевая головка DOHC",
+      "Индивидуальные дроссельные заслонки на каждый цилиндр",
+      "Двойной VANOS (S50B32)",
+      "Цепной привод ГРМ, жёсткие толкатели",
+      "286–321 л.с., 320–350 Н·м"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "S50B30 (1995–1996) без VANOS. S50B32 (1996–2000) получил двойной VANOS, увеличенный объём и доработанный впуск. С 2000 года заменён двигателем S54."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "s52",
+    "subtitle_ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1996–2000 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The S52 was the US-spec E36 M3 engine, based on the M52 block. It displaced 3.2 L and produced 240 hp, significantly less than its European S50 counterpart due to milder cams and intake restrictions. It used a cast-iron block (aluminium in some later runs) and single VANOS. Despite its lower output, it offered robust reliability and ample torque."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Based on M52 block (iron, later aluminium)",
+      "Single VANOS",
+      "DOHC, 4 valves per cylinder",
+      "Siemens MS41.1 management",
+      "240 hp, 320 Nm"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU. The S52 was unique to the North American market and was discontinued in 2000 with the end of E36 M3 production."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "S52 — американская версия двигателя для E36 M3, построенная на основе блока M52. Рабочий объём 3,2 л, мощность 240 л.с. Имела менее агрессивные распредвалы и впуск, чем европейский S50. Отличалась надёжностью и хорошим крутящим моментом."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Блок на основе M52 (чугун/алюминий)",
+      "Одинарный VANOS",
+      "DOHC, 4 клапана на цилиндр",
+      "Система управления Siemens MS41.1",
+      "240 л.с., 320 Н·м"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Обновлений TU не было. S52 выпускался только для рынка США и прекратил существование с окончанием производства E36 M3 в 2000 году."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "s54",
+    "subtitle_ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 2000–2006 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The S54 is the pinnacle of BMW M's naturally aspirated straight-six engines, powering the E46 M3, Z3 M Coupe/Roadster, and Z4 M Coupe/Roadster. It features a cast-iron block, DOHC 24-valve head with individual throttle bodies, double VANOS, and a 3.2 L capacity. Output was 343 hp in European trim and 333 hp in the US. The S54 earned multiple Engine of the Year awards for its extraordinary 8000 rpm redline and razor-sharp response."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Cast-iron block, aluminium DOHC head",
+      "Individual throttle bodies per cylinder",
+      "Double VANOS",
+      "Chain-driven camshafts, solid tappets",
+      "Siemens MSS54 engine management",
+      "343 hp (ECE), 8000 rpm redline"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU. The S54 remained largely unchanged throughout its life. Early models had a recall for connecting rod bearings, which was addressed with a revised oil pump and bearing material. It was the last naturally aspirated M inline-6, replaced by the turbocharged S55 in 2014."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "S54 — вершина атмосферных рядных «шестёрок» BMW M, устанавливался на E46 M3, Z3 M Coupe/Roadster и Z4 M Coupe/Roadster. Чугунный блок, DOHC с индивидуальными дросселями, двойной VANOS, 3,2 л. Мощность 343 л.с. (Европа) и 333 л.с. (США). Неоднократно признавался двигателем года за потрясающую отсечку в 8000 об/мин и острейший отклик."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Чугунный блок, алюминиевая головка DOHC",
+      "Индивидуальные дроссельные заслонки на каждый цилиндр",
+      "Двойной VANOS",
+      "Цепной привод ГРМ, жёсткие толкатели",
+      "Система управления Siemens MSS54",
+      "343 л.с., красная зона с 8000 об/мин"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Официального TU не было. S54 практически не менялся на протяжении выпуска. В ранних моделях проводился отзыв по шатунным вкладышам, устранённый улучшенным масляным насосом и материалом. Это последний атмосферный рядный 6-цилиндровый мотор M, заменён турбированным S55 в 2014 году."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m60",
+    "subtitle_ru": "Атмосферный V8 бензиновый двигатель BMW 1992–1996 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M60 was BMW's first mass-produced V8 engine since the 1960s, launched in 1992. It featured an aluminium block and heads, chain-driven DOHC with 4 valves per cylinder, and a 90-degree bank angle. Available as 3.0 and 4.0 L, it powered the E34 530i/540i, E32 730i/740i, E31 840Ci, and E38 730i/740i. The 4.0 L version was renowned for its torque and durability, though early Nikasil-lined blocks suffered from high-sulphur fuel issues."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "All-aluminium construction",
+      "DOHC, 4 valves per cylinder",
+      "Chain-driven camshafts",
+      "90-degree V8",
+      "Bosch Motronic M3.3 engine management"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU, but a major running change occurred in 1995 when BMW switched from Nikasil to Alusil cylinder liners in markets with high-sulphur fuel to prevent premature wear. The M60 was replaced by the M62 in 1996."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M60 — первый массовый V8 BMW с 1960-х годов, дебютировал в 1992 году. Полностью алюминиевый блок и головки, цепной привод DOHC, 4 клапана на цилиндр, угол развала 90°. Объёмы 3,0 и 4,0 л. Устанавливался на E34 530i/540i, E32 730i/740i, E31 840Ci и E38 730i/740i. 4,0-литровая версия славилась моментом и надёжностью, хотя ранние блоки с покрытием Nikasil страдали от высокосернистого топлива."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Полностью алюминиевая конструкция",
+      "DOHC, 4 клапана на цилиндр",
+      "Цепной привод ГРМ",
+      "V8 с углом развала 90°",
+      "Система управления Bosch Motronic M3.3"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Без индекса TU, но в 1995 году для рынков с высокосернистым бензином Nikasil заменён на Alusil для предотвращения износа цилиндров. С 1996 года вытеснен двигателем M62."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m62",
+    "subtitle_ru": "Атмосферный V8 бензиновый двигатель BMW 1996–2005 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M62 replaced the M60 in 1996, bringing an all-aluminium block (Alusil), revised intake manifold, and later single VANOS on intake camshafts. Displacements: 3.5 and 4.4 L. It powered the E38 735i/740i, E39 535i/540i, E53 X5 4.4i, and Range Rover (L322). The 4.4 L became a benchmark for smoothness and torque in its class."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "All-aluminium block with Alusil liners",
+      "DOHC, 4 valves per cylinder",
+      "Chain-driven camshafts",
+      "Optional single VANOS (M62TU)",
+      "Bosch Motronic ME5.2 / ME7.2 management"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "In 1998, the M62 received a Technical Update (M62TU) that added VANOS on the intake camshafts, a fully electronic throttle, and Siemens MS42 / Bosch ME7.2 engine management. This improved torque delivery and emissions. The M62TU was used until 2005, when it was succeeded by the N62."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M62 сменил M60 в 1996 году, получив блок Alusil, переработанный впускной коллектор и позднее одиночный VANOS на впускных распредвалах. Объёмы 3,5 и 4,4 л. Устанавливался на E38 735i/740i, E39 535i/540i, E53 X5 4.4i и Range Rover (L322). 4,4-литровый двигатель стал эталоном плавности и тяги в своём классе."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Алюминиевый блок с покрытием Alusil",
+      "DOHC, 4 клапана на цилиндр",
+      "Цепной привод ГРМ",
+      "Одинарный VANOS (M62TU)",
+      "Системы управления Bosch ME5.2 / ME7.2"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "В 1998 году M62 прошёл модернизацию (M62TU): добавлен VANOS на впускных распредвалах, электронная дроссельная заслонка и управление Siemens MS42/Bosch ME7.2. Это улучшило моментные характеристики и экологичность. M62TU выпускался до 2005 года, после чего уступил место N62."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "s62",
+    "subtitle_ru": "Атмосферный V8 бензиновый двигатель BMW 1998–2003 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The S62 is the M Division's masterpiece V8, powering the E39 M5 and E52 Z8. Based on the M62 architecture, it featured a fully reworked aluminium block, individual throttle bodies per cylinder, double VANOS, and a 5.0 L displacement producing 400 hp. It defined the super-sedan segment with its motorsport-derived technology and explosive performance."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "5.0 L all-aluminium V8",
+      "Individual throttle bodies per cylinder (eight)",
+      "Double VANOS",
+      "DOHC, 4 valves per cylinder",
+      "Bosch Motronic MSS52 management",
+      "400 hp, 500 Nm"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU. The S62 remained virtually unchanged during its production run. It was replaced by the S85 V10 in the E60 M5 in 2005."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "S62 — шедевр подразделения M, V8 для E39 M5 и E52 Z8. На основе архитектуры M62, но с полностью переработанным алюминиевым блоком, восемью индивидуальными дросселями, двойным VANOS и объёмом 5,0 л. Мощность 400 л.с. олицетворяла идеал быстрого седана с технологиями из автоспорта."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "5,0-литровый полностью алюминиевый V8",
+      "Восемь индивидуальных дроссельных заслонок",
+      "Двойной VANOS",
+      "DOHC, 4 клапана на цилиндр",
+      "Управление Bosch Motronic MSS52",
+      "400 л.с., 500 Н·м"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "TU не проводилось. S62 практически не менялся на протяжении выпуска. С 2005 года его сменил V10 S85 в модели E60 M5."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m70",
+    "subtitle_ru": "Атмосферный V12 бензиновый двигатель BMW 1987–1994 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M70 was BMW's first production V12, introduced in 1987 for the E32 750i/iL. It was a 5.0 L, all-aluminium, SOHC 2-valve engine with a 60-degree bank angle, effectively two M20 engines on a common crankshaft. It delivered 300 hp and immense smoothness, establishing BMW's foothold in the luxury limousine market. Later also used in the E31 850i."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "5.0 L all-aluminium V12, 60-degree",
+      "SOHC, 2 valves per cylinder",
+      "Two independent Motronic DMEs (one per bank)",
+      "300 hp, 450 Nm",
+      "Extremely smooth and quiet operation"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU. The M70 was replaced by the M73 in 1994, which increased displacement to 5.4 L and added four valves per cylinder."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M70 — первый серийный V12 концерна BMW, появился в 1987 году на модели E32 750i/iL. 5,0 л, полностью алюминиевый, SOHC с двумя клапанами на цилиндр, угол развала 60°. По сути два двигателя M20 на общем коленвале. Развивал 300 л.с. и исключительную плавность, закрепив позиции BMW в классе представительских лимузинов. Позднее устанавливался на E31 850i."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "5,0-литровый алюминиевый V12, 60°",
+      "SOHC, 2 клапана на цилиндр",
+      "Два независимых блока Motronic (по одному на банк)",
+      "300 л.с., 450 Н·м",
+      "Исключительная плавность и тишина работы"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "TU не было. В 1994 году заменён двигателем M73 с увеличенным до 5,4 л объёмом и четырьмя клапанами на цилиндр."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m73",
+    "subtitle_ru": "Атмосферный V12 бензиновый двигатель BMW 1994–2002 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M73 replaced the M70 in 1994, increasing displacement to 5.4 L and adopting a new SOHC 4-valve head. It retained the all-aluminium 60-degree V12 architecture and twin DME setup. Power rose to 326 hp. It powered the E38 750i/iL, E31 850Ci, and Rolls-Royce Silver Seraph. The M73 is known for its unmatched refinement and torque."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "5.4 L all-aluminium V12, 60-degree",
+      "SOHC, 4 valves per cylinder",
+      "Twin Bosch Motronic M5.2 DMEs",
+      "326 hp, 490 Nm",
+      "Silent operation, massive torque"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU. The M73 was the last BMW production SOHC V12. It was phased out in 2002 and replaced by the N73, which introduced DOHC and direct injection."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M73 сменил M70 в 1994 году. Рабочий объём увеличен до 5,4 л, появилась головка SOHC с 4 клапанами на цилиндр. Сохранил полностью алюминиевую конструкцию и два блока управления. Мощность 326 л.с. Устанавливался на E38 750i/iL, E31 850Ci и Rolls-Royce Silver Seraph. Славился несравненной плавностью и тишиной."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "5,4-литровый алюминиевый V12, 60°",
+      "SOHC, 4 клапана на цилиндр",
+      "Два блока Bosch Motronic M5.2",
+      "326 л.с., 490 Н·м",
+      "Бесшумная работа, огромный крутящий момент"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Обновлений TU не проводилось. M73 стал последним серийным V12 BMW с архитектурой SOHC. В 2002 году его заменил N73 с DOHC и непосредственным впрыском."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "s70",
+    "subtitle_ru": "Атмосферный V12 бензиновый двигатель BMW 1993–1996 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The S70 is the motorsport-derived V12, most famously powering the McLaren F1. In production form, a 5.6 L version was used in the E31 850CSi. It featured DOHC, 4 valves per cylinder, and individual throttle bodies on the CSi variant. The S70/2 for the McLaren F1 was a 6.1 L masterpiece producing 627 hp, securing its place as one of the greatest engines of all time."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "5.6 L (road) / 6.1 L (McLaren) V12, 60-degree",
+      "DOHC, 4 valves per cylinder",
+      "Individual throttle bodies (850CSi)",
+      "All-aluminium construction",
+      "Motronic engine management",
+      "Up to 627 hp in McLaren F1"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The S70 did not receive a TU. The 850CSi version was discontinued in 1996. The S70/2 remained in the McLaren F1 until 1998."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "S70 — V12 с гоночными корнями, прежде всего известный по легендарному McLaren F1. В дорожной версии 5,6 л устанавливался на E31 850CSi. Оснащался DOHC, 4 клапанами на цилиндр и индивидуальными дросселями (на CSi). Версия S70/2 для McLaren F1 объёмом 6,1 л развивала 627 л.с. и считается одним из величайших двигателей в истории."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "5,6 л (дорожный) / 6,1 л (McLaren) V12, 60°",
+      "DOHC, 4 клапана на цилиндр",
+      "Индивидуальные дроссели (850CSi)",
+      "Полностью алюминиевая конструкция",
+      "Управление Motronic",
+      "До 627 л.с. в McLaren F1"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Обновлений TU не было. Версия для 850CSi снята с производства в 1996 году. S70/2 оставался в McLaren F1 до 1998 года."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m21",
+    "subtitle_ru": "Турбированный рядный 6-цилиндровый дизельный двигатель BMW 1983–1991 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M21 was BMW's first production diesel engine, launched in 1983. It was a 2.4 L inline-6, turbocharged and intercooled, with a cast-iron block, belt-driven SOHC, and 2 valves per cylinder. It powered the E28 524td, E30 324d/324td, and E34 524td, offering up to 115 hp. Though modest by modern standards, the M21 established BMW's diesel reputation for refinement and efficiency."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "2.4 L inline-6, cast-iron block",
+      "Turbocharged and intercooled",
+      "Belt-driven SOHC, 2 valves per cylinder",
+      "Bosch DDE (early electronic diesel control)",
+      "Up to 115 hp, 210 Nm"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU. The M21 was replaced by the chain-driven M51 in 1991, which offered higher output and smoother operation."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M21 — первый дизельный двигатель BMW, появившийся в 1983 году. Рядный 6-цилиндровый объёмом 2,4 л с турбонаддувом и интеркулером. Чугунный блок, ремённый привод SOHC, 2 клапана на цилиндр. Устанавливался на E28 524td, E30 324d/324td и E34 524td, развивая до 115 л.с. Заложил основы репутации BMW как производителя экономичных и тяговитых дизелей."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "2,4-литровая рядная «шестёрка», чугунный блок",
+      "Турбонаддув и интеркулер",
+      "Ремённый привод SOHC, 2 клапана на цилиндр",
+      "Система Bosch DDE (раннее электронное управление)",
+      "До 115 л.с., 210 Н·м"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Официального TU не было. В 1991 году заменён двигателем M51 с цепным приводом ГРМ и более высокими характеристиками."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m51",
+    "subtitle_ru": "Турбированный рядный 6-цилиндровый дизельный двигатель BMW 1991–2000 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M51 replaced the M21 in 1991, introducing a chain-driven SOHC, intercooled turbocharger, and 2 valves per cylinder. Displacement was 2.5 L. It powered the E36 325td/325tds, E34 525td/525tds, E39 525tds, and the Range Rover P38. Power ranged from 115 to 143 hp. The M51 was praised for its torque and fuel economy, though it lacked the refinement of later common-rail diesels."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "2.5 L inline-6, cast-iron block",
+      "Chain-driven SOHC, 2 valves per cylinder",
+      "Turbocharged and intercooled",
+      "Bosch DDE 2.0 / 2.1 management",
+      "Up to 143 hp, 260 Nm"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU, but the M51 received iterative improvements to the turbocharger and injection system. It was succeeded by the M57 common-rail diesel in 1998."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M51 сменил M21 в 1991 году. Получил цепной привод SOHC, турбонаддув с интеркулером и 2 клапана на цилиндр. Рабочий объём 2,5 л. Устанавливался на E36 325td/325tds, E34 525td/525tds, E39 525tds и Range Rover P38. Мощность от 115 до 143 л.с. Отличался хорошей тягой и экономичностью, хотя уступал по плавности более поздним двигателям с Common Rail."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "2,5-литровая рядная «шестёрка», чугунный блок",
+      "Цепной привод SOHC, 2 клапана на цилиндр",
+      "Турбонаддув с интеркулером",
+      "Система управления Bosch DDE 2.0 / 2.1",
+      "До 143 л.с., 260 Н·м"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Без TU, но в процессе выпуска улучшались турбокомпрессор и система впрыска. С 1998 года заменён двигателем M57 с системой Common Rail."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m41",
+    "subtitle_ru": "Турбированный рядный 4-цилиндровый дизельный двигатель BMW 1994–2000 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M41 was BMW's first four-cylinder diesel engine, introduced in 1994. It featured a 1.7 L, turbocharged, intercooled inline-4 with a cast-iron block, chain-driven SOHC, and 2 valves per cylinder. It powered the E36 318tds and delivered 90 hp. Though modest in power, it provided exceptional fuel economy and was crucial in expanding BMW's diesel range."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "1.7 L inline-4, cast-iron block",
+      "Chain-driven SOHC, 2 valves per cylinder",
+      "Turbocharged and intercooled",
+      "Bosch DDE 2.0 management",
+      "90 hp, 190 Nm"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "No TU. The M41 was replaced by the M47 in 1999, which increased displacement to 2.0 L and added 4 valves per cylinder."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M41 — первый четырёхцилиндровый дизельный двигатель BMW, появившийся в 1994 году. Рядный 1,7 л с турбонаддувом и интеркулером, чугунный блок, цепной привод SOHC, 2 клапана на цилиндр. Устанавливался на E36 318tds, развивая 90 л.с. Обеспечивал отличную экономичность и сыграл важную роль в расширении дизельной линейки BMW."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "1,7-литровая рядная «четвёрка», чугунный блок",
+      "Цепной привод SOHC, 2 клапана на цилиндр",
+      "Турбонаддув с интеркулером",
+      "Система управления Bosch DDE 2.0",
+      "90 л.с., 190 Н·м"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Без TU. В 1999 году заменён двигателем M47 с увеличенным до 2,0 л объёмом и 4 клапанами на цилиндр."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m47",
+    "subtitle_ru": "Турбированный рядный 4-цилиндровый дизельный двигатель BMW 1999–2007 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M47 replaced the M41 in 1999, introducing a 2.0 L displacement, DOHC, 4 valves per cylinder, and common-rail fuel injection (from 2001). It powered the E46 320d, E39 520d, E53 X5 2.0d, E83 X3 2.0d, E60/E61 520d, and the Rover 75/MG ZT. With up to 150 hp and 330 Nm, the M47 was a breakthrough for BMW diesels, combining performance with outstanding fuel efficiency."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "2.0 L inline-4, cast-iron block",
+      "DOHC, 4 valves per cylinder",
+      "Chain-driven camshafts",
+      "Common-rail direct injection (M47TU)",
+      "Up to 150 hp, 330 Nm"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M47 received a major TU in 2001 (M47TU), switching from a distributor injection pump to common-rail technology, which greatly improved refinement, power, and emissions. It was replaced by the N47 in 2007."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M47 сменил M41 в 1999 году, увеличив объём до 2,0 л и предложив DOHC с 4 клапанами на цилиндр, а с 2001 года — систему Common Rail. Устанавливался на E46 320d, E39 520d, E53 X5 2.0d, E83 X3 2.0d, E60/E61 520d и Rover 75/MG ZT. Мощность до 150 л.с. и 330 Н·м стали прорывом, сочетая динамику с выдающейся экономичностью."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "2,0-литровая рядная «четвёрка», чугунный блок",
+      "DOHC, 4 клапана на цилиндр",
+      "Цепной привод ГРМ",
+      "Система Common Rail (M47TU)",
+      "До 150 л.с., 330 Н·м"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "В 2001 году M47 прошёл серьёзную модернизацию (M47TU): вместо распределительного ТНВД установлена система Common Rail, что значительно улучшило плавность, мощность и экологичность. Заменён двигателем N47 в 2007 году."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "m57",
+    "subtitle_ru": "Турбированный рядный 6-цилиндровый дизельный двигатель BMW 1998–2005 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M57 is BMW's landmark common-rail straight-6 diesel, introduced in 1998. It featured a cast-iron block, DOHC 24-valve head, chain-driven camshafts, and a variable geometry turbocharger. Displacements: 2.5 and 3.0 L. Power reached 193 hp in the 3.0 L TU version. It powered the E39 525d/530d, E46 330d, E53 X5 3.0d, E38 730d, and Range Rover L322, setting new standards for diesel performance and refinement."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "Cast-iron block, aluminium DOHC head",
+      "Common-rail direct injection",
+      "Variable geometry turbocharger",
+      "Chain-driven camshafts, 4 valves per cylinder",
+      "Up to 193 hp, 410 Nm"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The M57 received a TU in 2002 (M57TU), which increased displacement of the 3.0 L to 2993 cc, added a second turbocharger on some variants, and introduced DDE 5.0 engine management. This pushed output to 218 hp in later applications."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "M57 — знаковый рядный 6-цилиндровый турбодизель BMW с системой Common Rail, дебютировавший в 1998 году. Чугунный блок, DOHC 24 клапана, цепной привод, турбокомпрессор с изменяемой геометрией. Объёмы 2,5 и 3,0 л. Мощность до 193 л.с. (M57TU). Устанавливался на E39 525d/530d, E46 330d, E53 X5 3.0d, E38 730d и Range Rover L322, задав новые стандарты производительности и комфорта для дизельных двигателей."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Чугунный блок, алюминиевая головка DOHC",
+      "Система впрыска Common Rail",
+      "Турбокомпрессор с изменяемой геометрией",
+      "Цепной привод ГРМ, 4 клапана на цилиндр",
+      "До 193 л.с., 410 Н·м"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "В 2002 году проведён TU (M57TU): рабочий объём 3,0 л увеличен до 2993 см³, на некоторых вариантах появился второй турбокомпрессор, управление заменено на DDE 5.0. Это позволило достичь 218 л.с. в поздних версиях."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "n57",
+    "subtitle_ru": "Турбированный рядный 6-цилиндровый дизельный двигатель BMW 2008–2013 годов",
+    "description_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The N57 succeeded the M57 in 2008, featuring an all-aluminium block, common-rail injection with piezo injectors, and a choice of single, twin, or tri-turbo configurations. Displacement 3.0 L. Power ranged from 204 to 381 hp. It powered the E90/E91/E92/E93 330d/335d, E60/E61 530d/535d, E70 X5 xDrive30d/40d, E71 X6 xDrive30d/40d, and F01/F02 730d/740d models, delivering exceptional torque and efficiency while meeting Euro 5 and later Euro 6 standards."
+          }
+        ]
+      }
+    ],
+    "features_en": [
+      "All-aluminium block and head",
+      "Common-rail with piezo injectors",
+      "Single, twin, or triple turbochargers",
+      "DOHC, 4 valves per cylinder",
+      "Chain-driven camshafts",
+      "Up to 381 hp, 740 Nm"
+    ],
+    "technical_update_en": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "The N57 received a TU in 2011 (N57TU), which introduced a revised turbocharging layout, updated injectors, and engine management for Euro 6 compliance. It was gradually replaced by the B57 modular engine from 2015."
+          }
+        ]
+      }
+    ],
+    "description_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "N57 — преемник M57, появился в 2008 году. Полностью алюминиевый блок, Common Rail с пьезофорсунками, варианты с одним, двумя или тремя турбокомпрессорами. Объём 3,0 л. Мощность от 204 до 381 л.с. Устанавливался на E90/E91/E92/E93 330d/335d, E60/E61 530d/535d, E70 X5 xDrive30d/40d, E71 X6 xDrive30d/40d, а также на F01/F02 730d/740d. Обеспечивал исключительный крутящий момент и экономичность при соответствии нормам Euro 5 и Euro 6."
+          }
+        ]
+      }
+    ],
+    "features_ru": [
+      "Полностью алюминиевый блок и головка",
+      "Common Rail с пьезофорсунками",
+      "Один, два или три турбокомпрессора",
+      "DOHC, 4 клапана на цилиндр",
+      "Цепной привод ГРМ",
+      "До 381 л.с., 740 Н·м"
+    ],
+    "technical_update_ru": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "В 2011 году проведён TU (N57TU): изменена схема наддува, обновлены форсунки и управление для соответствия Euro 6. С 2015 года постепенно вытесняется модульным двигателем B57."
+          }
+        ]
+      }
+    ]
+  }
+]

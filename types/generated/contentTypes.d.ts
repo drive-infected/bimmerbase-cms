@@ -706,7 +706,7 @@ export interface ApiEngineFamilyEngineFamily
           localized: false;
         };
       }>;
-    block_material: Schema.Attribute.Enumeration<['Cast iron', 'Aluminium']> &
+    block_material: Schema.Attribute.Enumeration<['cast_iron', 'aluminium']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
@@ -721,7 +721,7 @@ export interface ApiEngineFamilyEngineFamily
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    cylinder_conunt: Schema.Attribute.Integer &
+    cylinder_count: Schema.Attribute.Integer &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
@@ -740,13 +740,13 @@ export interface ApiEngineFamilyEngineFamily
           localized: true;
         };
       }>;
-    fuel_type: Schema.Attribute.Enumeration<['Petrol', 'Diesel']> &
+    fuel_type: Schema.Attribute.Enumeration<['petrol', 'diesel']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
         };
       }>;
-    head_material: Schema.Attribute.Enumeration<['Cast iron', 'Aluminium']> &
+    head_material: Schema.Attribute.Enumeration<['cast_iron', 'aluminium']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
@@ -865,10 +865,20 @@ export interface ApiEngineVersionEngineVersion
     dpf: Schema.Attribute.Boolean;
     ecu_code: Schema.Attribute.String;
     emissions_standard: Schema.Attribute.Enumeration<
-      ['Euro 1', 'Euro 2', 'Euro 3', 'Euro 4', 'Euro 5', 'Euro 6', 'Euro 7']
+      [
+        'Euro 1',
+        'Euro 2',
+        'Euro 3',
+        'Euro 4',
+        'Euro 5',
+        'Euro 6',
+        'Euro 7',
+        'LEV',
+      ]
     >;
     engine: Schema.Attribute.Relation<'manyToOne', 'api::engine.engine'>;
     fuel_grade: Schema.Attribute.String;
+    fuel_system: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -945,6 +955,8 @@ export interface ApiEngineEngine extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     oil_capacity: Schema.Attribute.Decimal;
     oil_type: Schema.Attribute.String;
+    production_end: Schema.Attribute.Date;
+    production_start: Schema.Attribute.Date;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID;
     stroke_mm: Schema.Attribute.Decimal;

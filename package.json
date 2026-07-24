@@ -19,6 +19,8 @@
     "@strapi/plugin-users-permissions": "5.44.0",
     "@strapi/provider-upload-cloudinary": "^5.49.0",
     "@strapi/strapi": "5.44.0",
+    "axios": "^1.18.1",
+    "dotenv": "^17.4.2",
     "pg": "8.20.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

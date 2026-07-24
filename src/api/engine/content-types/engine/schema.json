@@ -69,6 +69,12 @@
       "relation": "oneToMany",
       "target": "api::engine-version.engine-version",
       "mappedBy": "engine"
+    },
+    "production_start": {
+      "type": "date"
+    },
+    "production_end": {
+      "type": "date"
     }
   }
 }
