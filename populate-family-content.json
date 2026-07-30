@@ -1,0 +1,775 @@
+[
+  {
+    "slug": "m10",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1961–1988 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 1961–1988"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M10 — рядный четырёхцилиндровый бензиновый двигатель, выпускавшийся с 1961 по 1988 год. Он стал основой для многих знаковых моделей BMW, включая 02 Series, E21, E30, E12 и E28. Двигатель отличался простотой и надёжностью: чугунный блок цилиндров обеспечивал высокую жёсткость, а алюминиевая головка с одним верхним распредвалом (SOHC) позволяла снизить массу. Ранние версии оснащались карбюратором, позже появились системы впрыска топлива Bosch K-Jetronic и L-Jetronic. M10 также использовался в автоспорте, например, в BMW 2002 Turbo, где с турбонаддувом развивал 170 л.с. Объём варьировался от 1,5 до 2,0 литра, мощность — от 75 до 170 л.с. в зависимости от модификации. Конструкция M10 легла в основу более поздних двигателей M30 и S14. При должном уходе двигатель способен пройти более 300 000 км без капитального ремонта. Его ценят за доступность запчастей и простоту тюнинга. Многие энтузиасты до сих пор успешно используют M10 в ретро-проектах.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M10 is an inline four-cylinder petrol engine produced from 1961 to 1988. It powered many iconic BMW models, including the 02 Series, E21, E30, E12, and E28. The engine was known for its simplicity and durability: a cast iron block provided high rigidity, while an aluminium head with a single overhead camshaft (SOHC) reduced weight. Early versions used carburettors, later upgraded to Bosch K-Jetronic and L-Jetronic fuel injection. The M10 also found success in motorsport, notably in the BMW 2002 Turbo, where it produced 170 hp with a turbocharger. Displacement ranged from 1.5 to 2.0 litres, with power outputs from 75 to 170 hp depending on the variant. Its design influenced the later M30 and S14 engines. With proper maintenance, the M10 can exceed 300,000 km without a major overhaul. Enthusiasts appreciate its parts availability and tuning potential. Many still successfully use the M10 in retro projects today.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Чугунный блок и алюминиевая головка: высокая прочность и хорошее охлаждение\n• Цепной привод ГРМ: не требует замены в течение всего срока службы\n• Простая конструкция SOHC: облегчает обслуживание и ремонт\n• Широкий диапазон заводских модификаций и высокая тюнинг-пригодность", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Cast iron block with aluminium head: high strength and good cooling\n• Timing chain: requires no replacement over the engine's lifetime\n• Simple SOHC design: easy to maintain and repair\n• Wide range of factory variants and high tuning capability", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m40",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1987–1994 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 1987–1994"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW M40 — рядный четырёхцилиндровый бензиновый двигатель, выпускавшийся с 1987 по 1994 год. Он заменил устаревший M10 и устанавливался в модели E30 и E36. M40 отличался более лёгкой конструкцией: чугунный блок, алюминиевая головка и один верхний распредвал (SOHC). Впервые в истории BMW на этом двигателе применили гидрокомпенсаторы зазоров клапанов, что исключило необходимость их регулировки. Ременной привод ГРМ заменил цепь, что снизило шум, но потребовало замены каждые 80–100 тыс. км. Объём двигателя составлял 1,6 или 1,8 литра, мощность до 115 л.с. (M40B18). Двигатель критиковали за повышенную шумность и проблемы с системой охлаждения, однако он оставался экономичным и достаточно надёжным. Многие экземпляры служили более 250 000 км при условии своевременной замены ремня ГРМ и охлаждающей жидкости.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW M40 is an inline four-cylinder petrol engine produced from 1987 to 1994. It replaced the outdated M10 and was used in the E30 and E36 models. The M40 featured a lighter design with a cast iron block, aluminium head, and single overhead camshaft (SOHC). For the first time in a BMW engine, hydraulic valve lash adjusters were used, eliminating the need for valve clearance adjustments. A timing belt replaced the chain, reducing noise but requiring replacement every 80,000–100,000 km. Displacement was 1.6 or 1.8 litres, with power up to 115 hp (M40B18). Criticised for increased noise and cooling system issues, it remained economical and reasonably reliable. Many units served over 250,000 km with proper timing belt and coolant maintenance.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Гидрокомпенсаторы зазоров клапанов: не требуют регулировки\n• Ременной привод ГРМ: тихая работа, но требует замены каждые 100 тыс. км\n• Лёгкая конструкция с алюминиевой головкой", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Hydraulic valve lash adjusters: no adjustment needed\n• Timing belt: quiet operation but requires replacement every 100k km\n• Lightweight design with aluminium head", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m42",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1989–1996 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 1989–1996"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW M42 — рядный четырёхцилиндровый бензиновый двигатель с двумя верхними распредвалами (DOHC), выпускавшийся с 1989 по 1996 год. Он пришёл на смену M40 и устанавливался в E30 и E36, включая знаменитый 318is. M42 стал первым четырёхцилиндровым двигателем BMW с 16 клапанами. Поздние версии получили систему изменения фаз газораспределения Single VANOS на впускном валу, что улучшило эластичность. Блок цилиндров чугунный, головка алюминиевая. Цепной привод ГРМ с гидронатяжителем обеспечивал надёжность. Мощность составляла 136–140 л.с. при объёме 1,8 литра. Двигатель отличался высокими оборотами (до 6000 об/мин) и хорошей топливной экономичностью. Основные проблемы: износ профиля распредвалов, течи прокладок и старение системы охлаждения. При должном обслуживании M42 способен пройти более 300 000 км.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW M42 is an inline four-cylinder DOHC petrol engine produced from 1989 to 1996. It replaced the M40 and was used in the E30 and E36, most famously the 318is. The M42 was BMW's first four-cylinder engine with 16 valves. Later versions received Single VANOS on the intake cam, improving flexibility. Cast iron block, aluminium head, chain-driven DOHC with hydraulic tensioner. Power output was 136–140 hp from 1.8 litres. The engine revved high (up to 6000 rpm) and was fuel-efficient. Common issues include camshaft wear, oil leaks, and aging cooling system. With proper care, the M42 can exceed 300,000 km.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Первый 16-клапанный двигатель BMW (DOHC): улучшенное наполнение цилиндров\n• Цепной привод ГРМ с гидронатяжителем: надёжность и долговечность\n• Высокая удельная мощность (до 140 л.с. при 1.8 л)", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• First 16-valve BMW engine (DOHC): improved cylinder filling\n• Timing chain with hydraulic tensioner: reliability and durability\n• High specific output (up to 140 hp from 1.8 L)", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m43",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1993–2000 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 1993–2000"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW M43 — эволюция двигателя M40, выпускавшаяся с 1993 по 2000 год. Двигатель стал более экологичным благодаря системе впрыска Bosch Motronic и обязательному каталитическому нейтрализатору. Как и M40, имел чугунный блок, алюминиевую головку и один верхний распредвал (SOHC) с гидрокомпенсаторами. Применялся на E36 и E34. Отличался простотой и ремонтопригодностью. В отличие от M42, M43 имел только 8 клапанов, что упрощало конструкцию. Версии с системой VANOS не предусматривались. Объём 1,6 или 1,8 литра, мощность до 115 л.с. Двигатель считался надёжным и экономичным, хотя и уступал M42 по максимальной мощности. Основные проблемы связаны с системой охлаждения и старением резиновых прокладок.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW M43 is an evolution of the M40 engine, produced from 1993 to 2000. It featured Bosch Motronic fuel injection and a catalytic converter for better emissions. Like the M40, it had a cast iron block, aluminium head, and SOHC with hydraulic lash adjusters. Used in the E36 and E34. Simple and maintainable. Only 8 valves, no VANOS. Displacement 1.6 or 1.8 L, up to 115 hp. Reliable and economical, though less powerful than the M42. Main issues: cooling system and aging rubber seals.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Система впрыска Bosch Motronic с катализатором\n• Простая конструкция SOHC с 8 клапанами\n• Высокая ремонтопригодность и доступность запчастей", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Bosch Motronic fuel injection with catalytic converter\n• Simple SOHC 8-valve design\n• High serviceability and parts availability", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m44",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1996–2001 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 1996–2001"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW M44 — рядный четырёхцилиндровый бензиновый двигатель DOHC, выпускавшийся с 1996 по 2001 год. Являлся развитием M42 с увеличенным рабочим объёмом (1,9 л) и улучшенными характеристиками. Устанавливался в модели E36, Z3 и E30. Как и предшественник, имел чугунный блок, алюминиевую головку, цепной привод ГРМ и 16 клапанов. Мощность достигала 140 л.с. В отличие от M42, M44 имел улучшенную систему вентиляции картера и новый впускной коллектор. Двигатель ценился за надёжность и достаточную мощность при умеренном расходе топлива. К недостаткам относят повышенный расход масла из-за старения маслосъёмных колпачков и склонность к перегреву при запущенной системе охлаждения.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW M44 is a DOHC inline-4 petrol engine produced from 1996 to 2001. It was an evolution of the M42 with larger displacement (1.9 L) and improved performance. Used in E36, Z3, and E30. Cast iron block, aluminium head, chain drive, 16 valves. Power up to 140 hp. Improved crankcase ventilation and intake manifold. Reliable and efficient. Known for higher oil consumption due to aging valve stem seals and overheating risk with neglected cooling system.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Улучшенный впускной коллектор для увеличения крутящего момента\n• Система вентиляции картера снижает потери масла\n• 16-клапанная ГБЦ с двумя распредвалами", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Improved intake manifold for better torque\n• Crankcase ventilation system reduces oil consumption\n• 16-valve DOHC cylinder head", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "n42",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 2001–2006 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 2001–2006"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW N42 — представитель нового поколения четырёхцилиндровых двигателей BMW, выпускавшихся с 2001 по 2006 год. В отличие от предшественников, имел полностью алюминиевый блок цилиндров с чугунными гильзами, что снизило массу. Двигатель получил двойную систему изменения фаз газораспределения Double VANOS и систему регулировки подъёма клапанов Valvetronic (на версиях 2.0 л), что улучшило топливную эффективность и динамику. Объём 1,8 или 2,0 литра, мощность до 143 л.с. Применялся на E46 и E85. Хотя двигатель был технологичным, он страдал от проблем с Valvetronic и утечками масла, что требовало регулярного обслуживания. Многие владельцы отмечали повышенный расход масла после 100 000 км.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW N42 is a new generation inline-4 petrol engine (2001–2006). It featured an aluminium block with cast iron liners, reducing weight. Double VANOS and Valvetronic (on 2.0 L versions) improved efficiency and response. Displacement 1.8 or 2.0 L, up to 143 hp. Used in E46 and E85. Technologically advanced but prone to Valvetronic issues and oil leaks, requiring regular maintenance. Many owners reported increased oil consumption after 100,000 km.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Алюминиевый блок с чугунными гильзами\n• Система Double VANOS\n• Valvetronic (на версиях 2.0 л)", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Aluminium block with cast iron liners\n• Double VANOS system\n• Valvetronic (on 2.0 L versions)", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+    {
+    "slug": "m43",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1993–2000 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 1993–2000"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M43 — эволюция двигателя M40, выпускавшаяся с 1993 по 2000 год. Двигатель стал более экологичным благодаря системе впрыска Bosch Motronic и обязательному каталитическому нейтрализатору. Как и M40, имел чугунный блок, алюминиевую головку и один верхний распредвал (SOHC) с гидрокомпенсаторами. Применялся на E36 и E34. Отличался простотой и ремонтопригодностью. В отличие от M42, M43 имел только 8 клапанов, что упрощало конструкцию. Версии с системой VANOS не предусматривались. Объём 1,6 или 1,8 литра, мощность до 115 л.с. Двигатель считался надёжным и экономичным, хотя и уступал M42 по максимальной мощности. Основные проблемы связаны с системой охлаждения и старением резиновых прокладок.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M43 is an evolution of the M40 engine, produced from 1993 to 2000. It featured Bosch Motronic fuel injection and a catalytic converter for better emissions. Like the M40, it had a cast iron block, aluminium head, and SOHC with hydraulic lash adjusters. Used in the E36 and E34. Simple and maintainable. Only 8 valves, no VANOS. Displacement 1.6 or 1.8 L, up to 115 hp. Reliable and economical, though less powerful than the M42. Main issues: cooling system and aging rubber seals.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Система впрыска Bosch Motronic с катализатором\n• Простая конструкция SOHC с 8 клапанами\n• Высокая ремонтопригодность и доступность запчастей", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Bosch Motronic fuel injection with catalytic converter\n• Simple SOHC 8-valve design\n• High serviceability and parts availability", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m44",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 1996–2001 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 1996–2001"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M44 — рядный четырёхцилиндровый бензиновый двигатель DOHC, выпускавшийся с 1996 по 2001 год. Являлся развитием M42 с увеличенным рабочим объёмом (1,9 л) и улучшенными характеристиками. Устанавливался в модели E36, Z3 и E30. Как и предшественник, имел чугунный блок, алюминиевую головку, цепной привод ГРМ и 16 клапанов. Мощность достигала 140 л.с. В отличие от M42, M44 имел улучшенную систему вентиляции картера и новый впускной коллектор. Двигатель ценился за надёжность и достаточную мощность при умеренном расходе топлива. К недостаткам относят повышенный расход масла из-за старения маслосъёмных колпачков и склонность к перегреву при запущенной системе охлаждения.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M44 is a DOHC inline-4 petrol engine produced from 1996 to 2001. It was an evolution of the M42 with larger displacement (1.9 L) and improved performance. Used in E36, Z3, and E30. Cast iron block, aluminium head, chain drive, 16 valves. Power up to 140 hp. Improved crankcase ventilation and intake manifold. Reliable and efficient. Known for higher oil consumption due to aging valve stem seals and overheating risk with neglected cooling system.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Улучшенный впускной коллектор для увеличения крутящего момента\n• Система вентиляции картера снижает потери масла\n• 16-клапанная ГБЦ с двумя распредвалами", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Improved intake manifold for better torque\n• Crankcase ventilation system reduces oil consumption\n• 16-valve DOHC cylinder head", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "n42",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 2001–2006 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 2001–2006"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW N42 — представитель нового поколения четырёхцилиндровых двигателей BMW, выпускавшихся с 2001 по 2006 год. В отличие от предшественников, имел полностью алюминиевый блок цилиндров с чугунными гильзами, что снизило массу. Двигатель получил двойную систему изменения фаз газораспределения Double VANOS и систему регулировки подъёма клапанов Valvetronic (на версиях 2.0 л), что улучшило топливную эффективность и динамику. Объём 1,8 или 2,0 литра, мощность до 143 л.с. Применялся на E46 и E85. Хотя двигатель был технологичным, он страдал от проблем с Valvetronic и утечками масла, что требовало регулярного обслуживания. Многие владельцы отмечали повышенный расход масла после 100 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW N42 is a new generation inline-4 petrol engine (2001–2006). It featured an aluminium block with cast iron liners, reducing weight. Double VANOS and Valvetronic (on 2.0 L versions) improved efficiency and response. Displacement 1.8 or 2.0 L, up to 143 hp. Used in E46 and E85. Technologically advanced but prone to Valvetronic issues and oil leaks, requiring regular maintenance. Many owners reported increased oil consumption after 100,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Алюминиевый блок с чугунными гильзами\n• Система Double VANOS\n• Valvetronic (на версиях 2.0 л)", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Aluminium block with cast iron liners\n• Double VANOS system\n• Valvetronic (on 2.0 L versions)", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "n46",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 2004–2012 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 2004–2012"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW N46 — усовершенствованная версия двигателя N42, выпускавшаяся с 2004 по 2012 год. Основные изменения коснулись системы Valvetronic: теперь она устанавливалась на все версии, а механизм стал надёжнее. Также улучшили систему охлаждения и поршневую группу, что снизило расход масла. Двигатель оснащался Double VANOS и полностью алюминиевым блоком. Объём 1,8 или 2,0 литра, мощность до 170 л.с. в версии 2.0. Устанавливался на E90, E87. Несмотря на доработки, проблемы с Valvetronic и сальниками клапанов периодически возникали, но в целом N46 считается более надёжным, чем N42. Ресурс может превышать 250 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW N46 is an improved version of the N42 engine, produced from 2004 to 2012. Valvetronic became standard on all models and was made more reliable. Improved cooling and piston design reduced oil consumption. Double VANOS, all-aluminium block. Displacement 1.8 or 2.0 L, up to 170 hp (2.0 L). Used in E90, E87. More reliable than N42 despite occasional Valvetronic and valve seal issues. Lifespan can exceed 250,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Valvetronic на всех версиях\n• Улучшенная система охлаждения\n• Сниженный расход масла благодаря новым маслосъёмным кольцам", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Valvetronic on all versions\n• Improved cooling system\n• Reduced oil consumption thanks to new oil control rings", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m20",
+    "subtitle": {
+      "ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1977–1993 годов",
+      "en": "Naturally aspirated inline-6 Petrol engine by BMW, 1977–1993"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M20 — легендарный рядный шестицилиндровый бензиновый двигатель, выпускавшийся с 1977 по 1993 год. Устанавливался на модели E21, E30, E28, E34. Имел чугунный блок, алюминиевую головку с одним верхним распредвалом (SOHC) и ременной привод ГРМ. Двигатель отличался плавностью работы, высокой надёжностью и простотой обслуживания. Существовало множество версий объёмом от 2,0 до 2,7 литра, включая знаменитые 325i (2.5 л, 170 л.с.) и 325e (2.7 л с низкооборотным моментом). М20 стал основой для BMW M50 в следующем поколении. К недостаткам относят ремень ГРМ, требующий замены каждые 80–100 тыс. км, и склонность к перегреву при старении системы охлаждения. При должном уходе двигатель способен пройти более 400 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M20 is a legendary inline-6 petrol engine produced from 1977 to 1993. It powered E21, E30, E28, E34. Cast iron block, aluminium head, SOHC, timing belt. Smooth, reliable, and easy to maintain. Displacements from 2.0 to 2.7 litres, with famous 325i (2.5 L, 170 hp) and 325e (2.7 L low-end torque). Predecessor to the M50. Known issues: timing belt replacement every 80–100k km, and overheating risk with aging cooling system. Capable of over 400,000 km with proper care.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Ременной привод ГРМ (требует замены каждые 80–100 тыс. км)\n• Чугунный блок и алюминиевая головка\n• Широкий диапазон объёмов и мощностей", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Timing belt (requires replacement every 80–100k km)\n• Cast iron block with aluminium head\n• Wide range of displacements and power levels", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m30",
+    "subtitle": {
+      "ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1968–1994 годов",
+      "en": "Naturally aspirated inline-6 Petrol engine by BMW, 1968–1994"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M30 — рядный шестицилиндровый бензиновый двигатель, выпускавшийся с 1968 по 1994 год. Известный как «большой шестёрка», он устанавливался в широкий ряд моделей BMW — от E3 до E32 7-й серии и E24 6-й серии. Двигатель имел чугунный блок, алюминиевую головку и цепной привод ГРМ с одним верхним распредвалом (SOHC). Отличался огромным запасом прочности и надёжностью. М30 послужил основой для знаменитого двигателя M88/S38 (M-версии). Объём варьировался от 2,5 до 3,5 литра, мощность достигала 218 л.с. (в версии с катализатором). Многие экземпляры без капитального ремонта преодолевали более 500 000 км. К слабым местам относят износ распредвала и масляный насос на поздних версиях. Двигатель очень любим энтузиастами за свою неубиваемость и классический характер.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M30 is an inline-6 petrol engine produced from 1968 to 1994. Known as the 'big six', it powered models from the E3 to the E32 7 Series and E24 6 Series. Cast iron block, aluminium head, chain-driven SOHC. Renowned for extreme durability and reliability. It became the basis for the M88/S38 M engines. Displacements from 2.5 to 3.5 litres, up to 218 hp (catalyst version). Many units exceeded 500,000 km without rebuild. Weak points include camshaft wear and oil pump on later versions. Loved by enthusiasts for its bulletproof nature and classic character.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Цепной привод ГРМ (долговечный)\n• Очень прочный чугунный блок\n• Легендарная надёжность и ресурс более 500 000 км", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Timing chain (durable)\n• Very strong cast iron block\n• Legendary reliability, capable of over 500,000 km", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m50",
+    "subtitle": {
+      "ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1989–1998 годов",
+      "en": "Naturally aspirated inline-6 Petrol engine by BMW, 1989–1998"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M50 — рядный шестицилиндровый бензиновый двигатель, пришедший на смену M20 в 1989 году. Устанавливался на E36 и E34. Основным нововведением стали два верхних распредвала (DOHC) и 4 клапана на цилиндр, что значительно улучшило дыхание двигателя и мощность. Первые версии (без VANOS) имели мощность 150 л.с. (2.0) и 192 л.с. (2.5). В 1992 году двигатель получил систему изменения фаз газораспределения Single VANOS на впускном валу, что повысило крутящий момент на низких оборотах и снизило расход топлива. Блок цилиндров чугунный, головка алюминиевая. Цепной привод ГРМ. М50 считается очень надёжным двигателем, но требует своевременной замены системы охлаждения (радиатор, помпа). Ресурс часто превышает 400 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M50 replaced the M20 in 1989. It introduced DOHC and 4 valves per cylinder, significantly improving power. Early non-VANOS versions had 150 hp (2.0) and 192 hp (2.5). In 1992, Single VANOS on the intake cam was added for better low-end torque and fuel efficiency. Cast iron block, aluminium head, chain drive. Used in E36 and E34. Very reliable, but cooling system needs regular maintenance. Lifespan often exceeds 400,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Первый двигатель BMW с двумя распредвалами (DOHC) в массовом производстве\n• Система Single VANOS (с 1992 года)\n• Цепной привод ГРМ", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• First mass-produced BMW engine with DOHC\n• Single VANOS (from 1992)\n• Timing chain", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },  {
+    "slug": "m52",
+    "subtitle": {
+      "ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1994–2001 годов",
+      "en": "Naturally aspirated inline-6 Petrol engine by BMW, 1994–2001"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M52 — дальнейшее развитие линейки рядных шестицилиндровых двигателей, выпускавшееся с 1994 по 2001 год. Устанавливался на E36, E39, E38. Впервые в мире для двигателей этого класса был применён алюминиевый блок цилиндров (за исключением версий для США, где использовался чугун из-за высокого содержания серы в топливе). Это позволило снизить массу двигателя на 20 кг по сравнению с M50. Двигатель получил систему Single VANOS на впускном валу (позже Double VANOS на M52TU), что улучшило эластичность и экономичность. Объём 2,0, 2,5 и 2,8 литра, мощность до 193 л.с. М52 известен проблемами с прокладкой головки блока и никелированными цилиндрами (Nikasil) на ранних версиях, но в целом очень надёжен. Ресурс может превышать 350 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M52 (1994–2001) was a further evolution of the inline-6 family. It introduced an aluminium block (except US models) saving 20 kg over the M50. Single VANOS on intake, later Double VANOS (M52TU). Displacements: 2.0, 2.5, 2.8 L, up to 193 hp. Used in E36, E39, E38. Known for head gasket issues and Nikasil cylinder lining problems on early versions, but overall very reliable. Lifespan can exceed 350,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Алюминиевый блок цилиндров (кроме версий для США)\n• Система Single VANOS (Double VANOS на TU)\n• Улучшенная топливная экономичность", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Aluminium block (except US models)\n• Single VANOS (Double VANOS on TU)\n• Improved fuel economy", "type": "text" } ] }
+      ]
+    },
+    "technical_update": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "В 1998 году двигатель M52 получил техническое обновление (M52TU). Основные изменения:\n- Добавлена система Double VANOS, которая непрерывно регулирует фазы как на впускных, так и на выпускных распредвалах.\n- Электронная дроссельная заслонка (drive-by-wire) заменила механический привод.\n- Улучшенный блок управления Siemens MS42.\n- Оптимизированная система охлаждения.\nЭти изменения повысили крутящий момент на низких оборотах и снизили выбросы.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "In 1998, the M52 received a technical update (M52TU). Key changes:\n- Added Double VANOS, continuously adjusting both intake and exhaust camshafts.\n- Electronic throttle (drive-by-wire) replaced mechanical linkage.\n- Siemens MS42 engine management.\n- Improved cooling system.\nThese updates improved low-end torque and reduced emissions.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "slug": "m54",
+    "subtitle": {
+      "ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 2000–2006 годов",
+      "en": "Naturally aspirated inline-6 Petrol engine by BMW, 2000–2006"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M54 — один из наиболее уважаемых двигателей BMW, выпускавшийся с 2000 по 2006 год. Устанавливался в E46, E39, E53 X5, Z3 и Z4. Двигатель имел алюминиевый блок с чугунными гильзами и алюминиевую головку. В отличие от предшественника M52, M54 получил систему Double VANOS и электронную дроссельную заслонку (drive-by-wire). Объём 2,2, 2,5 и 3,0 литра, мощность до 231 л.с. (M54B30). Двигатель славится надёжностью и способен пройти более 500 000 км без капитального ремонта при своевременном обслуживании. Основные проблемы: неисправность клапана DISA, течь масла из прокладки масляного фильтра и сальников VANOS. Эти недостатки легко устранимы и не требуют снятия двигателя.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M54 (2000–2006) is highly respected. Aluminium block with iron liners, aluminium head. Double VANOS, electronic throttle. Displacements 2.2, 2.5, 3.0 L, up to 231 hp (M54B30). Used in E46, E39, E53 X5, Z3, Z4. Extremely reliable, often exceeding 500,000 km with proper maintenance. Common issues: DISA valve, oil filter housing gasket, VANOS seals. Easily repairable without removing the engine.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Double VANOS: непрерывное изменение фаз на впуске и выпуске\n• Электронная дроссельная заслонка (drive-by-wire)\n• Высокий ресурс при надлежащем уходе", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Double VANOS: continuous variable timing on intake and exhaust\n• Electronic throttle (drive-by-wire)\n• High longevity with proper care", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "s38",
+    "subtitle": {
+      "ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1985–1996 годов (M-версия)",
+      "en": "Naturally aspirated inline-6 Petrol engine by BMW, 1985–1996 (M version)"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW S38 — высокопроизводительный рядный шестицилиндровый двигатель, разработанный подразделением M GmbH для моделей E28 M5, E34 M5 и E24 M6. Выпускался с 1985 по 1996 год. Базировался на блоке M30/88, но имел 24-клапанную головку с двумя распредвалами (DOHC) и индивидуальные дроссельные заслонки для каждого цилиндра. Объём 3,5 или 3,8 литра, мощность от 256 до 340 л.с. (в версии 3.8 для E34 M5). Отличался феноменальной приёмистостью и спортивным характером. Двигатель требователен к качеству масла и обслуживанию, особенно чувствителен к перегреву и состоянию цепи ГРМ. Один из самых харизматичных двигателей BMW M. При должном уходе способен пройти более 300 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW S38 is a high-performance inline-6 developed by M GmbH for the E28 M5, E34 M5, and E24 M6 (1985–1996). Based on the M30/88 block, it had a 24-valve DOHC head with individual throttle bodies per cylinder. Displacement 3.5 or 3.8 L, power from 256 to 340 hp (3.8 L). Thrilling throttle response and racing character. Demanding on oil and maintenance, sensitive to overheating and timing chain condition. One of the most charismatic BMW M engines. Capable of over 300,000 km with proper care.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Индивидуальные дроссельные заслонки для каждого цилиндра\n• DOHC 24V\n• Высокооборотный, спортивный характер", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Individual throttle bodies per cylinder\n• DOHC 24V\n• High-revving, sporty character", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "s50",
+    "subtitle": {
+      "ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1995–2000 годов (M-версия)",
+      "en": "Naturally aspirated inline-6 Petrol engine by BMW, 1995–2000 (M version)"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW S50 — мощный рядный шестицилиндровый двигатель, созданный M GmbH для E36 M3 (европейская версия). Выпускался с 1995 по 2000 год. Базировался на блоке M50, но получил 24-клапанную головку с Double VANOS (на S50B32), высокопрочные кованые поршни, усиленный коленвал и индивидуальные дроссельные заслонки. Объём 3,0 л (286 л.с.) и 3,2 л (321 л.с.). Двигатель славится своей отзывчивостью и мощным ускорением. Требует качественного масла и регулярного обслуживания VANOS и клапанов. Надёжен при должном уходе. Многие экземпляры успешно преодолевают 250 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW S50 is a powerful inline-6 developed by M GmbH for the European E36 M3 (1995–2000). Based on the M50 block, it featured a 24-valve head with Double VANOS (S50B32), forged pistons, strengthened crankshaft, and individual throttle bodies. Displacement 3.0 L (286 hp) and 3.2 L (321 hp). Renowned for razor-sharp throttle response and acceleration. Requires quality oil and regular VANOS/valve maintenance. Reliable if well cared for. Many units reach 250,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Индивидуальные дроссельные заслонки\n• Double VANOS (на B32)\n• Кованые поршни и усиленный коленвал", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Individual throttle bodies\n• Double VANOS (on B32)\n• Forged pistons and strengthened crankshaft", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "s52",
+    "subtitle": {
+      "ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1996–2000 годов (M-версия для США)",
+      "en": "Naturally aspirated inline-6 Petrol engine by BMW, 1996–2000 (US M version)"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW S52 — североамериканская версия двигателя для E36 M3, выпускавшаяся с 1996 по 2000 год. Несмотря на маркировку S, по конструкции близок к гражданским M52 и M54. Двигатель использовал блок M52, коленвал M54 и головку M50. Он не имел индивидуальных дроссельных заслонок и Double VANOS (только Single VANOS). Объём 3,2 литра, мощность 240 л.с. (против 321 л.с. у европейского S50). Тем не менее, S52 отличался надёжностью и доступностью обслуживания. Позже уступил место S54 в E46 M3. Ресурс при хорошем уходе — более 300 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW S52 is the US-spec engine for the E36 M3 (1996–2000). Despite the S designation, it was based on M52/M54 components: M52 block, M54 crank, M50 head. Only Single VANOS, no individual throttle bodies. Displacement 3.2 L, power 240 hp (vs 321 hp European S50). Reliable and easy to maintain. Later replaced by the S54. Capable of over 300,000 km with proper care.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Единственная версия S-мотора без индивидуальных дросселей\n• Single VANOS\n• Высокая надёжность и доступность запчастей", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Only S-engine without individual throttle bodies\n• Single VANOS\n• High reliability and parts availability", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "s54",
+    "subtitle": {
+      "ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 2000–2006 годов (M-версия)",
+      "en": "Naturally aspirated inline-6 Petrol engine by BMW, 2000–2006 (M version)"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW S54 — последний рядный шестицилиндровый двигатель M GmbH, выпускавшийся с 2000 по 2006 год. Устанавливался в E46 M3, а также в M Coupe и M Roadster (E86). Двигатель имел чугунный блок, алюминиевую головку, Double VANOS и индивидуальные дроссельные заслонки. Объём 3,2 литра, мощность 343 л.с. (Европа) и 333 л.с. (США). Славится невероятной приёмистостью и способностью крутиться до 7900 об/мин. Однако известен проблемами с подшипниками шатунов, прокладкой головки блока и системой VANOS. При должном обслуживании и замене подшипников каждые 100 000 км является надёжным и желанным двигателем. Ресурс может превышать 250 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW S54 is the last inline-6 M engine (2000–2006). Cast iron block, aluminium head, Double VANOS, individual throttle bodies. Displacement 3.2 L, power 343 hp (Europe) / 333 hp (US). Used in E46 M3, M Coupe, M Roadster. Revs to 7900 rpm. Known for rod bearing issues, head gasket, and VANOS problems. With proper maintenance and bearing replacement every 100k km, it's a reliable and coveted engine. Lifespan can exceed 250,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Индивидуальные дроссельные заслонки\n• Double VANOS\n• Обороты до 7900 об/мин", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Individual throttle bodies\n• Double VANOS\n• 7900 rpm redline", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },  {
+    "slug": "m60",
+    "subtitle": {
+      "ru": "Атмосферный V-образный 8-цилиндровый бензиновый двигатель BMW 1992–1996 годов",
+      "en": "Naturally aspirated V8 Petrol engine by BMW, 1992–1996"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M60 — первый V-образный 8-цилиндровый двигатель BMW, выпускавшийся с 1992 по 1996 год. Устанавливался в E34 530i/540i, E32 730i/740i и E31 840i. Двигатель имел алюминиевый блок и головку, два верхних распредвала в каждой головке (DOHC) и цепной привод ГРМ. Объём 3,0 или 4,0 литра, мощность до 286 л.с. (M60B40). Отличался плавной работой и хорошей мощностью. Ранние версии страдали от износа покрытия цилиндров (Nikasil), что приводило к падению компрессии при использовании топлива с высоким содержанием серы. Позже блоки были заменены на алюсил (Alusil). М60 заложил основу для последующих V8 BMW. При должном уходе ресурс может превышать 300 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M60 is the first V8 engine by BMW (1992–1996). Aluminium block and head, DOHC, timing chain. Displacements 3.0 and 4.0 L, up to 286 hp (M60B40). Used in E34, E32, E31. Smooth and powerful. Early Nikasil-coated bores suffered from wear with high-sulfur fuel, later replaced by Alusil. M60 laid the foundation for future BMW V8s. Lifespan can exceed 300,000 km with proper care.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Первый V8 BMW с алюминиевым блоком\n• DOHC, 4 клапана на цилиндр\n• Цепной привод ГРМ", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• First BMW V8 with aluminium block\n• DOHC, 4 valves per cylinder\n• Timing chain", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m62",
+    "subtitle": {
+      "ru": "Атмосферный V-образный 8-цилиндровый бензиновый двигатель BMW 1996–2005 годов",
+      "en": "Naturally aspirated V8 Petrol engine by BMW, 1996–2005"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M62 — эволюция M60, выпускавшаяся с 1996 по 2005 год. Устанавливался в E38 740i, E39 540i, E53 X5 4.4i. Сохранил алюминиевый блок и головку, цепной привод ГРМ. В 1998 году получил техническое обновление (M62TU) с добавлением Single VANOS на впускных распредвалах, электронной дроссельной заслонкой и водяным охлаждением генератора. Объём 3,5 и 4,4 литра, мощность до 290 л.с. (M62TUB44). Двигатель ценится за сочетание мощности и надёжности, хотя проблемы с цепью ГРМ и утечками масла из-за стареющих прокладок являются типичными. Ресурс может превышать 300 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M62 is an evolution of the M60 (1996–2005). Aluminium block and head, timing chain. Used in E38, E39, E53. M62TU update (1998) added Single VANOS on intake, electronic throttle, water-cooled alternator. Displacements 3.5 and 4.4 L, up to 290 hp (M62TUB44). Valued for power and reliability; typical issues: timing chain guides and oil leaks from aging seals. Lifespan often exceeds 300,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Система Single VANOS на впускных валах (M62TU)\n• Электронная дроссельная заслонка (M62TU)\n• Цепной привод ГРМ", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Single VANOS on intake cams (M62TU)\n• Electronic throttle (M62TU)\n• Timing chain", "type": "text" } ] }
+      ]
+    },
+    "technical_update": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "В 1998 году двигатель M62 получил техническое обновление (M62TU). Основные изменения:\n- Добавлена система Single VANOS на впускных распредвалах, что улучшило крутящий момент на низких оборотах.\n- Электронная дроссельная заслонка (drive-by-wire) заменила механический привод.\n- Генератор с водяным охлаждением для снижения шума и повышения надёжности.\n- Обновлённый блок управления Bosch ME 7.2.\n- Улучшенная система охлаждения с электрическим вентилятором.\nМощность M62TUB44 выросла до 290 л.с., крутящий момент до 440 Нм.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "In 1998 the M62 received a technical update (M62TU). Changes:\n- Single VANOS added to intake cams for improved low-end torque.\n- Electronic throttle (drive-by-wire) replaced mechanical linkage.\n- Water-cooled alternator for quieter operation and reliability.\n- Bosch ME 7.2 engine management.\n- Improved cooling with electric fan.\nPower increased to 290 hp, torque to 440 Nm (M62TUB44).", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "slug": "s62",
+    "subtitle": {
+      "ru": "Атмосферный V-образный 8-цилиндровый бензиновый двигатель BMW 1998–2003 годов (M-версия)",
+      "en": "Naturally aspirated V8 Petrol engine by BMW, 1998–2003 (M version)"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW S62 — высокопроизводительный V8, созданный M GmbH для E39 M5 и E52 Z8. Выпускался с 1998 по 2003 год. Двигатель базировался на блоке M62, но получил радикальные доработки: кованый коленвал, кованые поршни, Double VANOS, индивидуальные дроссельные заслонки для каждого цилиндра (8 шт.), систему смазки с сухим картером (опционально). Объём 4,9 литра, мощность 400 л.с., крутящий момент 500 Нм. Оснащался 6-ступенчатой механической коробкой передач. Один из последних атмосферных V8 M GmbH. Требует качественного масла и своевременной замены цепи ГРМ. Проблемы с прокладками и датчиками типичны для возраста. Ресурс при надлежащем уходе — более 250 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW S62 is a high-performance V8 developed by M GmbH for the E39 M5 and E52 Z8 (1998–2003). Based on the M62 block, it featured forged crankshaft and pistons, Double VANOS, eight individual throttle bodies, and optional dry sump lubrication. Displacement 4.9 L, 400 hp, 500 Nm. Paired with a 6-speed manual. One of the last naturally aspirated M V8s. Requires quality oil and timely timing chain replacement. Age-related seal and sensor issues common. Lifespan can exceed 250,000 km with proper care.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• 8 индивидуальных дроссельных заслонок\n• Double VANOS\n• Кованые поршни и коленвал", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• 8 individual throttle bodies\n• Double VANOS\n• Forged pistons and crankshaft", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m67",
+    "subtitle": {
+      "ru": "Турбированный V-образный 8-цилиндровый дизельный двигатель BMW 1998–2008 годов",
+      "en": "Turbocharged V8 Diesel engine by BMW, 1998–2008"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M67 — V-образный восьмицилиндровый дизельный двигатель с турбонаддувом, выпускавшийся с 1998 по 2008 год. Устанавливался на флагманские модели E38 740d, E65/E66 745d, а также E53 X5 3.0d (версии с M67). Двигатель имел чугунный блок с углом развала 90°, алюминиевые головки с двумя распредвалами в каждой (DOHC) и цепной привод ГРМ. Объём 3,9 или 4,4 литра, мощность до 300 л.с. (M67D44), крутящий момент до 700 Нм. Оснащался системой непосредственного впрыска Common Rail Bosch (давление до 1800 бар) и турбокомпрессорами с изменяемой геометрией (на поздних версиях). Двигатель отличался впечатляющей тягой, плавностью работы и низкой шумностью. Слабые места: пьезофорсунки (на поздних версиях), турбокомпрессоры, сажевый фильтр и иногда цепь ГРМ. При должном обслуживании M67 способен пройти более 300 000 км без капитального ремонта.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M67 is a turbocharged V8 diesel engine produced from 1998 to 2008. It powered flagship models like the E38 740d, E65/E66 745d, and E53 X5. The engine had a cast iron 90° V8 block, aluminium DOHC heads, and timing chains. Displacement 3.9 or 4.4 litres, power up to 300 hp (M67D44), torque up to 700 Nm. It featured Bosch Common Rail injection (up to 1800 bar) and variable geometry turbochargers on later versions. The engine was noted for its massive torque, smoothness, and low noise. Weak points include piezo injectors (later versions), turbochargers, DPF, and occasional timing chain issues. With proper maintenance, the M67 can exceed 300,000 km without major overhaul.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• V8 с турбонаддувом: огромный крутящий момент\n• Система Common Rail (с 1998 года)\n• Цепной привод ГРМ\n• Высокая плавность работы и низкий уровень шума", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Turbocharged V8: massive torque\n• Common Rail system (from 1998)\n• Timing chain\n• High smoothness and low noise levels", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m70",
+    "subtitle": {
+      "ru": "Атмосферный V-образный 12-цилиндровый бензиновый двигатель BMW 1987–1994 годов",
+      "en": "Naturally aspirated V12 Petrol engine by BMW, 1987–1994"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M70 — первый V-образный 12-цилиндровый двигатель BMW для легковых автомобилей. Выпускался с 1987 по 1994 год. Устанавливался в E32 750i и E31 850i. Двигатель имел алюминиевый блок и головку, один верхний распредвал в каждой головке (SOHC) и два блока управления Bosch Motronic (по одному на каждые 6 цилиндров). Объём 5,0 литра, мощность 300 л.с. Отличался исключительной плавностью работы и запасом мощности. Однако из-за сложной электронной системы с двумя ЭБУ и множеством датчиков требовал квалифицированного обслуживания. Цепь ГРМ и система охлаждения надёжны. М70 заложил основу для последующих V12 BMW.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M70 is the first V12 engine for BMW cars (1987–1994). Aluminium block and head, SOHC per bank, two Bosch Motronic ECUs (one per 6 cylinders). Displacement 5.0 L, 300 hp. Used in E32 750i and E31 850i. Exceptionally smooth and powerful. Complex electronics with dual ECUs and numerous sensors require expert maintenance. Timing chain and cooling system reliable. Basis for later BMW V12s.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Два блока управления двигателем (один на 6 цилиндров)\n• Исключительно плавная работа\n• SOHC, 2 клапана на цилиндр", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Two engine control units (one per 6 cylinders)\n• Ultra-smooth operation\n• SOHC, 2 valves per cylinder", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },  {
+    "slug": "m72",
+    "subtitle": {
+      "ru": "Атмосферный V-образный 12-цилиндровый бензиновый двигатель BMW 1989–1989 годов",
+      "en": "Naturally aspirated V12 Petrol engine by BMW, 1989–1989"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M72 — очень редкий V-образный 12-цилиндровый бензиновый двигатель, выпущенный ограниченной партией в 1989 году для прототипа E31 850CSi. По сути являлся переходной моделью между M70 и S70. Двигатель имел алюминиевый блок и головку, два верхних распредвала в каждой головке (DOHC) и увеличенный до 5,4 литра объём. Мощность достигала 360 л.с. Всего было произведено несколько десятков экземпляров, что делает M72 коллекционной редкостью. Информация о надёжности ограничена из-за малого тиража, но конструктивно двигатель близок к проверенным M70 и S70. М72 стал важным шагом в развитии высокофорсированных V12 для BMW M.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M72 is a very rare V12 petrol engine built in limited numbers in 1989 for the E31 850CSi prototype. It was essentially a transitional model between the M70 and S70. The engine had an aluminium block and heads, DOHC per bank, and a displacement of 5.4 litres, producing up to 360 hp. Only a few dozen units were made, making the M72 a collector's rarity. Reliability data is scarce due to low production numbers, but it is structurally close to the proven M70 and S70. The M72 was an important step in the development of high-performance V12s for BMW M.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Очень редкий двигатель, ограниченный выпуск\n• DOHC, 4 клапана на цилиндр\n• Увеличенный до 5,4 л объём\n• Эксклюзивная переходная модель между M70 и S70", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Very rare engine, limited production\n• DOHC, 4 valves per cylinder\n• Increased 5.4 L displacement\n• Exclusive transitional model between M70 and S70", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m73",
+    "subtitle": {
+      "ru": "Атмосферный V-образный 12-цилиндровый бензиновый двигатель BMW 1994–2002 годов",
+      "en": "Naturally aspirated V12 Petrol engine by BMW, 1994–2002"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M73 — эволюция M70, выпускавшаяся с 1994 по 2002 год. Устанавливался в E38 750i, E31 850Ci. По сравнению с предшественником, получил увеличенный объём (5,4 л), новые головки блока с изменёнными впускными каналами, один более мощный блок управления (Bosch Motronic M5.2) вместо двух, улучшенную систему охлаждения и новый генератор. Мощность возросла до 326 л.с. Двигатель стал более надёжным и простым в обслуживании, хотя сохранил отличную плавность работы. Проблемы с прокладками клапанных крышек и масляным насосом встречаются, но в целом M73 — крепкий и ресурсный агрегат. Может пройти более 350 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M73 (1994–2002) evolved the M70. Displacement increased to 5.4 L, new cylinder heads with revised intake ports, single Bosch Motronic M5.2 ECU, improved cooling, and updated alternator. Power 326 hp. Used in E38 750i, E31 850Ci. More reliable and simpler than M70, yet retains legendary smoothness. Valve cover gaskets and oil pump issues occur, but overall a robust engine. Can exceed 350,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Единый блок управления (вместо двух)\n• Увеличенный до 5,4 л объём\n• Улучшенная система охлаждения", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Single ECU (instead of two)\n• Larger 5.4 L displacement\n• Improved cooling system", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "s70",
+    "subtitle": {
+      "ru": "Атмосферный V-образный 12-цилиндровый бензиновый двигатель BMW 1993–1996 годов (M-версия)",
+      "en": "Naturally aspirated V12 Petrol engine by BMW, 1993–1996 (M version)"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW S70 — высокопроизводительный V12, созданный M GmbH для E31 850CSi. Выпускался с 1993 по 1996 год. Двигатель базировался на блоке M70, но получил увеличенный до 5,6 л объём, кованые поршни, новые распредвалы, увеличенные клапаны, индивидуальные дроссельные заслонки и систему Double VANOS. Мощность 380 л.с., крутящий момент 550 Нм. Это был один из самых мощных и редких двигателей BMW своего времени. Устанавливался только с 6-ступенчатой механической коробкой передач. S70 требователен к обслуживанию и качеству топлива, но дарит незабываемые ощущения от вождения. Ресурс — около 200 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW S70 is a high-performance V12 built by M GmbH for the E31 850CSi (1993–1996). Based on the M70 block, it features 5.6 L displacement, forged pistons, new cams, larger valves, individual throttle bodies, and Double VANOS. 380 hp, 550 Nm. One of the most powerful and rare BMW engines of its era. Paired exclusively with a 6-speed manual. Demanding on maintenance and fuel quality, but offers an unforgettable driving experience. Lifespan around 200,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Индивидуальные дроссельные заслонки (12 шт.)\n• Double VANOS\n• Кованые поршни и увеличенные клапаны", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• 12 individual throttle bodies\n• Double VANOS\n• Forged pistons and larger valves", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m21",
+    "subtitle": {
+      "ru": "Турбированный рядный 6-цилиндровый дизельный двигатель BMW 1983–1991 годов",
+      "en": "Turbocharged inline-6 Diesel engine by BMW, 1983–1991"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M21 — первый дизельный двигатель BMW, выпускавшийся с 1983 по 1991 год. Рядный шестицилиндровый турбодизель устанавливался в E28 524td, E30 324td и E34 524td. Имел чугунный блок, алюминиевую головку с одним верхним распредвалом (SOHC) и ременной привод ГРМ. Объём 2,4 литра, мощность 84–115 л.с. в зависимости от версии. Несмотря на скромную мощность, обладал хорошим крутящим моментом (152–220 Нм). Двигатель простой и надёжный, но требовал регулярной замены ремня ГРМ и своевременной регулировки тепловых зазоров клапанов. М21 проложил путь для будущих дизелей BMW. При должном обслуживании способен пройти более 350 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M21 is the first diesel engine by BMW (1983–1991). Turbocharged inline-6, used in E28 524td, E30 324td, E34 524td. Cast iron block, aluminium SOHC head, timing belt. Displacement 2.4 L, power 84–115 hp. Good torque (152–220 Nm). Simple and reliable, but requires regular timing belt replacement and valve clearance adjustment. Paved the way for future BMW diesels. Capable of over 350,000 km with proper maintenance.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Первый дизельный двигатель BMW\n• Ременной привод ГРМ\n• Высокий крутящий момент на низких оборотах", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• First BMW diesel engine\n• Timing belt\n• High torque at low rpm", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m51",
+    "subtitle": {
+      "ru": "Турбированный рядный 6-цилиндровый дизельный двигатель BMW 1991–2000 годов",
+      "en": "Turbocharged inline-6 Diesel engine by BMW, 1991–2000"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M51 — усовершенствованный турбодизель, пришедший на смену M21 в 1991 году. Устанавливался в E36 325tds, E34 525tds, E38 725tds. Двигатель имел чугунный блок, алюминиевую головку (SOHC) и цепной привод ГРМ. Объём 2,5 литра, мощность достигала 143 л.с. (M51D25TÜ). Отличался более совершенной системой впрыска (Bosch VP37) и интеркулером. М51 славится надёжностью и ресурсом, нередко превышающим 400 000 км. Основные проблемы связаны с системой охлаждения и ТНВД. Требует своевременной замены свечей накаливания.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M51 is an improved turbo diesel (1991–2000). Cast iron block, aluminium SOHC head, timing chain. 2.5 L, up to 143 hp (M51D25TÜ). Used in E36, E34, E38. Bosch VP37 injection pump with intercooler. Extremely reliable, often exceeds 400,000 km. Main issues: cooling system, injection pump. Glow plugs need periodic replacement.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Цепной привод ГРМ (надёжный)\n• Механический ТНВД Bosch VP37\n• Интеркулер для охлаждения наддувочного воздуха", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Timing chain (reliable)\n• Bosch VP37 mechanical injection pump\n• Intercooler for intake air cooling", "type": "text" } ] }
+      ]
+    },
+    "technical_update": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "В 1996 году двигатель M51 получил техническое обновление (M51D25TÜ). Основные изменения:\n- Улучшенный турбокомпрессор с изменяемой геометрией направляющего аппарата (VNT).\n- Электронная система управления двигателем Bosch DDE 2.2.\n- Повышенная мощность (до 143 л.с.) и крутящий момент (285 Нм).\n- Сниженный расход топлива и выбросы.\n- Усиленные поршни и шатуны для повышенных нагрузок.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "In 1996, the M51 received a technical update (M51D25TÜ). Key changes:\n- Variable nozzle turbocharger (VNT).\n- Bosch DDE 2.2 electronic engine management.\n- Increased power (up to 143 hp) and torque (285 Nm).\n- Reduced fuel consumption and emissions.\n- Strengthened pistons and connecting rods.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "slug": "m41",
+    "subtitle": {
+      "ru": "Турбированный рядный 4-цилиндровый дизельный двигатель BMW 1994–2000 годов",
+      "en": "Turbocharged inline-4 Diesel engine by BMW, 1994–2000"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M41 — рядный четырёхцилиндровый турбодизельный двигатель, выпускавшийся с 1994 по 2000 год. Устанавливался в E36 318tds. Пришёл на смену устаревшему M21, предложив лучшую топливную экономичность и более современную конструкцию. Имел чугунный блок, алюминиевую головку (SOHC), цепной привод ГРМ. Объём 1,7 литра, мощность 90 л.с. Двигатель экономичный, но не очень динамичный. Основные проблемы: износ ТНВД, закоксовка впускного коллектора из-за системы рециркуляции картерных газов. При должном обслуживании способен пройти до 300 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M41 is a 1.7 L turbo diesel inline-4 (1994–2000). Used in E36 318tds. Cast iron block, aluminium SOHC head, timing chain. 90 hp. Economical but not sporty. Main issues: injection pump wear, intake clogging from CCV system. Capable of 300,000 km with proper care.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Цепной привод ГРМ\n• Небольшой объём и высокая экономичность\n• Система рециркуляции картерных газов (приводит к закоксовке впуска)", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Timing chain\n• Small displacement, high fuel efficiency\n• Crankcase ventilation (can clog intake)", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m47",
+    "subtitle": {
+      "ru": "Турбированный рядный 4-цилиндровый дизельный двигатель BMW 1999–2007 годов",
+      "en": "Turbocharged inline-4 Diesel engine by BMW, 1999–2007"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M47 — дальнейшее развитие четырёхцилиндровых дизелей BMW, выпускавшееся с 1999 по 2007 год. Устанавливался в E46 320d, E39 520d, E83 X3 и др. Двигатель получил два верхних распредвала (DOHC), непосредственный впрыск с системой Common Rail, турбокомпрессор с изменяемой геометрией (на M47TU). Объём 2,0 литра, мощность до 163 л.с. (M47TU2). Двигатель экономичный и тяговитый. Слабые места: турбина (особенно на ранних версиях), заслонки впускного коллектора, цепь ГРМ на поздних версиях (N47-подобные проблемы). При регулярном обслуживании и использовании качественного масла ресурс превышает 300 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M47 (1999–2007) is an advanced inline-4 diesel. DOHC, Common Rail direct injection, variable geometry turbo (M47TU). 2.0 L, up to 163 hp (M47TU2). Used in E46 320d, E39 520d, E83 X3. Efficient and torquey. Weak points: turbo (especially early versions), swirl flaps, timing chain on later versions (N47-like issues). With regular maintenance and quality oil, exceeds 300,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Система Common Rail (на версиях с 2001 года)\n• Турбина с изменяемой геометрией (на M47TU)\n• DOHC, 16 клапанов", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Common Rail system (from 2001)\n• Variable geometry turbo (M47TU)\n• DOHC, 16 valves", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  },
+  {
+    "slug": "m57",
+    "subtitle": {
+      "ru": "Турбированный рядный 6-цилиндровый дизельный двигатель BMW 1998–2005 годов",
+      "en": "Turbocharged inline-6 Diesel engine by BMW, 1998–2005"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW M57 — легендарный рядный шестицилиндровый турбодизель, выпускавшийся с 1998 по 2005 год. Устанавливался в E39 530d, E46 330d, E53 X5 3.0d и другие. Двигатель имел чугунный блок, алюминиевую головку (DOHC), непосредственный впрыск Common Rail и турбокомпрессор с изменяемой геометрией (на поздних версиях). Объём 2,5 или 3,0 литра, мощность до 204 л.с. (M57D30TU). Славится огромным крутящим моментом и феноменальной надёжностью. При должном уходе легко преодолевает 500 000 км. Основные проблемы: турбина, свечи накаливания, иногда заслонки впускного коллектора. Многие считают M57 лучшим дизельным двигателем BMW.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW M57 is a legendary inline-6 turbo diesel (1998–2005). Cast iron block, aluminium DOHC head, Common Rail injection, variable geometry turbo (later versions). 2.5 or 3.0 L, up to 204 hp (M57D30TU). Used in E39 530d, E46 330d, E53 X5. Huge torque and phenomenal reliability; easily exceeds 500,000 km with proper care. Main issues: turbo, glow plugs, intake swirl flaps. Many consider the M57 the best BMW diesel ever.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Система Common Rail (с 1998 года)\n• Чугунный блок (высокая прочность)\n• Огромный ресурс (более 500 000 км)", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Common Rail system (from 1998)\n• Cast iron block (high durability)\n• Extremely long lifespan (over 500,000 km)", "type": "text" } ] }
+      ]
+    },
+    "technical_update": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "В 2002 году двигатель M57 получил техническое обновление (M57TU). Основные изменения:\n- Увеличенный до 3,0 л рабочий объём (2993 см³) благодаря изменению хода поршня.\n- Новый турбокомпрессор с изменяемой геометрией (VNT).\n- Система Common Rail второго поколения с давлением впрыска до 1600 бар.\n- Обновлённый блок управления Bosch DDE 5.0.\n- Улучшенная система охлаждения наддувочного воздуха.\nМощность возросла до 204 л.с., крутящий момент до 410 Нм.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "In 2002, the M57 received a technical update (M57TU). Key changes:\n- Displacement increased to 3.0 L (2993 cc) via longer stroke.\n- New variable geometry turbocharger (VNT).\n- Second-generation Common Rail with 1600 bar injection pressure.\n- Bosch DDE 5.0 engine management.\n- Improved charge air cooling.\nPower increased to 204 hp, torque to 410 Nm.", "type": "text" } ] }
+      ]
+    }
+  },
+  {
+    "slug": "n57",
+    "subtitle": {
+      "ru": "Турбированный рядный 6-цилиндровый дизельный двигатель BMW 2008–2013 годов",
+      "en": "Turbocharged inline-6 Diesel engine by BMW, 2008–2013"
+    },
+    "description": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "BMW N57 — современный рядный шестицилиндровый турбодизель, заменивший M57. Выпускался с 2008 по 2013 год. В отличие от предшественника, получил алюминиевый блок цилиндров, пьезоэлектрические форсунки Common Rail с давлением до 2000 бар, систему Start-Stop и сажевый фильтр. Объём 3,0 литра, мощность до 306 л.с. в версии с тремя турбинами (N57S). Двигатель сочетал высокую мощность, экономичность и экологичность. Однако алюминиевый блок сделал его менее выносливым при перегреве, а сложность систем потребовала более квалифицированного обслуживания. Проблемы с цепью ГРМ (растяжение) встречаются на ранних версиях, но в целом N57 надёжен. Ресурс может превышать 300 000 км.", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "The BMW N57 is a modern inline-6 turbo diesel (2008–2013). Aluminium block, piezo Common Rail injectors (up to 2000 bar), start-stop, DPF. 3.0 L, up to 306 hp (tri-turbo N57S). Powerful, efficient, clean. Aluminium block less tolerant to overheating; complex systems demand expert maintenance. Timing chain stretch issues on early versions, but overall reliable. Lifespan can exceed 300,000 km.", "type": "text" } ] }
+      ]
+    },
+    "features": {
+      "ru": [
+        { "type": "paragraph", "children": [ { "text": "• Пьезоэлектрические форсунки с давлением до 2000 бар\n• Алюминиевый блок (лёгкий)\n• Система Start-Stop и сажевый фильтр", "type": "text" } ] }
+      ],
+      "en": [
+        { "type": "paragraph", "children": [ { "text": "• Piezo injectors with up to 2000 bar\n• Aluminium block (lightweight)\n• Start-stop system and DPF", "type": "text" } ] }
+      ]
+    },
+    "technical_update": { "ru": null, "en": null }
+  }
+]

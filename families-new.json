@@ -1,0 +1,253 @@
+[
+  {
+    "slug": "n40",
+    "title": "N40",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 2001–2006 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 2001–2006"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW N40 — рядный четырёхцилиндровый бензиновый двигатель, выпускавшийся с 2001 по 2006 год. Он является облегчённой версией N42 без системы Valvetronic. Предназначался для базовых моделей E46 и E85. Двигатель имел алюминиевый блок с чугунными гильзами, алюминиевую головку с двумя верхними распредвалами (DOHC) и цепной привод ГРМ. Объём 1,6 или 1,8 литра, мощность до 115 л.с. Отличался простотой конструкции и неплохой топливной экономичностью. Основные проблемы: износ цепи ГРМ и неисправности системы VANOS (на версиях с ней), а также течи масла. При должном обслуживании N40 способен пройти более 200 000 км.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW N40 is an inline four-cylinder petrol engine produced from 2001 to 2006. It was a simplified version of the N42 without Valvetronic, intended for entry-level E46 and E85 models. The engine had an aluminium block with cast-iron liners, an aluminium DOHC head, and a timing chain. Displacement 1.6 or 1.8 litres, power up to 115 hp. It was simple and relatively fuel-efficient. Common issues include timing chain wear, VANOS problems (where equipped), and oil leaks. With proper care, the N40 can exceed 200,000 km.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Алюминиевый блок и DOHC\n• Без Valvetronic, проще в обслуживании\n• Неплохая топливная экономичность", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Aluminium block and DOHC\n• No Valvetronic, easier to maintain\n• Decent fuel economy", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null },
+    "layout": "longitudinal",
+    "fuel_type": "petrol",
+    "configuration": "inline",
+    "cylinder_count": 4,
+    "aspiration": "naturally_aspirated",
+    "valvetrain": "DOHC",
+    "timing_system": "chain",
+    "block_material": "aluminium",
+    "head_material": "aluminium",
+    "valves_per_cylinder": 4,
+    "production_start": "2001-01-01",
+    "production_end": "2006-12-31",
+    "predecessor_slug": "m43",
+    "successor_slug": "n46"
+  },
+  {
+    "slug": "n45",
+    "title": "N45",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 2004–2008 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 2004–2008"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW N45 — рядный четырёхцилиндровый бензиновый двигатель, выпускавшийся с 2004 по 2008 год. Устанавливался в E87 и E46. Как и N40, он не имел Valvetronic, что упрощало конструкцию и снижало стоимость. Двигатель имел алюминиевый блок, DOHC, цепной привод ГРМ. Объём 1,6 или 2,0 литра, мощность до 129 л.с. (N45B20S). Отличался неплохими динамическими характеристиками при умеренном расходе топлива. Типичные проблемы те же, что у N40: износ цепи ГРМ и сальников. При своевременном обслуживании ресурс превышает 200 000 км.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW N45 is an inline four-cylinder petrol engine produced from 2004 to 2008. It was used in the E87 and E46. Like the N40, it lacked Valvetronic, making it simpler and cheaper. The engine had an aluminium block, DOHC, and a timing chain. Displacement 1.6 or 2.0 litres, power up to 129 hp (N45B20S). It offered decent performance with moderate fuel consumption. Common issues are similar to the N40: timing chain wear and oil seal leaks. With regular maintenance, lifespan exceeds 200,000 km.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Простая конструкция без Valvetronic\n• Версия N45B20S с повышенной мощностью\n• Алюминиевый блок и DOHC", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Simple design without Valvetronic\n• N45B20S performance version\n• Aluminium block and DOHC", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null },
+    "layout": "longitudinal",
+    "fuel_type": "petrol",
+    "configuration": "inline",
+    "cylinder_count": 4,
+    "aspiration": "naturally_aspirated",
+    "valvetrain": "DOHC",
+    "timing_system": "chain",
+    "block_material": "aluminium",
+    "head_material": "aluminium",
+    "valves_per_cylinder": 4,
+    "production_start": "2004-01-01",
+    "production_end": "2008-12-31",
+    "predecessor_slug": "n40",
+    "successor_slug": null
+  },
+  {
+    "slug": "n43",
+    "title": "N43",
+    "subtitle": {
+      "ru": "Атмосферный рядный 4-цилиндровый бензиновый двигатель BMW 2007–2012 годов",
+      "en": "Naturally aspirated inline-4 Petrol engine by BMW, 2007–2012"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW N43 — рядный четырёхцилиндровый бензиновый двигатель, выпускавшийся с 2007 по 2012 год. Заменил N45 и N46. Отличался применением системы непосредственного впрыска топлива (High Precision Injection) и Valvetronic. Двигатель имел алюминиевый блок, DOHC, цепной привод ГРМ. Объём 1,6 или 2,0 литра, мощность до 170 л.с. Благодаря технологиям удалось снизить расход топлива и выбросы CO₂. Однако непосредственный впрыск привёл к нагару на клапанах, а также встречались проблемы с цепью ГРМ. Ресурс при должном уходе может превышать 250 000 км.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW N43 is an inline four-cylinder petrol engine produced from 2007 to 2012. It replaced the N45 and N46. It featured direct fuel injection (High Precision Injection) and Valvetronic. The engine had an aluminium block, DOHC, and a timing chain. Displacement 1.6 or 2.0 litres, power up to 170 hp. These technologies improved fuel economy and reduced CO₂ emissions. However, direct injection caused carbon buildup on intake valves, and timing chain issues were also reported. With proper care, lifespan can exceed 250,000 km.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Непосредственный впрыск топлива (HPI)\n• Система Valvetronic\n• Низкий расход топлива и выбросы", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Direct fuel injection (HPI)\n• Valvetronic system\n• Low fuel consumption and emissions", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null },
+    "layout": "longitudinal",
+    "fuel_type": "petrol",
+    "configuration": "inline",
+    "cylinder_count": 4,
+    "aspiration": "naturally_aspirated",
+    "valvetrain": "DOHC",
+    "timing_system": "chain",
+    "block_material": "aluminium",
+    "head_material": "aluminium",
+    "valves_per_cylinder": 4,
+    "production_start": "2007-01-01",
+    "production_end": "2012-12-31",
+    "predecessor_slug": "n46",
+    "successor_slug": null
+  },
+  {
+    "slug": "m88",
+    "title": "M88",
+    "subtitle": {
+      "ru": "Атмосферный рядный 6-цилиндровый бензиновый двигатель BMW 1978–1989 годов (M-версия)",
+      "en": "Naturally aspirated inline-6 Petrol engine by BMW, 1978–1989 (M version)"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW M88 — высокофорсированный рядный шестицилиндровый двигатель, разработанный M GmbH для BMW M1, а позже использованный в E28 M5 и E24 M6. Выпускался с 1978 по 1989 год. Базировался на блоке M30, но получил 24-клапанную головку с двумя распредвалами (DOHC), индивидуальные дроссельные заслонки, кованые поршни и высокооборотную конструкцию. Объём 3,5 литра, мощность от 277 до 286 л.с. (в версии с катализатором). Двигатель отличался великолепной приёмистостью и спортивным характером. Очень требователен к качеству масла и регулярному обслуживанию. При должном уходе способен пройти более 200 000 км.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW M88 is a high-performance inline-6 engine developed by M GmbH for the BMW M1, and later used in the E28 M5 and E24 M6. Produced from 1978 to 1989, it was based on the M30 block but had a 24-valve DOHC head, individual throttle bodies, forged pistons, and a high-revving design. Displacement 3.5 litres, power from 277 to 286 hp (catalyst version). The engine delivered thrilling throttle response and a racing character. It is very demanding on oil quality and regular maintenance. With proper care, it can exceed 200,000 km.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Индивидуальные дроссельные заслонки\n• DOHC 24V\n• Двигатель легендарного BMW M1", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Individual throttle bodies\n• DOHC 24V\n• Engine of the legendary BMW M1", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null },
+    "layout": "longitudinal",
+    "fuel_type": "petrol",
+    "configuration": "inline",
+    "cylinder_count": 6,
+    "aspiration": "naturally_aspirated",
+    "valvetrain": "DOHC",
+    "timing_system": "chain",
+    "block_material": "cast_iron",
+    "head_material": "aluminium",
+    "valves_per_cylinder": 4,
+    "production_start": "1978-01-01",
+    "production_end": "1989-12-31",
+    "predecessor_slug": null,
+    "successor_slug": "s38"
+  },
+  {
+    "slug": "n54",
+    "title": "N54",
+    "subtitle": {
+      "ru": "Турбированный рядный 6-цилиндровый бензиновый двигатель BMW 2006–2013 годов",
+      "en": "Turbocharged inline-6 Petrol engine by BMW, 2006–2013"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW N54 — рядный шестицилиндровый бензиновый двигатель с двойным турбонаддувом, выпускавшийся с 2006 по 2013 год. Он заменил атмосферный N52 и устанавливался в модели 135i, 335i, 535i и X6 xDrive35i. Двигатель имел алюминиевый блок, DOHC, непосредственный впрыск топлива (HPI) и два турбокомпрессора. Объём 3,0 литра, мощность до 306 л.с. (N54B30) в стандартной версии и до 340 л.с. в Performance Edition. Благодаря турбонаддуву достигнут огромный крутящий момент (до 400 Нм) в широком диапазоне оборотов. Однако N54 печально известен проблемами с форсунками, ТНВД, вибрациями турбин и сбоями системы VANOS. При должном обслуживании и замене проблемных компонентов двигатель способен пройти более 200 000 км.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW N54 is a twin-turbocharged inline-6 petrol engine produced from 2006 to 2013. It replaced the naturally aspirated N52 and was used in the 135i, 335i, 535i, and X6 xDrive35i. The engine had an aluminium block, DOHC, direct fuel injection (HPI), and two turbochargers. Displacement 3.0 litres, power up to 306 hp (N54B30) and 340 hp in the Performance Edition. Thanks to turbocharging, it delivered massive torque (up to 400 Nm) over a wide rev range. However, the N54 is notorious for injector failures, HPFP issues, turbo rattles, and VANOS faults. With proper maintenance and replacement of problem components, the engine can exceed 200,000 km.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Двойной турбонаддув (TwinPower Turbo)\n• Непосредственный впрыск топлива\n• Высокий тюнинг-потенциал", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Twin-turbocharging (TwinPower Turbo)\n• Direct fuel injection\n• High tuning potential", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null },
+    "layout": "longitudinal",
+    "fuel_type": "petrol",
+    "configuration": "inline",
+    "cylinder_count": 6,
+    "aspiration": "turbocharged",
+    "valvetrain": "DOHC",
+    "timing_system": "chain",
+    "block_material": "aluminium",
+    "head_material": "aluminium",
+    "valves_per_cylinder": 4,
+    "production_start": "2006-01-01",
+    "production_end": "2013-12-31",
+    "predecessor_slug": "n52",
+    "successor_slug": "n55"
+  },
+  {
+    "slug": "n62",
+    "title": "N62",
+    "subtitle": {
+      "ru": "Атмосферный V-образный 8-цилиндровый бензиновый двигатель BMW 2001–2010 годов",
+      "en": "Naturally aspirated V8 Petrol engine by BMW, 2001–2010"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW N62 — V-образный восьмицилиндровый бензиновый двигатель, выпускавшийся с 2001 по 2010 год. Он заменил M62 и устанавливался в модели E65/E66 7-й серии, E60/E61 5-й серии, а также E63/E64 6-й серии и E53 X5. Двигатель имел алюминиевый блок, DOHC, Valvetronic и систему Double VANOS. Объём 3,6, 4,4 или 4,8 литра, мощность до 367 л.с. (N62B48). Отличался высокой мощностью, плавностью работы и сравнительной экономичностью. Слабые места: задиры в цилиндрах (из-за алюсила), отказы Valvetronic, течи масла. При надлежащем обслуживании ресурс может превышать 250 000 км.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW N62 is a V8 petrol engine produced from 2001 to 2010. It replaced the M62 and was used in the E65/E66 7 Series, E60/E61 5 Series, E63/E64 6 Series, and E53 X5. The engine had an aluminium block, DOHC, Valvetronic, and Double VANOS. Displacements 3.6, 4.4, or 4.8 litres, power up to 367 hp (N62B48). It offered high output, smoothness, and relatively good fuel economy. Weak points include cylinder bore scoring (Alusil), Valvetronic failures, and oil leaks. With proper maintenance, lifespan can exceed 250,000 km.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Valvetronic и Double VANOS\n• Алюсиловый блок цилиндров\n• Широкий диапазон объёмов и мощностей", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• Valvetronic and Double VANOS\n• Alusil cylinder block\n• Wide range of displacements and power levels", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null },
+    "layout": "longitudinal",
+    "fuel_type": "petrol",
+    "configuration": "v",
+    "cylinder_count": 8,
+    "v_angle_deg": 90,
+    "aspiration": "naturally_aspirated",
+    "valvetrain": "DOHC",
+    "timing_system": "chain",
+    "block_material": "aluminium",
+    "head_material": "aluminium",
+    "valves_per_cylinder": 4,
+    "production_start": "2001-01-01",
+    "production_end": "2010-12-31",
+    "predecessor_slug": "m62",
+    "successor_slug": "n63"
+  },
+  {
+    "slug": "s85",
+    "title": "S85",
+    "subtitle": {
+      "ru": "Атмосферный V-образный 10-цилиндровый бензиновый двигатель BMW 2005–2010 годов (M-версия)",
+      "en": "Naturally aspirated V10 Petrol engine by BMW, 2005–2010 (M version)"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW S85 — уникальный V-образный 10-цилиндровый бензиновый двигатель, созданный M GmbH для E60 M5 и E63 M6. Выпускался с 2005 по 2010 год. Двигатель имел алюминиевый блок с углом развала 90°, DOHC, индивидуальные дроссельные заслонки для каждого цилиндра, систему Double VANOS и высокооборотную конструкцию. Объём 5,0 литра, мощность 507 л.с. (в стандартной версии). Красная зона начиналась с 8250 об/мин. Славится потрясающим звуком и гоночным характером. Однако известен проблемами с подшипниками шатунов и клапанной крышкой. Требует тщательного обслуживания. Ресурс при должном уходе — около 150 000 км.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW S85 is a unique V10 petrol engine developed by M GmbH for the E60 M5 and E63 M6. Produced from 2005 to 2010, it had an aluminium block with a 90° bank angle, DOHC, individual throttle bodies per cylinder, Double VANOS, and a high-revving design. Displacement 5.0 litres, power 507 hp. Redline was 8250 rpm. It is celebrated for its incredible sound and racing character. However, it is known for rod bearing and valve cover issues. Requires meticulous maintenance. Lifespan around 150,000 km with proper care.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• 10 цилиндров V-образно\n• Индивидуальные дроссельные заслонки\n• Высокооборотный (8250 об/мин)", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• V10 configuration\n• Individual throttle bodies\n• High-revving (8250 rpm)", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null },
+    "layout": "longitudinal",
+    "fuel_type": "petrol",
+    "configuration": "v",
+    "cylinder_count": 10,
+    "v_angle_deg": 90,
+    "aspiration": "naturally_aspirated",
+    "valvetrain": "DOHC",
+    "timing_system": "chain",
+    "block_material": "aluminium",
+    "head_material": "aluminium",
+    "valves_per_cylinder": 4,
+    "production_start": "2005-01-01",
+    "production_end": "2010-12-31",
+    "predecessor_slug": null,
+    "successor_slug": null
+  },
+  {
+    "slug": "n73",
+    "title": "N73",
+    "subtitle": {
+      "ru": "Атмосферный V-образный 12-цилиндровый бензиновый двигатель BMW 2003–2015 годов",
+      "en": "Naturally aspirated V12 Petrol engine by BMW, 2003–2015"
+    },
+    "description": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "BMW N73 — V-образный 12-цилиндровый бензиновый двигатель, выпускавшийся с 2003 по 2015 год. Это был первый двигатель BMW с системой непосредственного впрыска топлива (High Precision Injection) в серийном V12. Устанавливался в E65/E66 760i/Li, а также в Rolls-Royce Phantom. Двигатель имел алюминиевый блок с углом развала 60°, DOHC, Valvetronic и Double VANOS. Объём 6,0 литра, мощность до 445 л.с. Отличался исключительной плавностью работы и огромным запасом мощности. Сложность систем впрыска и Valvetronic требовала квалифицированного обслуживания. Ресурс при должном уходе может превышать 250 000 км.", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "The BMW N73 is a V12 petrol engine produced from 2003 to 2015. It was the first BMW production engine to feature direct fuel injection (High Precision Injection) in a V12. It powered the E65/E66 760i/Li and Rolls-Royce Phantom. The engine had an aluminium 60° V12 block, DOHC, Valvetronic, and Double VANOS. Displacement 6.0 litres, power up to 445 hp. It was exceptionally smooth and powerful. The complexity of the injection and Valvetronic systems required skilled maintenance. With proper care, lifespan can exceed 250,000 km.", "type": "text" } ] } ]
+    },
+    "features": {
+      "ru": [ { "type": "paragraph", "children": [ { "text": "• Первый V12 BMW с непосредственным впрыском\n• Valvetronic и Double VANOS\n• Исключительная плавность работы", "type": "text" } ] } ],
+      "en": [ { "type": "paragraph", "children": [ { "text": "• First BMW V12 with direct injection\n• Valvetronic and Double VANOS\n• Exceptional smoothness", "type": "text" } ] } ]
+    },
+    "technical_update": { "ru": null, "en": null },
+    "layout": "longitudinal",
+    "fuel_type": "petrol",
+    "configuration": "v",
+    "cylinder_count": 12,
+    "v_angle_deg": 60,
+    "aspiration": "naturally_aspirated",
+    "valvetrain": "DOHC",
+    "timing_system": "chain",
+    "block_material": "aluminium",
+    "head_material": "aluminium",
+    "valves_per_cylinder": 4,
+    "production_start": "2003-01-01",
+    "production_end": "2015-12-31",
+    "predecessor_slug": "m73",
+    "successor_slug": null
+  }
+]
