@@ -1320,7 +1320,7 @@ export interface ApiModelCodeModelCode extends Struct.CollectionTypeSchema {
     production_end: Schema.Attribute.Date;
     production_start: Schema.Attribute.Date;
     publishedAt: Schema.Attribute.DateTime;
-    steering: Schema.Attribute.Relation<'manyToOne', 'api::steering.steering'>;
+    steering: Schema.Attribute.Enumeration<['LHD', 'RHD']>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1873,10 +1873,6 @@ export interface ApiSteeringSteering extends Struct.CollectionTypeSchema {
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::steering.steering'
-    >;
-    model_codes: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::model-code.model-code'
     >;
     modifications: Schema.Attribute.Relation<
       'manyToMany',

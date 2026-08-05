@@ -45,12 +45,6 @@
         "AWD"
       ]
     },
-    "steering": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::steering.steering",
-      "inversedBy": "model_codes"
-    },
     "market": {
       "type": "relation",
       "relation": "manyToOne",
@@ -68,6 +62,13 @@
       "relation": "manyToMany",
       "target": "api::engine-version.engine-version",
       "mappedBy": "model_codes"
+    },
+    "steering": {
+      "type": "enumeration",
+      "enum": [
+        "LHD",
+        "RHD"
+      ]
     }
   }
 }
